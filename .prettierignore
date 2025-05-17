@@ -56,7 +56,6 @@ firebase
 .stylelintignore
 .stylelintrc
 .gitignore
-*.png
 *.webp
 *.svg
 *.woff2
@@ -68,3 +67,4 @@ firebase
 *.xml
 Dockerfile
 .cursor
+.vite-inspect

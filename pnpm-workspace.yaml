@@ -1,2 +1,4 @@
 onlyBuiltDependencies:
-  - esbuild
+    - '@evilmartians/lefthook'
+    - esbuild
+    - unrs-resolver
