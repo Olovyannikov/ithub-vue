@@ -19,7 +19,7 @@ const ourOwnModules = [''].join('|');
 export default eslintTypescript.config(
     eslintJS.configs.recommended,
     eslintTypescript.configs.recommended,
-    eslintVue.configs['flat/recommended'],
+    ...eslintVue.configs['flat/recommended'],
     pluginImport.flatConfigs.recommended,
     pluginPrettierRecommended,
     vitest.configs.recommended,
@@ -27,7 +27,7 @@ export default eslintTypescript.config(
         languageOptions: {
             parser: typescriptParser,
             parserOptions: {
-                parser: '@typescript-eslint/parser',
+                parser: eslintTypescript.parser,
                 ecmaVersion: 2020,
                 sourceType: 'module',
             },
@@ -146,7 +146,7 @@ export default eslintTypescript.config(
                         ['^vue', '^@?\\w'],
                         /* import 'foo*' or import '@foo*' */
                         [`^\\u0000@?\\w`],
-                        /* import '@cloud-ru*' or import '@snack-ui*' */
+                        /* import '@some-lib*' or import '@some-ui*' */
                         [`^\\u0000(${ourOwnModules})`],
                         /* import '#foo*' */
                         ['^\\u0000#\\w'],
@@ -156,7 +156,7 @@ export default eslintTypescript.config(
                         [`^(${nodeBuiltinModules})`],
                         /* import ... from 'foo*' or import ... from '@foo*' */
                         [`^@?\\w`],
-                        /* import ... from '@cloud-ru*' or import ... from '@snack-ui*' */
+                        /* import ... from '@some-lib*' or import ... from '@some-ui*' */
                         [`^(${ourOwnModules})`],
                         /* import ... from '@foo*' */
                         ['^@\\w'],
@@ -225,6 +225,7 @@ export default eslintTypescript.config(
             'vitest.config.ts',
             'pages/**/*',
             'src/app/**/*',
+            'postcss.config.*',
         ],
         rules: {
             'import/no-default-export': 'off',

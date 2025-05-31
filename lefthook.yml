@@ -14,7 +14,7 @@ pre-commit:
         solidarity:
             run: npx solidarity
         circular:
-            run: npx madge --circular --extensions ts,tsx src
+            run: npx madge --circular --extensions vue,ts --ts-config tsconfig.json -i madge.png --warning src
         unit-test:
             run: npm run test:unit
 

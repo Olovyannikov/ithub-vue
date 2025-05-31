@@ -1,13 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import IndexPage from '@/pages/IndexPage/IndexPage.vue';
+</script>
 
 <template>
-    <div>Hello World</div>
+    <IndexPage />
 </template>
-
-<style scoped>
-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-</style>

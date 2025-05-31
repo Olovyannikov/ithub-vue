@@ -27,6 +27,18 @@
           "resolveId": "[Function]"
         },
         {
+          "name": "@tailwindcss/vite:scan",
+          "enforce": "pre",
+          "configureServer": "[Function]",
+          "configResolved": "[Function]"
+        },
+        {
+          "name": "@tailwindcss/vite:generate:serve",
+          "apply": "serve",
+          "enforce": "pre",
+          "transform": "[Function]"
+        },
+        {
           "name": "vite-plugin-inspect",
           "enforce": "pre",
           "apply": "[Function]",
@@ -229,6 +241,20 @@
           "hotUpdate": "[Function]"
         },
         {
+          "name": "unplugin-vue-components",
+          "enforce": "post",
+          "api": "[Object API]",
+          "transformInclude": "[Function]",
+          "transform": "[Function]",
+          "vite": {
+            "configResolved": "[Function]",
+            "configureServer": "[Function]"
+          },
+          "webpack": "[Function]",
+          "configResolved": "[Function]",
+          "configureServer": "[Function]"
+        },
+        {
           "name": "vitest:css-empty-post",
           "enforce": "post",
           "transform": "[Function]"
@@ -305,7 +331,10 @@
           32,
           33,
           34,
-          35
+          35,
+          36,
+          37,
+          38
         ],
         "ssr": [
           0,
@@ -343,7 +372,10 @@
           32,
           33,
           34,
-          35
+          35,
+          36,
+          37,
+          38
         ]
       }
     }
