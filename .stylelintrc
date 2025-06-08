@@ -1,5 +1,5 @@
 {
-  "extends": ["stylelint-config-standard","stylelint-config-recommended-vue"],
+  "extends": ["stylelint-config-standard","stylelint-config-recommended-vue", "stylelint-config-tailwindcss"],
   "plugins": ["stylelint-order"],
   "rules": {
     "order/order": [

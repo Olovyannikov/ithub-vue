@@ -10,6 +10,7 @@ export default defineConfig([
             'fsd/segments-by-purpose': 'off',
             'fsd/no-segmentless-slices': 'off',
             'fsd/insignificant-slice': 'off',
+            'fsd/public-api': 'off',
         },
     },
 ]);

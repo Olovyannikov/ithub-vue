@@ -1,3 +1,8 @@
+.nvmrc
+.npmignore
+.solidarity
+.cursor
+.vite-inspect
 logs
 npm-debug.log*
 yarn-debug.log*
@@ -58,13 +63,9 @@ firebase
 .gitignore
 *.webp
 *.svg
-*.woff2
-.nvmrc
-.npmignore
+*.png
 *.jpg
 *.avif
-.solidarity
+*.woff2
 *.xml
 Dockerfile
-.cursor
-.vite-inspect
