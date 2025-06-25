@@ -1,6 +1,7 @@
 import { restore, sample } from 'effector';
 
 import { atom } from '@/shared/factories';
+import { shuffled } from '@/shared/lib';
 import { appStarted } from '@/shared/services';
 
 import { getAllProductsQuery } from '../api';
@@ -13,6 +14,14 @@ export const ProductModel = atom(() => {
         []
     );
 
+    // 4 случайных товара со скидкой
+    const $discountedItems = restore(
+        getAllProductsQuery.finished.success.map(({ result }) =>
+            shuffled(result.filter((el) => Boolean(el.discount_price)).filter((el) => el.is_available)).slice(0, 4)
+        ),
+        []
+    );
+
     sample({
         clock: appStarted,
         target: getAllProductsQuery.start,
@@ -20,5 +29,6 @@ export const ProductModel = atom(() => {
 
     return {
         $categories,
+        $discountedItems,
     };
 });

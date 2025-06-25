@@ -63,3 +63,26 @@ export const ASSISTANCE_MENU = [
         href: '#',
     },
 ];
+
+export const SOCIAL_MENU = [
+    {
+        id: 0,
+        icon: 'pi pi-twitter',
+        href: '#',
+    },
+    {
+        id: 0,
+        icon: 'pi pi-facebook',
+        href: '#',
+    },
+    {
+        id: 0,
+        icon: 'pi pi-tiktok',
+        href: '#',
+    },
+    {
+        id: 0,
+        icon: 'pi pi-instagram',
+        href: '#',
+    },
+];

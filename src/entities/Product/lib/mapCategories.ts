@@ -1,4 +1,4 @@
-const CATEGORIES_MAP: Record<string, string> = {
+export const CATEGORIES_MAP: Record<string, string> = {
     Смартфоны: 'Phones',
     Компьютеры: 'Computers',
     Планшеты: 'Tablets',
@@ -7,7 +7,7 @@ const CATEGORIES_MAP: Record<string, string> = {
     Аксессуары: 'Accessories',
 };
 
-const CATEGORY_ICON_MAP = {
+const CATEGORY_ICON_MAP: Record<string, string> = {
     Смартфоны: 'pi pi-mobile ',
     Компьютеры: 'pi pi-desktop',
     Планшеты: 'pi pi-tablet',
@@ -16,7 +16,13 @@ const CATEGORY_ICON_MAP = {
     Аксессуары: 'pi pi-headphones',
 };
 
-export const mapCategoriesLabels = (categories: string[]) =>
+export const mapCategoriesLabels = (
+    categories: string[]
+): {
+    label: string;
+    id: number;
+    icon: string;
+}[] =>
     categories.map((category, idx) => ({
         label: CATEGORIES_MAP[category],
         id: idx,

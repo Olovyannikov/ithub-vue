@@ -6,10 +6,6 @@ import { MainContainer } from '@/shared/ui';
 import { CategoryCard, getAllProductsQuery, ProductModel } from '@/entities/Product';
 
 const [categories, isLoading] = useUnit([ProductModel.$categories, getAllProductsQuery.$pending]);
-
-console.log({
-    categories: categories.value,
-});
 </script>
 <template>
     <section class="my-[80px] text-2xl">
