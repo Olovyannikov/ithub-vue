@@ -76,6 +76,7 @@
     "postcss": "^8.5.3",
     "prettier": "^3.5.3",
     "rollup-plugin-visualizer": "^5.14.0",
+    "sass-embedded": "^1.89.2",
     "solidarity": "^3.0.4",
     "steiger": "^0.5.7",
     "stylelint": "^16.19.1",
@@ -94,5 +95,5 @@
     "vue-eslint-parser": "^10.1.3",
     "vue-tsc": "^2.2.8"
   },
-  "packageManager": "pnpm@10.11.0"
+  "packageManager": "pnpm@10.12.3"
 }

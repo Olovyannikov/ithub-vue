@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import { isLargeScreen } from '@/shared/lib';
-import MainContainer from '@/shared/ui/MainContainer/MainContainer.vue';
+import { MainContainer } from '@/shared/ui';
 
-import RedirectToShopPage from '@/features/RedirectToShopPage/RedirectToShopPage.vue';
+import { RedirectToShopPage } from '@/features/RedirectToShopPage';
 </script>
 <template>
     <section class="text-white bg-neutral-900">
-        <MainContainer class="lg:flex lg:px-40">
+        <MainContainer class="lg:flex">
             <div class="lg:pb-47 mb-8 lg:mb-0 lg:max-w-[714px] lg:w-[100%]">
                 <div class="mb-6 flex flex-col gap-4 lg:gap-6 text-center lg:text-left">
                     <h3 :class="`pt-22 lg:pt-47 text-2xl text-neutral-500`">Pro.Beyond.</h3>
@@ -20,6 +20,7 @@ import RedirectToShopPage from '@/features/RedirectToShopPage/RedirectToShopPage
                 />
             </div>
             <Image
+                draggable="false"
                 class="flex justify-center shrink-0 lg:justify-start"
                 :width="isLargeScreen ? 406 : 343"
                 :src="`/landing/banner-iphone/${isLargeScreen ? 'iphone-desktop' : 'iphone'}@2x.webp`"
