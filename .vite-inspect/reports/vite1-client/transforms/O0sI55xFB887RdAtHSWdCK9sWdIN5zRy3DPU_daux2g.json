@@ -1,0 +1,102 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/const/index.ts",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "export const NAVIGATION_ITEMS = [\n    {\n        label: 'Favorites',\n        icon: 'pi pi-heart',\n    },\n    {\n        label: 'Cart',\n        icon: 'pi pi-shopping-cart',\n    },\n];\n",
+      "start": 1750971640492,
+      "end": 1750971640493,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640493,
+      "end": 1750971640493,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "export const NAVIGATION_ITEMS = [\n  {\n    label: \"Favorites\",\n    icon: \"pi pi-heart\"\n  },\n  {\n    label: \"Cart\",\n    icon: \"pi pi-shopping-cart\"\n  }\n];\n",
+      "start": 1750971640493,
+      "end": 1750971640499,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/const/index.ts"
+        ],
+        "sourcesContent": [
+          "export const NAVIGATION_ITEMS = [\n    {\n        label: 'Favorites',\n        icon: 'pi pi-heart',\n    },\n    {\n        label: 'Cart',\n        icon: 'pi pi-shopping-cart',\n    },\n];\n"
+        ],
+        "mappings": "AAAO,aAAM,mBAAmB;AAAA,EAC5B;AAAA,IACI,OAAO;AAAA,IACP,MAAM;AAAA,EACV;AAAA,EACA;AAAA,IACI,OAAO;AAAA,IACP,MAAM;AAAA,EACV;AACJ;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640499,
+      "end": 1750971640499,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971640499,
+      "end": 1750971640499,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640499,
+      "end": 1750971640499,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640499,
+      "end": 1750971640499,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640499,
+      "end": 1750971640499,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640499,
+      "end": 1750971640499,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640500,
+      "end": 1750971640500,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640500,
+      "end": 1750971640500,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "start": 1750971640500,
+      "end": 1750971640500,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640500,
+      "end": 1750971640500,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640500,
+      "end": 1750971640500,
+      "order": "normal"
+    }
+  ]
+}

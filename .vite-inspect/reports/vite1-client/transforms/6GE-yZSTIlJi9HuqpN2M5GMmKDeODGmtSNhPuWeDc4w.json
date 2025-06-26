@@ -1,0 +1,90 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/tablist/style/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import BaseStyle from '@primevue/core/base/style';\n\nvar classes = {\n  root: 'p-tablist',\n  content: function content(_ref) {\n    var instance = _ref.instance;\n    return ['p-tablist-content', {\n      'p-tablist-viewport': instance.$pcTabs.scrollable\n    }];\n  },\n  tabList: 'p-tablist-tab-list',\n  activeBar: 'p-tablist-active-bar',\n  prevButton: 'p-tablist-prev-button p-tablist-nav-button',\n  nextButton: 'p-tablist-next-button p-tablist-nav-button'\n};\nvar TabListStyle = BaseStyle.extend({\n  name: 'tablist',\n  classes: classes\n});\n\nexport { TabListStyle as default };\n//# sourceMappingURL=index.mjs.map\n",
+      "start": 1750971640301,
+      "end": 1750971640312,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640312,
+      "end": 1750971640312,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971640312,
+      "end": 1750971640312,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640312,
+      "end": 1750971640312,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971640312,
+      "end": 1750971640312,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640312,
+      "end": 1750971640312,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640312,
+      "end": 1750971640312,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640312,
+      "end": 1750971640312,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640312,
+      "end": 1750971640312,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640312,
+      "end": 1750971640312,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640312,
+      "end": 1750971640312,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "start": 1750971640312,
+      "end": 1750971640312,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640312,
+      "end": 1750971640312,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640312,
+      "end": 1750971640312,
+      "order": "normal"
+    }
+  ]
+}

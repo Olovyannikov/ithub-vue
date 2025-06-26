@@ -1,0 +1,107 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/CategoryCard/CategoryCard.vue?vue&type=style&index=0&scoped=02ed6d02&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\n.root {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    border-radius: 1rem;\n    padding: 24px;\n    font-size: 16px;\n    text-align: center;\n    background-color: #ededed;\n    gap: 8px;\n\n    span {\n        font-size: 48px;\n    }\n\n    @media (width >= 1200px) {\n        width: 100%;\n        max-width: 160px;\n    }\n}\n",
+      "start": 1750971640505,
+      "end": 1750971640505
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "result": "\n.root {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    border-radius: 1rem;\n    padding: 24px;\n    font-size: 16px;\n    text-align: center;\n    background-color: #ededed;\n    gap: 8px;\n\n    span {\n        font-size: 48px;\n    }\n\n    @media (width >= 1200px) {\n        width: 100%;\n        max-width: 160px;\n    }\n}\n",
+      "start": 1750971640505,
+      "end": 1750971640506,
+      "order": "pre",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971640506,
+      "end": 1750971640506,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640506,
+      "end": 1750971640506,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "\n.root {\n&[data-v-02ed6d02] {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    border-radius: 1rem;\n    padding: 24px;\n    font-size: 16px;\n    text-align: center;\n    background-color: #ededed;\n    gap: 8px;\n}\nspan[data-v-02ed6d02] {\n        font-size: 48px;\n}\n@media (width >= 1200px) {\n&[data-v-02ed6d02] {\n        width: 100%;\n        max-width: 160px;\n}\n}\n}\n",
+      "start": 1750971640506,
+      "end": 1750971640507,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640507,
+      "end": 1750971640507,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640507,
+      "end": 1750971640507,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640507,
+      "end": 1750971640507,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640507,
+      "end": 1750971640507,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640507,
+      "end": 1750971640507,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640507,
+      "end": 1750971640507,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */",
+      "start": 1750971640507,
+      "end": 1750971640507,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/CategoryCard/CategoryCard.vue?vue&type=style&index=0&scoped=02ed6d02&lang.css"
+        ],
+        "sourcesContent": [
+          ""
+        ],
+        "names": [],
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640507,
+      "end": 1750971640507,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640507,
+      "end": 1750971640507,
+      "order": "normal"
+    }
+  ]
+}

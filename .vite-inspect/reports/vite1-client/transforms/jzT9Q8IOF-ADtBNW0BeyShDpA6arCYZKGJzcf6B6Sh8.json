@@ -1,0 +1,90 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/autocomplete/style/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { style } from '@primeuix/styles/autocomplete';\nimport { isNotEmpty } from '@primeuix/utils/object';\nimport BaseStyle from '@primevue/core/base/style';\n\nvar inlineStyles = {\n  root: {\n    position: 'relative'\n  }\n};\nvar classes = {\n  root: function root(_ref) {\n    var instance = _ref.instance,\n      props = _ref.props;\n    return ['p-autocomplete p-component p-inputwrapper', {\n      'p-disabled': props.disabled,\n      'p-invalid': instance.$invalid,\n      'p-focus': instance.focused,\n      'p-inputwrapper-filled': instance.$filled || isNotEmpty(instance.inputValue),\n      'p-inputwrapper-focus': instance.focused,\n      'p-autocomplete-open': instance.overlayVisible,\n      'p-autocomplete-fluid': instance.$fluid\n    }];\n  },\n  pcInputText: 'p-autocomplete-input',\n  inputMultiple: function inputMultiple(_ref2) {\n    var instance = _ref2.instance;\n    return ['p-autocomplete-input-multiple', {\n      'p-variant-filled': instance.$variant === 'filled'\n    }];\n  },\n  chipItem: function chipItem(_ref3) {\n    var instance = _ref3.instance,\n      i = _ref3.i;\n    return ['p-autocomplete-chip-item', {\n      'p-focus': instance.focusedMultipleOptionIndex === i\n    }];\n  },\n  pcChip: 'p-autocomplete-chip',\n  chipIcon: 'p-autocomplete-chip-icon',\n  inputChip: 'p-autocomplete-input-chip',\n  loader: 'p-autocomplete-loader',\n  dropdown: 'p-autocomplete-dropdown',\n  overlay: 'p-autocomplete-overlay p-component',\n  listContainer: 'p-autocomplete-list-container',\n  list: 'p-autocomplete-list',\n  optionGroup: 'p-autocomplete-option-group',\n  option: function option(_ref4) {\n    var instance = _ref4.instance,\n      _option = _ref4.option,\n      i = _ref4.i,\n      getItemOptions = _ref4.getItemOptions;\n    return ['p-autocomplete-option', {\n      'p-autocomplete-option-selected': instance.isSelected(_option),\n      'p-focus': instance.focusedOptionIndex === instance.getOptionIndex(i, getItemOptions),\n      'p-disabled': instance.isOptionDisabled(_option)\n    }];\n  },\n  emptyMessage: 'p-autocomplete-empty-message'\n};\nvar AutoCompleteStyle = BaseStyle.extend({\n  name: 'autocomplete',\n  style: style,\n  classes: classes,\n  inlineStyles: inlineStyles\n});\n\nexport { AutoCompleteStyle as default };\n//# sourceMappingURL=index.mjs.map\n",
+      "start": 1750971640584,
+      "end": 1750971640593,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640593,
+      "end": 1750971640593,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971640593,
+      "end": 1750971640593,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640593,
+      "end": 1750971640593,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971640593,
+      "end": 1750971640593,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640593,
+      "end": 1750971640593,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640593,
+      "end": 1750971640593,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640593,
+      "end": 1750971640593,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640593,
+      "end": 1750971640593,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640593,
+      "end": 1750971640593,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640593,
+      "end": 1750971640593,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "start": 1750971640593,
+      "end": 1750971640593,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640593,
+      "end": 1750971640593,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640593,
+      "end": 1750971640593,
+      "order": "normal"
+    }
+  ]
+}

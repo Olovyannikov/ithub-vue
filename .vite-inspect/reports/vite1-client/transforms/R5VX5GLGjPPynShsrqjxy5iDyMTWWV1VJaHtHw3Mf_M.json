@@ -1,0 +1,106 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductPreview/ProductPreview.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<script setup lang=\"ts\">\nimport { API } from '@/shared/api';\nimport { normalNumberFormat, shuffled } from '@/shared/lib';\n\nimport type { Product } from '../../types';\n\ndefineProps<{\n    product: Product;\n}>();\n</script>\n<template>\n    <li class=\"item\">\n        <slot class=\"action\" name=\"like-btn\" />\n        <img aria-hidden=\"true\" alt=\"\" :src=\"API.BASE_URL + shuffled([...product.images])[0]\" />\n        <p class=\"line-clamp-2\">{{ product.name }}</p>\n        <p>{{ normalNumberFormat(product.price) }}</p>\n        <slot name=\"cart-btn\" />\n    </li>\n</template>\n<style scoped>\n.item {\n    border-radius: 1rem;\n    padding: 24px 12px;\n    text-align: center;\n    background-color: #f6f6f6;\n\n    @media (width >= 768px) {\n        padding: 24px 16px;\n    }\n}\n\n.action {\n    margin-bottom: 8px;\n    font-size: 32px;\n\n    @media (width >= 992px) {\n        margin-bottom: 16px;\n    }\n}\n\np {\n    margin: 0 0 1rem;\n    font-family:\n        ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',\n        'Noto Color Emoji';\n\n    &:first-of-type {\n        min-height: 48px;\n    }\n\n    &:last-of-type {\n        font-size: 24px;\n        line-height: 1;\n    }\n}\n\nimg {\n    display: block;\n    margin: auto auto 8px;\n    width: 104px;\n    height: 104px;\n    mix-blend-mode: multiply;\n\n    @media (width >= 992px) {\n        margin-bottom: 16px;\n        width: 160px;\n        height: 160px;\n    }\n}\n</style>\n",
+      "start": 1750971640372,
+      "end": 1750971640383,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640383,
+      "end": 1750971640383,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971640383,
+      "end": 1750971640383,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640383,
+      "end": 1750971640383,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductPreview/ProductPreview.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductPreview/ProductPreview.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductPreview/ProductPreview.vue?vue&type=style&index=0&scoped=84425f9d&lang.css\";\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-84425f9d\"]]);\n",
+      "start": 1750971640383,
+      "end": 1750971640499,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640499,
+      "end": 1750971640499,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640499,
+      "end": 1750971640499,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640499,
+      "end": 1750971640499,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640499,
+      "end": 1750971640499,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640499,
+      "end": 1750971640499,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640499,
+      "end": 1750971640499,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */import _sfc_main from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductPreview/ProductPreview.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductPreview/ProductPreview.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductPreview/ProductPreview.vue?vue&type=style&index=0&scoped=84425f9d&lang.css\";\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-84425f9d\"]]);\n",
+      "start": 1750971640499,
+      "end": 1750971640500,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductPreview/ProductPreview.vue"
+        ],
+        "sourcesContent": [
+          "import _sfc_main from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductPreview/ProductPreview.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductPreview/ProductPreview.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductPreview/ProductPreview.vue?vue&type=style&index=0&scoped=84425f9d&lang.css\";\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-84425f9d\"]]);\n"
+        ],
+        "names": [],
+        "mappings": "sCAAA,MAAM,CAAC,SAAS,CAAC,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,cAAc,CAAC,gBAAgB,CAAC,KAAK,CAAC,GAAG,CAAC,GAAG,CAAC,QAAQ,CAAC,OAAO,CAAC,EAAE,CAAC,cAAc,CAAC,cAAc,CAAC,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,MAAM,CAAC,KAAK,CAAC,IAAI,CAAC,IAAI,CAAC,EAAE,CAAC;AACrK,MAAM,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,cAAc,CAAC,gBAAgB,CAAC,KAAK,CAAC,GAAG,CAAC,GAAG,CAAC,QAAQ,CAAC,OAAO,CAAC,EAAE,CAAC,cAAc,CAAC,cAAc,CAAC,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,MAAM,CAAC,KAAK,CAAC,IAAI,CAAC,IAAI,CAAC,EAAE,CAAC;AAC7J,MAAM,CAAC,CAAC,CAAC,KAAK,CAAC,cAAc,CAAC,gBAAgB,CAAC,KAAK,CAAC,GAAG,CAAC,GAAG,CAAC,QAAQ,CAAC,OAAO,CAAC,EAAE,CAAC,cAAc,CAAC,cAAc,CAAC,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC,CAAC,MAAM,CAAC,QAAQ,CAAC,IAAI,CAAC,GAAG,CAAC;AACnK,MAAM,CAAC,WAAW,CAAC,IAAI,CAAC,CAAC,CAAC,OAAO,CAAC,GAAG,CAAC,MAAM,CAAC,MAAM,CAAC;AACpD,MAAM,CAAC,OAAO,CAAC,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC,WAAW,CAAC,SAAS,CAAC,CAAC,CAAC,CAAC,CAAC,SAAS,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC;"
+      }
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640500,
+      "end": 1750971640500,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640500,
+      "end": 1750971640500,
+      "order": "normal"
+    }
+  ]
+}

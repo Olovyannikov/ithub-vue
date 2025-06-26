@@ -1,0 +1,107 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductList/ProductList.vue?vue&type=style&index=0&scoped=292bd744&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\n.list {\n    display: grid;\n    grid-template-columns: repeat(1, 1fr);\n    gap: 1rem;\n\n    @media (width >= 414px) {\n        grid-template-columns: repeat(2, 1fr);\n    }\n\n    @media (width >= 992px) {\n        grid-template-columns: repeat(4, 1fr);\n    }\n}\n",
+      "start": 1750971640484,
+      "end": 1750971640484
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "result": "\n.list {\n    display: grid;\n    grid-template-columns: repeat(1, 1fr);\n    gap: 1rem;\n\n    @media (width >= 414px) {\n        grid-template-columns: repeat(2, 1fr);\n    }\n\n    @media (width >= 992px) {\n        grid-template-columns: repeat(4, 1fr);\n    }\n}\n",
+      "start": 1750971640485,
+      "end": 1750971640486,
+      "order": "pre",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971640486,
+      "end": 1750971640486,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640486,
+      "end": 1750971640486,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "\n.list[data-v-292bd744] {\n    display: grid;\n    grid-template-columns: repeat(1, 1fr);\n    gap: 1rem;\n@media (width >= 414px) {\n        grid-template-columns: repeat(2, 1fr);\n}\n@media (width >= 992px) {\n        grid-template-columns: repeat(4, 1fr);\n}\n}\n",
+      "start": 1750971640486,
+      "end": 1750971640486,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640486,
+      "end": 1750971640486,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640486,
+      "end": 1750971640486,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640486,
+      "end": 1750971640486,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640486,
+      "end": 1750971640486,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640486,
+      "end": 1750971640486,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640486,
+      "end": 1750971640486,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */",
+      "start": 1750971640486,
+      "end": 1750971640486,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductList/ProductList.vue?vue&type=style&index=0&scoped=292bd744&lang.css"
+        ],
+        "sourcesContent": [
+          ""
+        ],
+        "names": [],
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640486,
+      "end": 1750971640486,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640486,
+      "end": 1750971640486,
+      "order": "normal"
+    }
+  ]
+}

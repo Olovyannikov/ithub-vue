@@ -1,0 +1,98 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/types/index.ts",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import type { Nullable } from '@/shared/lib/types';\n\ntype Categories = string;\ntype Brands = string;\ntype Color = string;\ntype CountReview = number;\ntype Country = string;\ntype CreatedAt = Date | string;\ntype ID = number;\ntype Price = number;\ntype Guarantees = number;\ntype Rating = number;\ntype IsAvailable = boolean;\ntype StoreAddress = string;\ntype Name = string;\ntype Image = string;\n\ninterface Characteristic {\n    characteristic: string;\n    unit_type: string;\n    value: string;\n}\n\nexport interface Product {\n    id: ID;\n    createdAt: CreatedAt;\n    price: Price;\n    discount_price: Nullable<Price>;\n    guarantee: Guarantees;\n    rating: Rating;\n    count_review: CountReview;\n    is_available: IsAvailable;\n    store_address: StoreAddress;\n    color: Color;\n    brand: Brands[];\n    country: Country;\n    category: Categories;\n    name: Name;\n    images: Image[];\n    characteristics: Characteristic[];\n}\n",
+      "start": 1750971640308,
+      "end": 1750971640326,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640326,
+      "end": 1750971640326,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "",
+      "start": 1750971640326,
+      "end": 1750971640330,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [],
+        "sourcesContent": [],
+        "mappings": "",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640330,
+      "end": 1750971640330,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971640330,
+      "end": 1750971640330,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640330,
+      "end": 1750971640330,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640330,
+      "end": 1750971640330,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640330,
+      "end": 1750971640330,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640330,
+      "end": 1750971640330,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640330,
+      "end": 1750971640330,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640331,
+      "end": 1750971640331,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "start": 1750971640331,
+      "end": 1750971640331,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640331,
+      "end": 1750971640331,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640331,
+      "end": 1750971640331,
+      "order": "normal"
+    }
+  ]
+}

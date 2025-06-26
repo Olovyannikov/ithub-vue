@@ -1,0 +1,90 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+icons@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/icons/baseicon/style/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import BaseStyle from '@primevue/core/base/style';\n\nvar css = \"\\n.p-icon {\\n    display: inline-block;\\n    vertical-align: baseline;\\n}\\n\\n.p-icon-spin {\\n    -webkit-animation: p-icon-spin 2s infinite linear;\\n    animation: p-icon-spin 2s infinite linear;\\n}\\n\\n@-webkit-keyframes p-icon-spin {\\n    0% {\\n        -webkit-transform: rotate(0deg);\\n        transform: rotate(0deg);\\n    }\\n    100% {\\n        -webkit-transform: rotate(359deg);\\n        transform: rotate(359deg);\\n    }\\n}\\n\\n@keyframes p-icon-spin {\\n    0% {\\n        -webkit-transform: rotate(0deg);\\n        transform: rotate(0deg);\\n    }\\n    100% {\\n        -webkit-transform: rotate(359deg);\\n        transform: rotate(359deg);\\n    }\\n}\\n\";\nvar BaseIconStyle = BaseStyle.extend({\n  name: 'baseicon',\n  css: css\n});\n\nexport { BaseIconStyle as default };\n//# sourceMappingURL=index.mjs.map\n",
+      "start": 1750971640276,
+      "end": 1750971640291,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640291,
+      "end": 1750971640291,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971640291,
+      "end": 1750971640291,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640291,
+      "end": 1750971640291,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971640291,
+      "end": 1750971640291,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640291,
+      "end": 1750971640291,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640291,
+      "end": 1750971640291,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640291,
+      "end": 1750971640291,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640291,
+      "end": 1750971640291,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640291,
+      "end": 1750971640291,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640291,
+      "end": 1750971640291,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "start": 1750971640291,
+      "end": 1750971640291,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640291,
+      "end": 1750971640291,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640291,
+      "end": 1750971640291,
+      "order": "normal"
+    }
+  ]
+}

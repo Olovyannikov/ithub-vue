@@ -1,0 +1,90 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+utils@0.5.3/node_modules/@primeuix/utils/eventbus/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "// src/eventbus/index.ts\nfunction EventBus() {\n  const allHandlers = /* @__PURE__ */ new Map();\n  return {\n    on(type, handler) {\n      let handlers = allHandlers.get(type);\n      if (!handlers) handlers = [handler];\n      else handlers.push(handler);\n      allHandlers.set(type, handlers);\n      return this;\n    },\n    off(type, handler) {\n      const handlers = allHandlers.get(type);\n      if (handlers) {\n        handlers.splice(handlers.indexOf(handler) >>> 0, 1);\n      }\n      return this;\n    },\n    emit(type, evt) {\n      const handlers = allHandlers.get(type);\n      if (handlers) {\n        handlers.forEach((handler) => {\n          handler(evt);\n        });\n      }\n    },\n    clear() {\n      allHandlers.clear();\n    }\n  };\n}\nexport {\n  EventBus\n};\n//# sourceMappingURL=index.mjs.map",
+      "start": 1750971639861,
+      "end": 1750971639875,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971639875,
+      "end": 1750971639875,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971639875,
+      "end": 1750971639875,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971639875,
+      "end": 1750971639875,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971639875,
+      "end": 1750971639875,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971639875,
+      "end": 1750971639875,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971639875,
+      "end": 1750971639875,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971639875,
+      "end": 1750971639875,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971639875,
+      "end": 1750971639875,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971639875,
+      "end": 1750971639875,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971639875,
+      "end": 1750971639875,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "start": 1750971639875,
+      "end": 1750971639875,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971639875,
+      "end": 1750971639875,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971639875,
+      "end": 1750971639875,
+      "order": "normal"
+    }
+  ]
+}

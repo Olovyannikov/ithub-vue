@@ -1,0 +1,90 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/accordion/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "var o={transitionDuration:\"{transition.duration}\"},r={borderWidth:\"0 0 1px 0\",borderColor:\"{content.border.color}\"},t={color:\"{text.muted.color}\",hoverColor:\"{text.color}\",activeColor:\"{text.color}\",padding:\"1.125rem\",fontWeight:\"600\",borderRadius:\"0\",borderWidth:\"0\",borderColor:\"{content.border.color}\",background:\"{content.background}\",hoverBackground:\"{content.background}\",activeBackground:\"{content.background}\",activeHoverBackground:\"{content.background}\",focusRing:{width:\"{focus.ring.width}\",style:\"{focus.ring.style}\",color:\"{focus.ring.color}\",offset:\"-1px\",shadow:\"{focus.ring.shadow}\"},toggleIcon:{color:\"{text.muted.color}\",hoverColor:\"{text.color}\",activeColor:\"{text.color}\",activeHoverColor:\"{text.color}\"},first:{topBorderRadius:\"{content.border.radius}\",borderWidth:\"0\"},last:{bottomBorderRadius:\"{content.border.radius}\",activeBottomBorderRadius:\"0\"}},e={borderWidth:\"0\",borderColor:\"{content.border.color}\",background:\"{content.background}\",color:\"{text.color}\",padding:\"0 1.125rem 1.125rem 1.125rem\"},c={root:o,panel:r,header:t,content:e};export{e as content,c as default,t as header,r as panel,o as root};//# sourceMappingURL=index.mjs.map",
+      "start": 1750971639766,
+      "end": 1750971639805,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971639805,
+      "end": 1750971639805,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971639806,
+      "end": 1750971639806,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971639806,
+      "end": 1750971639806,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971639806,
+      "end": 1750971639806,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971639806,
+      "end": 1750971639806,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971639806,
+      "end": 1750971639806,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971639806,
+      "end": 1750971639806,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971639806,
+      "end": 1750971639806,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971639806,
+      "end": 1750971639806,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971639806,
+      "end": 1750971639806,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "start": 1750971639806,
+      "end": 1750971639806,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971639806,
+      "end": 1750971639806,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971639806,
+      "end": 1750971639806,
+      "order": "normal"
+    }
+  ]
+}

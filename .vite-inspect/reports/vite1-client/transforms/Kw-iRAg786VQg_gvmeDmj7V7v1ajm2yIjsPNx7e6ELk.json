@@ -1,0 +1,106 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/MainBanners.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<script setup lang=\"ts\">\nimport { isLargeScreen } from '@/shared/lib';\n\nimport { BANNERS } from './const';\nimport { BannerWrapper } from './ui';\n</script>\n\n<template>\n    <div class=\"banners\">\n        <BannerWrapper\n            v-for=\"banner of BANNERS\"\n            :key=\"banner.id\"\n            :width=\"isLargeScreen && banner.widthLarge ? banner.widthLarge : banner.width\"\n            :class=\"`item item-${banner.id} ${banner.className}`\"\n            :title=\"banner.title\"\n            :img=\"banner.img\"\n            :description=\"banner.description\"\n            :is-last=\"banner.id === BANNERS[BANNERS.length - 1].id\"\n        />\n    </div>\n</template>\n\n<style lang=\"scss\">\n.item {\n    position: relative;\n    overflow: hidden;\n\n    span:has(img) {\n        left: 0;\n        top: 0;\n\n        @media (width >= 1200px) {\n            position: absolute;\n        }\n    }\n}\n\n.banners {\n    position: relative;\n    display: grid;\n    grid-template-columns: 1fr;\n\n    @media (width >= 768px) {\n        grid-template-columns: repeat(2, 1fr);\n    }\n\n    @media (width >= 1200px) {\n        grid-template-areas:\n            'ps ps mac'\n            'airpods visionpro mac';\n    }\n}\n\n.item-0 {\n    @media (width >= 1200px) {\n        grid-area: airpods;\n        min-height: 272px;\n        place-content: center;\n\n        span:has(img) {\n            scale: 1.34;\n            bottom: 0 !important;\n            top: unset;\n            left: -25%;\n        }\n\n        p,\n        h3 {\n            max-width: 160px;\n            text-align: left;\n            padding-left: 134px;\n            box-sizing: content-box;\n            font-style: italic;\n        }\n\n        h3 {\n            font-size: 29px;\n            max-width: 30%;\n        }\n\n        p {\n            font-size: 14px;\n            max-width: 30%;\n        }\n    }\n}\n\n.item-1 {\n    @media (width >= 1200px) {\n        grid-area: visionpro;\n        min-height: 272px;\n        place-content: center;\n\n        span:has(img) {\n            bottom: 0 !important;\n            left: -200px;\n            top: unset;\n        }\n\n        p,\n        h3 {\n            max-width: 160px;\n            text-align: left;\n            padding-left: 134px;\n            box-sizing: content-box;\n            font-style: italic;\n            place-content: center;\n            place-items: center;\n        }\n\n        h3 {\n            font-size: 29px;\n        }\n\n        p {\n            font-size: 14px;\n        }\n    }\n}\n\n.item-2 {\n    @media (width >= 1200px) {\n        grid-area: ps;\n        text-align: left;\n        min-height: 328px;\n        padding-left: 334px;\n        place-content: center;\n\n        p,\n        h3 {\n            max-width: 338px;\n        }\n\n        h3 {\n            font-size: 48px;\n            font-style: italic;\n        }\n\n        p {\n            font-size: 14px;\n        }\n\n        img {\n            scale: 1.1;\n            margin-left: -50%;\n            margin-top: -1%;\n        }\n    }\n}\n\n.item-3 {\n    @media (width >= 1200px) {\n        grid-area: mac;\n        min-width: 720px;\n        place-content: center;\n\n        span:has(img) {\n            scale: 2.5;\n            top: 125px !important;\n            right: -130% !important;\n        }\n\n        h3,\n        p {\n            max-width: 360px;\n            text-align: left;\n            padding-left: 40px;\n        }\n\n        p {\n            font-size: 14px;\n        }\n\n        h3 {\n            font-size: 49px;\n        }\n    }\n}\n</style>\n",
+      "start": 1750971640055,
+      "end": 1750971640064,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640064,
+      "end": 1750971640064,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971640064,
+      "end": 1750971640064,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640064,
+      "end": 1750971640064,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/MainBanners.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/MainBanners.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/MainBanners.vue?vue&type=style&index=0&lang.scss\";\nexport default _sfc_main;\n",
+      "start": 1750971640064,
+      "end": 1750971640107,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640107,
+      "end": 1750971640107,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640107,
+      "end": 1750971640107,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640107,
+      "end": 1750971640107,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640107,
+      "end": 1750971640107,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640107,
+      "end": 1750971640107,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640107,
+      "end": 1750971640107,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */import _sfc_main from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/MainBanners.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/MainBanners.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/MainBanners.vue?vue&type=style&index=0&lang.scss\";\nexport default _sfc_main;\n",
+      "start": 1750971640107,
+      "end": 1750971640108,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/MainBanners.vue"
+        ],
+        "sourcesContent": [
+          "import _sfc_main from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/MainBanners.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/MainBanners.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/MainBanners.vue?vue&type=style&index=0&lang.scss\";\nexport default _sfc_main;\n"
+        ],
+        "names": [],
+        "mappings": "sCAAA,MAAM,CAAC,SAAS,CAAC,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,cAAc,CAAC,gBAAgB,CAAC,KAAK,CAAC,GAAG,CAAC,GAAG,CAAC,OAAO,CAAC,OAAO,CAAC,WAAW,CAAC,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,MAAM,CAAC,KAAK,CAAC,IAAI,CAAC,IAAI,CAAC,EAAE,CAAC;AAC/I,MAAM,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,cAAc,CAAC,gBAAgB,CAAC,KAAK,CAAC,GAAG,CAAC,GAAG,CAAC,OAAO,CAAC,OAAO,CAAC,WAAW,CAAC,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,MAAM,CAAC,KAAK,CAAC,IAAI,CAAC,IAAI,CAAC,EAAE,CAAC;AACvI,MAAM,CAAC,CAAC,CAAC,KAAK,CAAC,cAAc,CAAC,gBAAgB,CAAC,KAAK,CAAC,GAAG,CAAC,GAAG,CAAC,OAAO,CAAC,OAAO,CAAC,WAAW,CAAC,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC,CAAC,IAAI,CAAC,IAAI,CAAC;AAC9H,MAAM,CAAC,OAAO,CAAC,SAAS;"
+      }
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640108,
+      "end": 1750971640108,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640108,
+      "end": 1750971640108,
+      "order": "normal"
+    }
+  ]
+}

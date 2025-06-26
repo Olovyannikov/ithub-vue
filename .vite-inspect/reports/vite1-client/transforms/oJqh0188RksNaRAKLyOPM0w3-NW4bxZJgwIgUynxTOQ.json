@@ -1,0 +1,113 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/pages/IndexPage/IndexPage.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, createVNode as _createVNode, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nimport { MainBanners } from '@/widgets/Banners';\nimport { CategoriesView } from '@/widgets/CategoriesView';\nimport { DiscountedItems } from '@/widgets/DiscountItems';\nimport { MainBanner } from '@/widgets/MainBanner';\nimport { MainProducts } from '@/widgets/MainProducts';\nimport { RootLayout } from '@/widgets/RootLayout';\nimport { SaleBanner } from '@/widgets/SaleBanner';\n\nexport default /*@__PURE__*/_defineComponent({\n  __name: 'IndexPage',\n  setup(__props) {\n\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createBlock(_unref(RootLayout), null, {\n    default: _withCtx(() => [\n      _createVNode(_unref(MainBanner)),\n      _createVNode(_unref(MainBanners)),\n      _createVNode(_unref(CategoriesView)),\n      _createVNode(_unref(MainProducts)),\n      _createVNode(_unref(DiscountedItems)),\n      _createVNode(_unref(SaleBanner))\n    ]),\n    _: 1\n  }))\n}\n}\n\n})",
+      "start": 1750971639906,
+      "end": 1750971639906
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971639906,
+      "end": 1750971639906,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, createVNode as _createVNode, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nimport { MainBanners } from \"@/widgets/Banners\";\nimport { CategoriesView } from \"@/widgets/CategoriesView\";\nimport { DiscountedItems } from \"@/widgets/DiscountItems\";\nimport { MainBanner } from \"@/widgets/MainBanner\";\nimport { MainProducts } from \"@/widgets/MainProducts\";\nimport { RootLayout } from \"@/widgets/RootLayout\";\nimport { SaleBanner } from \"@/widgets/SaleBanner\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"IndexPage\",\n  setup(__props) {\n    return (_ctx, _cache) => {\n      return _openBlock(), _createBlock(_unref(RootLayout), null, {\n        default: _withCtx(() => [\n          _createVNode(_unref(MainBanner)),\n          _createVNode(_unref(MainBanners)),\n          _createVNode(_unref(CategoriesView)),\n          _createVNode(_unref(MainProducts)),\n          _createVNode(_unref(DiscountedItems)),\n          _createVNode(_unref(SaleBanner))\n        ]),\n        _: 1\n      });\n    };\n  }\n});\n",
+      "start": 1750971639906,
+      "end": 1750971639908,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/pages/IndexPage/IndexPage.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, createVNode as _createVNode, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nimport { MainBanners } from '@/widgets/Banners';\nimport { CategoriesView } from '@/widgets/CategoriesView';\nimport { DiscountedItems } from '@/widgets/DiscountItems';\nimport { MainBanner } from '@/widgets/MainBanner';\nimport { MainProducts } from '@/widgets/MainProducts';\nimport { RootLayout } from '@/widgets/RootLayout';\nimport { SaleBanner } from '@/widgets/SaleBanner';\n\nexport default /*@__PURE__*/_defineComponent({\n  __name: 'IndexPage',\n  setup(__props) {\n\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createBlock(_unref(RootLayout), null, {\n    default: _withCtx(() => [\n      _createVNode(_unref(MainBanner)),\n      _createVNode(_unref(MainBanners)),\n      _createVNode(_unref(CategoriesView)),\n      _createVNode(_unref(MainProducts)),\n      _createVNode(_unref(DiscountedItems)),\n      _createVNode(_unref(SaleBanner))\n    ]),\n    _: 1\n  }))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,SAAS,QAAQ,eAAe,cAAc,WAAW,UAAU,aAAa,YAAY,eAAe,oBAAoB;AAExI,SAAS,mBAAmB;AAC5B,SAAS,sBAAsB;AAC/B,SAAS,uBAAuB;AAChC,SAAS,kBAAkB;AAC3B,SAAS,oBAAoB;AAC7B,SAAS,kBAAkB;AAC3B,SAAS,kBAAkB;AAE3B,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,MAAM,SAAS;AAGjB,WAAO,CAAC,MAAU,WAAgB;AAChC,aAAQ,WAAW,GAAG,aAAa,OAAO,UAAU,GAAG,MAAM;AAAA,QAC3D,SAAS,SAAS,MAAM;AAAA,UACtB,aAAa,OAAO,UAAU,CAAC;AAAA,UAC/B,aAAa,OAAO,WAAW,CAAC;AAAA,UAChC,aAAa,OAAO,cAAc,CAAC;AAAA,UACnC,aAAa,OAAO,YAAY,CAAC;AAAA,UACjC,aAAa,OAAO,eAAe,CAAC;AAAA,UACpC,aAAa,OAAO,UAAU,CAAC;AAAA,QACjC,CAAC;AAAA,QACD,GAAG;AAAA,MACL,CAAC;AAAA,IACH;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971639908,
+      "end": 1750971639908,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971639908,
+      "end": 1750971639908,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971639908,
+      "end": 1750971639908,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971639908,
+      "end": 1750971639908,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971639908,
+      "end": 1750971639908,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971639908,
+      "end": 1750971639908,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971639908,
+      "end": 1750971639908,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971639908,
+      "end": 1750971639908,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, createVNode as _createVNode, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nimport { MainBanners } from \"@/widgets/Banners\";\nimport { CategoriesView } from \"@/widgets/CategoriesView\";\nimport { DiscountedItems } from \"@/widgets/DiscountItems\";\nimport { MainBanner } from \"@/widgets/MainBanner\";\nimport { MainProducts } from \"@/widgets/MainProducts\";\nimport { RootLayout } from \"@/widgets/RootLayout\";\nimport { SaleBanner } from \"@/widgets/SaleBanner\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"IndexPage\",\n  setup(__props) {\n    return (_ctx, _cache) => {\n      return _openBlock(), _createBlock(_unref(RootLayout), null, {\n        default: _withCtx(() => [\n          _createVNode(_unref(MainBanner)),\n          _createVNode(_unref(MainBanners)),\n          _createVNode(_unref(CategoriesView)),\n          _createVNode(_unref(MainProducts)),\n          _createVNode(_unref(DiscountedItems)),\n          _createVNode(_unref(SaleBanner))\n        ]),\n        _: 1\n      });\n    };\n  }\n});\n",
+      "start": 1750971639908,
+      "end": 1750971639909,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/pages/IndexPage/IndexPage.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, createVNode as _createVNode, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nimport { MainBanners } from \"@/widgets/Banners\";\nimport { CategoriesView } from \"@/widgets/CategoriesView\";\nimport { DiscountedItems } from \"@/widgets/DiscountItems\";\nimport { MainBanner } from \"@/widgets/MainBanner\";\nimport { MainProducts } from \"@/widgets/MainProducts\";\nimport { RootLayout } from \"@/widgets/RootLayout\";\nimport { SaleBanner } from \"@/widgets/SaleBanner\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"IndexPage\",\n  setup(__props) {\n    return (_ctx, _cache) => {\n      return _openBlock(), _createBlock(_unref(RootLayout), null, {\n        default: _withCtx(() => [\n          _createVNode(_unref(MainBanner)),\n          _createVNode(_unref(MainBanners)),\n          _createVNode(_unref(CategoriesView)),\n          _createVNode(_unref(MainProducts)),\n          _createVNode(_unref(DiscountedItems)),\n          _createVNode(_unref(SaleBanner))\n        ]),\n        _: 1\n      });\n    };\n  }\n});\n"
+        ],
+        "names": [],
+        "mappings": "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"
+      }
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971639909,
+      "end": 1750971639909,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971639909,
+      "end": 1750971639909,
+      "order": "normal"
+    }
+  ]
+}

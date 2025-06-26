@@ -15,7 +15,7 @@ import { BannerWrapper } from './ui';
             :title="banner.title"
             :img="banner.img"
             :description="banner.description"
-            :is-last="banner.id === BANNERS.at(-1).id"
+            :is-last="banner.id === BANNERS[BANNERS.length - 1].id"
         />
     </div>
 </template>

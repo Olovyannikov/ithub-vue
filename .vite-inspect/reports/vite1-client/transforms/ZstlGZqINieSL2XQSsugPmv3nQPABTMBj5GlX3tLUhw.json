@@ -1,0 +1,90 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/button/style/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { style } from '@primeuix/styles/button';\nimport BaseStyle from '@primevue/core/base/style';\n\nfunction _typeof(o) { \"@babel/helpers - typeof\"; return _typeof = \"function\" == typeof Symbol && \"symbol\" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && \"function\" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? \"symbol\" : typeof o; }, _typeof(o); }\nfunction _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: true, configurable: true, writable: true }) : e[r] = t, e; }\nfunction _toPropertyKey(t) { var i = _toPrimitive(t, \"string\"); return \"symbol\" == _typeof(i) ? i : i + \"\"; }\nfunction _toPrimitive(t, r) { if (\"object\" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r); if (\"object\" != _typeof(i)) return i; throw new TypeError(\"@@toPrimitive must return a primitive value.\"); } return (\"string\" === r ? String : Number)(t); }\nvar classes = {\n  root: function root(_ref) {\n    var instance = _ref.instance,\n      props = _ref.props;\n    return ['p-button p-component', _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty({\n      'p-button-icon-only': instance.hasIcon && !props.label && !props.badge,\n      'p-button-vertical': (props.iconPos === 'top' || props.iconPos === 'bottom') && props.label,\n      'p-button-loading': props.loading,\n      'p-button-link': props.link || props.variant === 'link'\n    }, \"p-button-\".concat(props.severity), props.severity), 'p-button-raised', props.raised), 'p-button-rounded', props.rounded), 'p-button-text', props.text || props.variant === 'text'), 'p-button-outlined', props.outlined || props.variant === 'outlined'), 'p-button-sm', props.size === 'small'), 'p-button-lg', props.size === 'large'), 'p-button-plain', props.plain), 'p-button-fluid', instance.hasFluid)];\n  },\n  loadingIcon: 'p-button-loading-icon',\n  icon: function icon(_ref3) {\n    var props = _ref3.props;\n    return ['p-button-icon', _defineProperty({}, \"p-button-icon-\".concat(props.iconPos), props.label)];\n  },\n  label: 'p-button-label'\n};\nvar ButtonStyle = BaseStyle.extend({\n  name: 'button',\n  style: style,\n  classes: classes\n});\n\nexport { ButtonStyle as default };\n//# sourceMappingURL=index.mjs.map\n",
+      "start": 1750971640119,
+      "end": 1750971640254,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640254,
+      "end": 1750971640254,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971640254,
+      "end": 1750971640254,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640254,
+      "end": 1750971640254,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971640254,
+      "end": 1750971640254,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640254,
+      "end": 1750971640254,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640254,
+      "end": 1750971640254,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640254,
+      "end": 1750971640254,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640254,
+      "end": 1750971640254,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640254,
+      "end": 1750971640254,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640254,
+      "end": 1750971640254,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "start": 1750971640254,
+      "end": 1750971640254,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640254,
+      "end": 1750971640254,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640254,
+      "end": 1750971640254,
+      "order": "normal"
+    }
+  ]
+}

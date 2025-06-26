@@ -1,0 +1,113 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/ProductLikeAction/ui/ProductLike.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, resolveComponent as _resolveComponent, normalizeClass as _normalizeClass, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nimport { useStoreMap, useUnit } from 'effector-vue/composition';\n\nimport { ProductModel } from '@/entities/Product/index.js';\n\n\nexport default /*@__PURE__*/_defineComponent({\n  __name: 'ProductLike',\n  props: {\n    productId: {}\n  },\n  setup(__props: any) {\n\n\nconst [onProductLikeClick] = useUnit([ProductModel.productLikeSettled]);\n\nconst isLiked = useStoreMap({\n    store: ProductModel.$likedProducts,\n    keys: () => __props.productId,\n    fn: (products, productId) => products.includes(`${productId}`),\n});\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_Button = _resolveComponent(\"Button\")!\n\n  return (_openBlock(), _createBlock(_component_Button, {\n    text: \"\",\n    size: \"large\",\n    type: \"button\",\n    icon: `pi ${_unref(isLiked) ? 'pi-heart-fill' : 'pi-heart '}`,\n    \"aria-label\": \"Set Like for a product\",\n    class: _normalizeClass([\"flex ml-auto justify-end mt-[-0.5rem] p-2 mr-[-0.5rem] w-fit\", _unref(isLiked) ? 'text-red-500' : 'text-gray-400']),\n    onClick: _cache[0] || (_cache[0] = ($event: any) => (\n            _unref(onProductLikeClick)({\n                id: `${_ctx.productId}`,\n            })\n        ))\n  }, null, 8, [\"icon\", \"class\"]))\n}\n}\n\n})",
+      "start": 1750971640339,
+      "end": 1750971640339
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640339,
+      "end": 1750971640339,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, resolveComponent as _resolveComponent, normalizeClass as _normalizeClass, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nimport { useStoreMap, useUnit } from \"effector-vue/composition\";\nimport { ProductModel } from \"@/entities/Product/index.js\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"ProductLike\",\n  props: {\n    productId: {}\n  },\n  setup(__props) {\n    const [onProductLikeClick] = useUnit([ProductModel.productLikeSettled]);\n    const isLiked = useStoreMap({\n      store: ProductModel.$likedProducts,\n      keys: () => __props.productId,\n      fn: (products, productId) => products.includes(`${productId}`)\n    });\n    return (_ctx, _cache) => {\n      const _component_Button = _resolveComponent(\"Button\");\n      return _openBlock(), _createBlock(_component_Button, {\n        text: \"\",\n        size: \"large\",\n        type: \"button\",\n        icon: `pi ${_unref(isLiked) ? \"pi-heart-fill\" : \"pi-heart \"}`,\n        \"aria-label\": \"Set Like for a product\",\n        class: _normalizeClass([\"flex ml-auto justify-end mt-[-0.5rem] p-2 mr-[-0.5rem] w-fit\", _unref(isLiked) ? \"text-red-500\" : \"text-gray-400\"]),\n        onClick: _cache[0] || (_cache[0] = ($event) => _unref(onProductLikeClick)({\n          id: `${_ctx.productId}`\n        }))\n      }, null, 8, [\"icon\", \"class\"]);\n    };\n  }\n});\n",
+      "start": 1750971640339,
+      "end": 1750971640352,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/ProductLikeAction/ui/ProductLike.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, resolveComponent as _resolveComponent, normalizeClass as _normalizeClass, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nimport { useStoreMap, useUnit } from 'effector-vue/composition';\n\nimport { ProductModel } from '@/entities/Product/index.js';\n\n\nexport default /*@__PURE__*/_defineComponent({\n  __name: 'ProductLike',\n  props: {\n    productId: {}\n  },\n  setup(__props: any) {\n\n\nconst [onProductLikeClick] = useUnit([ProductModel.productLikeSettled]);\n\nconst isLiked = useStoreMap({\n    store: ProductModel.$likedProducts,\n    keys: () => __props.productId,\n    fn: (products, productId) => products.includes(`${productId}`),\n});\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_Button = _resolveComponent(\"Button\")!\n\n  return (_openBlock(), _createBlock(_component_Button, {\n    text: \"\",\n    size: \"large\",\n    type: \"button\",\n    icon: `pi ${_unref(isLiked) ? 'pi-heart-fill' : 'pi-heart '}`,\n    \"aria-label\": \"Set Like for a product\",\n    class: _normalizeClass([\"flex ml-auto justify-end mt-[-0.5rem] p-2 mr-[-0.5rem] w-fit\", _unref(isLiked) ? 'text-red-500' : 'text-gray-400']),\n    onClick: _cache[0] || (_cache[0] = ($event: any) => (\n            _unref(onProductLikeClick)({\n                id: `${_ctx.productId}`,\n            })\n        ))\n  }, null, 8, [\"icon\", \"class\"]))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,SAAS,QAAQ,oBAAoB,mBAAmB,kBAAkB,iBAAiB,aAAa,YAAY,eAAe,oBAAoB;AAEhK,SAAS,aAAa,eAAe;AAErC,SAAS,oBAAoB;AAG7B,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,OAAO;AAAA,IACL,WAAW,CAAC;AAAA,EACd;AAAA,EACA,MAAM,SAAc;AAGtB,UAAM,CAAC,kBAAkB,IAAI,QAAQ,CAAC,aAAa,kBAAkB,CAAC;AAEtE,UAAM,UAAU,YAAY;AAAA,MACxB,OAAO,aAAa;AAAA,MACpB,MAAM,MAAM,QAAQ;AAAA,MACpB,IAAI,CAAC,UAAU,cAAc,SAAS,SAAS,GAAG,SAAS,EAAE;AAAA,IACjE,CAAC;AAED,WAAO,CAAC,MAAU,WAAgB;AAChC,YAAM,oBAAoB,kBAAkB,QAAQ;AAEpD,aAAQ,WAAW,GAAG,aAAa,mBAAmB;AAAA,QACpD,MAAM;AAAA,QACN,MAAM;AAAA,QACN,MAAM;AAAA,QACN,MAAM,MAAM,OAAO,OAAO,IAAI,kBAAkB,WAAW;AAAA,QAC3D,cAAc;AAAA,QACd,OAAO,gBAAgB,CAAC,gEAAgE,OAAO,OAAO,IAAI,iBAAiB,eAAe,CAAC;AAAA,QAC3I,SAAS,OAAO,CAAC,MAAM,OAAO,CAAC,IAAI,CAAC,WAC5B,OAAO,kBAAkB,EAAE;AAAA,UACvB,IAAI,GAAG,KAAK,SAAS;AAAA,QACzB,CAAC;AAAA,MAEX,GAAG,MAAM,GAAG,CAAC,QAAQ,OAAO,CAAC;AAAA,IAC/B;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640352,
+      "end": 1750971640352,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971640352,
+      "end": 1750971640352,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640352,
+      "end": 1750971640352,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640352,
+      "end": 1750971640353,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640353,
+      "end": 1750971640353,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640353,
+      "end": 1750971640353,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640353,
+      "end": 1750971640353,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640353,
+      "end": 1750971640353,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */import __unplugin_components_0 from 'primevue/button';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, resolveComponent as _resolveComponent, normalizeClass as _normalizeClass, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nimport { useStoreMap, useUnit } from \"effector-vue/composition\";\nimport { ProductModel } from \"@/entities/Product/index.js\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"ProductLike\",\n  props: {\n    productId: {}\n  },\n  setup(__props) {\n    const [onProductLikeClick] = useUnit([ProductModel.productLikeSettled]);\n    const isLiked = useStoreMap({\n      store: ProductModel.$likedProducts,\n      keys: () => __props.productId,\n      fn: (products, productId) => products.includes(`${productId}`)\n    });\n    return (_ctx, _cache) => {\n      const _component_Button = __unplugin_components_0;\n      return _openBlock(), _createBlock(_component_Button, {\n        text: \"\",\n        size: \"large\",\n        type: \"button\",\n        icon: `pi ${_unref(isLiked) ? \"pi-heart-fill\" : \"pi-heart \"}`,\n        \"aria-label\": \"Set Like for a product\",\n        class: _normalizeClass([\"flex ml-auto justify-end mt-[-0.5rem] p-2 mr-[-0.5rem] w-fit\", _unref(isLiked) ? \"text-red-500\" : \"text-gray-400\"]),\n        onClick: _cache[0] || (_cache[0] = ($event) => _unref(onProductLikeClick)({\n          id: `${_ctx.productId}`\n        }))\n      }, null, 8, [\"icon\", \"class\"]);\n    };\n  }\n});\n",
+      "start": 1750971640353,
+      "end": 1750971640353,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/ProductLikeAction/ui/ProductLike.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, resolveComponent as _resolveComponent, normalizeClass as _normalizeClass, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nimport { useStoreMap, useUnit } from \"effector-vue/composition\";\nimport { ProductModel } from \"@/entities/Product/index.js\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"ProductLike\",\n  props: {\n    productId: {}\n  },\n  setup(__props) {\n    const [onProductLikeClick] = useUnit([ProductModel.productLikeSettled]);\n    const isLiked = useStoreMap({\n      store: ProductModel.$likedProducts,\n      keys: () => __props.productId,\n      fn: (products, productId) => products.includes(`${productId}`)\n    });\n    return (_ctx, _cache) => {\n      const _component_Button = _resolveComponent(\"Button\");\n      return _openBlock(), _createBlock(_component_Button, {\n        text: \"\",\n        size: \"large\",\n        type: \"button\",\n        icon: `pi ${_unref(isLiked) ? \"pi-heart-fill\" : \"pi-heart \"}`,\n        \"aria-label\": \"Set Like for a product\",\n        class: _normalizeClass([\"flex ml-auto justify-end mt-[-0.5rem] p-2 mr-[-0.5rem] w-fit\", _unref(isLiked) ? \"text-red-500\" : \"text-gray-400\"]),\n        onClick: _cache[0] || (_cache[0] = ($event) => _unref(onProductLikeClick)({\n          id: `${_ctx.productId}`\n        }))\n      }, null, 8, [\"icon\", \"class\"]);\n    };\n  }\n});\n"
+        ],
+        "names": [],
+        "mappings": "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"
+      }
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640353,
+      "end": 1750971640353,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640353,
+      "end": 1750971640353,
+      "order": "normal"
+    }
+  ]
+}

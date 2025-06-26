@@ -13,8 +13,8 @@ pre-commit:
             run: exec prettier --write {staged_files} && git add {staged_files}
         solidarity:
             run: exec solidarity
-#        circular:
-#            run: exec madge --circular --extensions vue,ts --ts-config tsconfig.json -i madge.png --warning src
+        #        circular:
+        #            run: exec madge --circular --extensions vue,ts --ts-config tsconfig.json -i madge.png --warning src
         unit-test:
             run: pnpm run test:unit
 

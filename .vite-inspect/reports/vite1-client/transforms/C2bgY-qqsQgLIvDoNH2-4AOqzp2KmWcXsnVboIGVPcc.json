@@ -1,0 +1,113 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/ui/Bestsellers/BestsellersProducts.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createVNode as _createVNode, withCtx as _withCtx, createBlock as _createBlock } from \"vue\"\n\nimport { useUnit } from 'effector-vue/composition';\n\nimport { type Product, ProductList, ProductModel, ProductPreview } from '@/entities/Product';\n\nimport { AddProductToCartAction } from '@/features/AddProductToCartAction';\nimport { ProductLikeAction } from '@/features/ProductLikeAction';\n\n\nexport default /*@__PURE__*/_defineComponent({\n  __name: 'BestsellersProducts',\n  setup(__props) {\n\nconst [products] = useUnit([ProductModel.$bestSellerProducts]);\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createBlock(_unref(ProductList), null, {\n    default: _withCtx(() => [\n      (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(products), (product) => {\n        return (_openBlock(), _createBlock(_unref(ProductPreview), {\n          key: product.id,\n          product: product as Product\n        }, {\n          \"like-btn\": _withCtx(() => [\n            _createVNode(_unref(ProductLikeAction), {\n              \"product-id\": product.id\n            }, null, 8, [\"product-id\"])\n          ]),\n          \"cart-btn\": _withCtx(() => [\n            _createVNode(_unref(AddProductToCartAction), {\n              product: product as Product\n            }, null, 8, [\"product\"])\n          ]),\n          _: 2\n        }, 1032, [\"product\"]))\n      }), 128))\n    ]),\n    _: 1\n  }))\n}\n}\n\n})",
+      "start": 1750971640381,
+      "end": 1750971640381
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640381,
+      "end": 1750971640381,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createVNode as _createVNode, withCtx as _withCtx, createBlock as _createBlock } from \"vue\";\nimport { useUnit } from \"effector-vue/composition\";\nimport { ProductList, ProductModel, ProductPreview } from \"@/entities/Product\";\nimport { AddProductToCartAction } from \"@/features/AddProductToCartAction\";\nimport { ProductLikeAction } from \"@/features/ProductLikeAction\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"BestsellersProducts\",\n  setup(__props) {\n    const [products] = useUnit([ProductModel.$bestSellerProducts]);\n    return (_ctx, _cache) => {\n      return _openBlock(), _createBlock(_unref(ProductList), null, {\n        default: _withCtx(() => [\n          (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(products), (product) => {\n            return _openBlock(), _createBlock(_unref(ProductPreview), {\n              key: product.id,\n              product\n            }, {\n              \"like-btn\": _withCtx(() => [\n                _createVNode(_unref(ProductLikeAction), {\n                  \"product-id\": product.id\n                }, null, 8, [\"product-id\"])\n              ]),\n              \"cart-btn\": _withCtx(() => [\n                _createVNode(_unref(AddProductToCartAction), {\n                  product\n                }, null, 8, [\"product\"])\n              ]),\n              _: 2\n            }, 1032, [\"product\"]);\n          }), 128))\n        ]),\n        _: 1\n      });\n    };\n  }\n});\n",
+      "start": 1750971640381,
+      "end": 1750971640492,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/ui/Bestsellers/BestsellersProducts.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createVNode as _createVNode, withCtx as _withCtx, createBlock as _createBlock } from \"vue\"\n\nimport { useUnit } from 'effector-vue/composition';\n\nimport { type Product, ProductList, ProductModel, ProductPreview } from '@/entities/Product';\n\nimport { AddProductToCartAction } from '@/features/AddProductToCartAction';\nimport { ProductLikeAction } from '@/features/ProductLikeAction';\n\n\nexport default /*@__PURE__*/_defineComponent({\n  __name: 'BestsellersProducts',\n  setup(__props) {\n\nconst [products] = useUnit([ProductModel.$bestSellerProducts]);\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createBlock(_unref(ProductList), null, {\n    default: _withCtx(() => [\n      (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(products), (product) => {\n        return (_openBlock(), _createBlock(_unref(ProductPreview), {\n          key: product.id,\n          product: product as Product\n        }, {\n          \"like-btn\": _withCtx(() => [\n            _createVNode(_unref(ProductLikeAction), {\n              \"product-id\": product.id\n            }, null, 8, [\"product-id\"])\n          ]),\n          \"cart-btn\": _withCtx(() => [\n            _createVNode(_unref(AddProductToCartAction), {\n              product: product as Product\n            }, null, 8, [\"product\"])\n          ]),\n          _: 2\n        }, 1032, [\"product\"]))\n      }), 128))\n    ]),\n    _: 1\n  }))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,SAAS,QAAQ,cAAc,aAAa,YAAY,WAAW,aAAa,YAAY,sBAAsB,qBAAqB,eAAe,cAAc,WAAW,UAAU,eAAe,oBAAoB;AAErO,SAAS,eAAe;AAExB,SAAuB,aAAa,cAAc,sBAAsB;AAExE,SAAS,8BAA8B;AACvC,SAAS,yBAAyB;AAGlC,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,MAAM,SAAS;AAEjB,UAAM,CAAC,QAAQ,IAAI,QAAQ,CAAC,aAAa,mBAAmB,CAAC;AAE7D,WAAO,CAAC,MAAU,WAAgB;AAChC,aAAQ,WAAW,GAAG,aAAa,OAAO,WAAW,GAAG,MAAM;AAAA,QAC5D,SAAS,SAAS,MAAM;AAAA,WACrB,WAAW,IAAI,GAAG,oBAAoB,WAAW,MAAM,YAAY,OAAO,QAAQ,GAAG,CAAC,YAAY;AACjG,mBAAQ,WAAW,GAAG,aAAa,OAAO,cAAc,GAAG;AAAA,cACzD,KAAK,QAAQ;AAAA,cACb;AAAA,YACF,GAAG;AAAA,cACD,YAAY,SAAS,MAAM;AAAA,gBACzB,aAAa,OAAO,iBAAiB,GAAG;AAAA,kBACtC,cAAc,QAAQ;AAAA,gBACxB,GAAG,MAAM,GAAG,CAAC,YAAY,CAAC;AAAA,cAC5B,CAAC;AAAA,cACD,YAAY,SAAS,MAAM;AAAA,gBACzB,aAAa,OAAO,sBAAsB,GAAG;AAAA,kBAC3C;AAAA,gBACF,GAAG,MAAM,GAAG,CAAC,SAAS,CAAC;AAAA,cACzB,CAAC;AAAA,cACD,GAAG;AAAA,YACL,GAAG,MAAM,CAAC,SAAS,CAAC;AAAA,UACtB,CAAC,GAAG,GAAG;AAAA,QACT,CAAC;AAAA,QACD,GAAG;AAAA,MACL,CAAC;AAAA,IACH;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640492,
+      "end": 1750971640492,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971640492,
+      "end": 1750971640492,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640492,
+      "end": 1750971640492,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640492,
+      "end": 1750971640492,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640492,
+      "end": 1750971640492,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640492,
+      "end": 1750971640492,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640492,
+      "end": 1750971640492,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640492,
+      "end": 1750971640492,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createVNode as _createVNode, withCtx as _withCtx, createBlock as _createBlock } from \"vue\";\nimport { useUnit } from \"effector-vue/composition\";\nimport { ProductList, ProductModel, ProductPreview } from \"@/entities/Product\";\nimport { AddProductToCartAction } from \"@/features/AddProductToCartAction\";\nimport { ProductLikeAction } from \"@/features/ProductLikeAction\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"BestsellersProducts\",\n  setup(__props) {\n    const [products] = useUnit([ProductModel.$bestSellerProducts]);\n    return (_ctx, _cache) => {\n      return _openBlock(), _createBlock(_unref(ProductList), null, {\n        default: _withCtx(() => [\n          (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(products), (product) => {\n            return _openBlock(), _createBlock(_unref(ProductPreview), {\n              key: product.id,\n              product\n            }, {\n              \"like-btn\": _withCtx(() => [\n                _createVNode(_unref(ProductLikeAction), {\n                  \"product-id\": product.id\n                }, null, 8, [\"product-id\"])\n              ]),\n              \"cart-btn\": _withCtx(() => [\n                _createVNode(_unref(AddProductToCartAction), {\n                  product\n                }, null, 8, [\"product\"])\n              ]),\n              _: 2\n            }, 1032, [\"product\"]);\n          }), 128))\n        ]),\n        _: 1\n      });\n    };\n  }\n});\n",
+      "start": 1750971640492,
+      "end": 1750971640492,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/ui/Bestsellers/BestsellersProducts.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createVNode as _createVNode, withCtx as _withCtx, createBlock as _createBlock } from \"vue\";\nimport { useUnit } from \"effector-vue/composition\";\nimport { ProductList, ProductModel, ProductPreview } from \"@/entities/Product\";\nimport { AddProductToCartAction } from \"@/features/AddProductToCartAction\";\nimport { ProductLikeAction } from \"@/features/ProductLikeAction\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"BestsellersProducts\",\n  setup(__props) {\n    const [products] = useUnit([ProductModel.$bestSellerProducts]);\n    return (_ctx, _cache) => {\n      return _openBlock(), _createBlock(_unref(ProductList), null, {\n        default: _withCtx(() => [\n          (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(products), (product) => {\n            return _openBlock(), _createBlock(_unref(ProductPreview), {\n              key: product.id,\n              product\n            }, {\n              \"like-btn\": _withCtx(() => [\n                _createVNode(_unref(ProductLikeAction), {\n                  \"product-id\": product.id\n                }, null, 8, [\"product-id\"])\n              ]),\n              \"cart-btn\": _withCtx(() => [\n                _createVNode(_unref(AddProductToCartAction), {\n                  product\n                }, null, 8, [\"product\"])\n              ]),\n              _: 2\n            }, 1032, [\"product\"]);\n          }), 128))\n        ]),\n        _: 1\n      });\n    };\n  }\n});\n"
+        ],
+        "names": [],
+        "mappings": "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"
+      }
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640492,
+      "end": 1750971640492,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640492,
+      "end": 1750971640492,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainBanner/MainBanner.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<script setup lang=\"ts\">\nimport { isLargeScreen } from '@/shared/lib';\nimport { MainContainer } from '@/shared/ui';\n\nimport { RedirectToShopPage } from '@/features/RedirectToShopPage';\n</script>\n<template>\n    <section class=\"text-white bg-neutral-900\">\n        <MainContainer class=\"lg:flex\">\n            <div class=\"lg:pb-47 mb-8 lg:mb-0 lg:max-w-[714px] lg:w-[100%]\">\n                <div class=\"mb-6 flex flex-col gap-4 lg:gap-6 text-center lg:text-left\">\n                    <h3 :class=\"`pt-22 lg:pt-47 text-2xl text-neutral-500`\">Pro.Beyond.</h3>\n                    <h2 class=\"text-7xl lg:text-8xl\">IPhone 14 Pro</h2>\n                    <p class=\"text-neutral-500 lg:text-lg\">\n                        Created to change everything for the better. <br v-if=\"!isLargeScreen\" />For everyone\n                    </p>\n                </div>\n                <RedirectToShopPage\n                    class=\"mb-12 flex text-white border-white m-auto min-w-[170px] min-h-[56px] lg:m-0\"\n                />\n            </div>\n            <Image\n                draggable=\"false\"\n                class=\"flex justify-center shrink-0 lg:justify-start\"\n                :width=\"isLargeScreen ? 406 : 343\"\n                :src=\"`/landing/banner-iphone/${isLargeScreen ? 'iphone-desktop' : 'iphone'}@2x.webp`\"\n            />\n        </MainContainer>\n    </section>\n</template>\n",
+      "start": 1750971640055,
+      "end": 1750971640091,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640091,
+      "end": 1750971640091,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971640091,
+      "end": 1750971640091,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640091,
+      "end": 1750971640091,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainBanner/MainBanner.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainBanner/MainBanner.vue?vue&type=script&setup=true&lang.ts\";\nexport default _sfc_main;\n",
+      "start": 1750971640091,
+      "end": 1750971640123,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640123,
+      "end": 1750971640123,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640123,
+      "end": 1750971640123,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640123,
+      "end": 1750971640123,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640123,
+      "end": 1750971640123,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640123,
+      "end": 1750971640123,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640123,
+      "end": 1750971640123,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */import _sfc_main from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainBanner/MainBanner.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainBanner/MainBanner.vue?vue&type=script&setup=true&lang.ts\";\nexport default _sfc_main;\n",
+      "start": 1750971640123,
+      "end": 1750971640123,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainBanner/MainBanner.vue"
+        ],
+        "sourcesContent": [
+          "import _sfc_main from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainBanner/MainBanner.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainBanner/MainBanner.vue?vue&type=script&setup=true&lang.ts\";\nexport default _sfc_main;\n"
+        ],
+        "names": [],
+        "mappings": "sCAAA,MAAM,CAAC,SAAS,CAAC,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,cAAc,CAAC,gBAAgB,CAAC,KAAK,CAAC,GAAG,CAAC,GAAG,CAAC,OAAO,CAAC,UAAU,CAAC,UAAU,CAAC,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,MAAM,CAAC,KAAK,CAAC,IAAI,CAAC,IAAI,CAAC,EAAE,CAAC;AACjJ,MAAM,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,cAAc,CAAC,gBAAgB,CAAC,KAAK,CAAC,GAAG,CAAC,GAAG,CAAC,OAAO,CAAC,UAAU,CAAC,UAAU,CAAC,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,MAAM,CAAC,KAAK,CAAC,IAAI,CAAC,IAAI,CAAC,EAAE,CAAC;AACzI,MAAM,CAAC,OAAO,CAAC,SAAS;"
+      }
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640123,
+      "end": 1750971640123,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640123,
+      "end": 1750971640123,
+      "order": "normal"
+    }
+  ]
+}

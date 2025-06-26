@@ -1,0 +1,107 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Footer/MainFooter.vue?vue&type=style&index=0&scoped=ee09f081&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\n.footer {\n    padding: 48px 32px;\n    color: #fff;\n    background-color: #181313;\n}\n\n.container {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    text-align: center;\n\n    @media (width >= 992px) {\n        display: grid;\n        justify-content: normal;\n        grid-template-areas:\n            'top services assistance'\n            'socials . .';\n        grid-template-columns: 384px 1fr 1fr;\n        text-align: left;\n    }\n}\n\n.top {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    grid-area: top;\n    margin-bottom: 32px;\n    font-size: 13px;\n    line-height: 24px;\n    color: #cfcfcf;\n\n    @media (width >= 992px) {\n        place-content: start;\n        align-items: start;\n        margin-right: 113px;\n        text-align: left;\n    }\n}\n\n.logo {\n    margin-bottom: 16px;\n}\n\n.menu {\n    margin-bottom: 32px;\n\n    @media (width >= 992px) {\n        margin-bottom: 0;\n    }\n}\n\n.title {\n    margin-bottom: 8px;\n    font-size: 16px;\n    line-height: 1;\n}\n\n.link {\n    margin-bottom: 8px;\n    font-size: 14px;\n    line-height: 32px;\n    color: #cfcfcf;\n}\n\n.services {\n    grid-area: services;\n}\n\n.assistance {\n    grid-area: assistance;\n}\n\n.socials {\n    display: grid;\n    place-content: center;\n    place-items: center;\n    grid-area: socials;\n    grid-template-columns: repeat(4, 1fr);\n    margin: auto;\n    max-width: 173px;\n    gap: 24px;\n\n    span {\n        font-size: 24px;\n    }\n\n    @media (width >= 992px) {\n        align-items: center;\n        margin: 24px 0 0;\n        max-width: max-content;\n        gap: 40px;\n    }\n}\n",
+      "start": 1750971640375,
+      "end": 1750971640375
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "result": "\n.footer {\n    padding: 48px 32px;\n    color: #fff;\n    background-color: #181313;\n}\n\n.container {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    text-align: center;\n\n    @media (width >= 992px) {\n        display: grid;\n        justify-content: normal;\n        grid-template-areas:\n            'top services assistance'\n            'socials . .';\n        grid-template-columns: 384px 1fr 1fr;\n        text-align: left;\n    }\n}\n\n.top {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    grid-area: top;\n    margin-bottom: 32px;\n    font-size: 13px;\n    line-height: 24px;\n    color: #cfcfcf;\n\n    @media (width >= 992px) {\n        place-content: start;\n        align-items: start;\n        margin-right: 113px;\n        text-align: left;\n    }\n}\n\n.logo {\n    margin-bottom: 16px;\n}\n\n.menu {\n    margin-bottom: 32px;\n\n    @media (width >= 992px) {\n        margin-bottom: 0;\n    }\n}\n\n.title {\n    margin-bottom: 8px;\n    font-size: 16px;\n    line-height: 1;\n}\n\n.link {\n    margin-bottom: 8px;\n    font-size: 14px;\n    line-height: 32px;\n    color: #cfcfcf;\n}\n\n.services {\n    grid-area: services;\n}\n\n.assistance {\n    grid-area: assistance;\n}\n\n.socials {\n    display: grid;\n    place-content: center;\n    place-items: center;\n    grid-area: socials;\n    grid-template-columns: repeat(4, 1fr);\n    margin: auto;\n    max-width: 173px;\n    gap: 24px;\n\n    span {\n        font-size: 24px;\n    }\n\n    @media (width >= 992px) {\n        align-items: center;\n        margin: 24px 0 0;\n        max-width: max-content;\n        gap: 40px;\n    }\n}\n",
+      "start": 1750971640375,
+      "end": 1750971640376,
+      "order": "pre",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971640377,
+      "end": 1750971640377,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640377,
+      "end": 1750971640377,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "\n.footer[data-v-ee09f081] {\n    padding: 48px 32px;\n    color: #fff;\n    background-color: #181313;\n}\n.container[data-v-ee09f081] {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    text-align: center;\n@media (width >= 992px) {\n        display: grid;\n        justify-content: normal;\n        grid-template-areas:\n            'top services assistance'\n            'socials . .';\n        grid-template-columns: 384px 1fr 1fr;\n        text-align: left;\n}\n}\n.top[data-v-ee09f081] {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    grid-area: top;\n    margin-bottom: 32px;\n    font-size: 13px;\n    line-height: 24px;\n    color: #cfcfcf;\n@media (width >= 992px) {\n        place-content: start;\n        align-items: start;\n        margin-right: 113px;\n        text-align: left;\n}\n}\n.logo[data-v-ee09f081] {\n    margin-bottom: 16px;\n}\n.menu[data-v-ee09f081] {\n    margin-bottom: 32px;\n@media (width >= 992px) {\n        margin-bottom: 0;\n}\n}\n.title[data-v-ee09f081] {\n    margin-bottom: 8px;\n    font-size: 16px;\n    line-height: 1;\n}\n.link[data-v-ee09f081] {\n    margin-bottom: 8px;\n    font-size: 14px;\n    line-height: 32px;\n    color: #cfcfcf;\n}\n.services[data-v-ee09f081] {\n    grid-area: services;\n}\n.assistance[data-v-ee09f081] {\n    grid-area: assistance;\n}\n.socials {\n&[data-v-ee09f081] {\n    display: grid;\n    place-content: center;\n    place-items: center;\n    grid-area: socials;\n    grid-template-columns: repeat(4, 1fr);\n    margin: auto;\n    max-width: 173px;\n    gap: 24px;\n    }\nspan[data-v-ee09f081] {\n        font-size: 24px;\n}\n@media (width >= 992px) {\n        &[data-v-ee09f081] {\n        align-items: center;\n        margin: 24px 0 0;\n        max-width: -moz-max-content;\n        max-width: max-content;\n        gap: 40px;\n        }\n}\n}\n",
+      "start": 1750971640377,
+      "end": 1750971640378,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640378,
+      "end": 1750971640378,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640378,
+      "end": 1750971640378,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640378,
+      "end": 1750971640378,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640378,
+      "end": 1750971640378,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640378,
+      "end": 1750971640378,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640378,
+      "end": 1750971640378,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */",
+      "start": 1750971640378,
+      "end": 1750971640379,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Footer/MainFooter.vue?vue&type=style&index=0&scoped=ee09f081&lang.css"
+        ],
+        "sourcesContent": [
+          ""
+        ],
+        "names": [],
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640379,
+      "end": 1750971640379,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640379,
+      "end": 1750971640379,
+      "order": "normal"
+    }
+  ]
+}

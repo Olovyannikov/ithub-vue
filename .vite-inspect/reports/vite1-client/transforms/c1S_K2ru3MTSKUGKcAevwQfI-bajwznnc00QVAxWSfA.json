@@ -1,0 +1,90 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/splitter/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "var o={background:\"{content.background}\",borderColor:\"{content.border.color}\",color:\"{content.color}\",transitionDuration:\"{transition.duration}\"},r={background:\"{content.border.color}\"},n={size:\"24px\",background:\"transparent\",borderRadius:\"{content.border.radius}\",focusRing:{width:\"{focus.ring.width}\",style:\"{focus.ring.style}\",color:\"{focus.ring.color}\",offset:\"{focus.ring.offset}\",shadow:\"{focus.ring.shadow}\"}},t={root:o,gutter:r,handle:n};export{t as default,r as gutter,n as handle,o as root};//# sourceMappingURL=index.mjs.map",
+      "start": 1750971639833,
+      "end": 1750971639838,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971639838,
+      "end": 1750971639838,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971639839,
+      "end": 1750971639839,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971639839,
+      "end": 1750971639839,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971639839,
+      "end": 1750971639839,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971639839,
+      "end": 1750971639839,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971639839,
+      "end": 1750971639839,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971639839,
+      "end": 1750971639839,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971639839,
+      "end": 1750971639839,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971639839,
+      "end": 1750971639839,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971639839,
+      "end": 1750971639839,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "start": 1750971639839,
+      "end": 1750971639839,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971639839,
+      "end": 1750971639839,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971639839,
+      "end": 1750971639839,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+icons@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/icons/baseicon/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { isEmpty } from '@primeuix/utils/object';\nimport BaseComponent from '@primevue/core/basecomponent';\nimport BaseIconStyle from '@primevue/icons/baseicon/style';\n\nfunction _typeof(o) { \"@babel/helpers - typeof\"; return _typeof = \"function\" == typeof Symbol && \"symbol\" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && \"function\" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? \"symbol\" : typeof o; }, _typeof(o); }\nfunction ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }\nfunction _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), true).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }\nfunction _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: true, configurable: true, writable: true }) : e[r] = t, e; }\nfunction _toPropertyKey(t) { var i = _toPrimitive(t, \"string\"); return \"symbol\" == _typeof(i) ? i : i + \"\"; }\nfunction _toPrimitive(t, r) { if (\"object\" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r); if (\"object\" != _typeof(i)) return i; throw new TypeError(\"@@toPrimitive must return a primitive value.\"); } return (\"string\" === r ? String : Number)(t); }\nvar script = {\n  name: 'BaseIcon',\n  \"extends\": BaseComponent,\n  props: {\n    label: {\n      type: String,\n      \"default\": undefined\n    },\n    spin: {\n      type: Boolean,\n      \"default\": false\n    }\n  },\n  style: BaseIconStyle,\n  provide: function provide() {\n    return {\n      $pcIcon: this,\n      $parentInstance: this\n    };\n  },\n  methods: {\n    pti: function pti() {\n      var isLabelEmpty = isEmpty(this.label);\n      return _objectSpread(_objectSpread({}, !this.isUnstyled && {\n        \"class\": ['p-icon', {\n          'p-icon-spin': this.spin\n        }]\n      }), {}, {\n        role: !isLabelEmpty ? 'img' : undefined,\n        'aria-label': !isLabelEmpty ? this.label : undefined,\n        'aria-hidden': isLabelEmpty\n      });\n    }\n  }\n};\n\nexport { script as default };\n//# sourceMappingURL=index.mjs.map\n",
+      "start": 1750971640254,
+      "end": 1750971640273,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640273,
+      "end": 1750971640273,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971640273,
+      "end": 1750971640273,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640273,
+      "end": 1750971640273,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971640273,
+      "end": 1750971640273,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640273,
+      "end": 1750971640273,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640273,
+      "end": 1750971640273,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640273,
+      "end": 1750971640273,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640273,
+      "end": 1750971640273,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640273,
+      "end": 1750971640273,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640273,
+      "end": 1750971640273,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "start": 1750971640273,
+      "end": 1750971640273,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640273,
+      "end": 1750971640273,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640273,
+      "end": 1750971640273,
+      "order": "normal"
+    }
+  ]
+}

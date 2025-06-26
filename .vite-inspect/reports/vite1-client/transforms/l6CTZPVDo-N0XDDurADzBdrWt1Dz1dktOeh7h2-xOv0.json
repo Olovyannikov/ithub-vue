@@ -1,0 +1,90 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+utils@0.5.3/node_modules/@primeuix/utils/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "// src/index.ts\nexport * from \"@primeuix/utils/classnames\";\nexport * from \"@primeuix/utils/dom\";\nexport * from \"@primeuix/utils/eventbus\";\nexport * from \"@primeuix/utils/mergeprops\";\nexport * from \"@primeuix/utils/object\";\nexport * from \"@primeuix/utils/uuid\";\nexport * from \"@primeuix/utils/zindex\";\n//# sourceMappingURL=index.mjs.map",
+      "start": 1750971639851,
+      "end": 1750971639859,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971639859,
+      "end": 1750971639859,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971639859,
+      "end": 1750971639859,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971639859,
+      "end": 1750971639859,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971639860,
+      "end": 1750971639860,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971639860,
+      "end": 1750971639860,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971639860,
+      "end": 1750971639860,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971639860,
+      "end": 1750971639860,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971639860,
+      "end": 1750971639860,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971639860,
+      "end": 1750971639860,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971639860,
+      "end": 1750971639860,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "start": 1750971639860,
+      "end": 1750971639860,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971639860,
+      "end": 1750971639860,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971639860,
+      "end": 1750971639860,
+      "order": "normal"
+    }
+  ]
+}

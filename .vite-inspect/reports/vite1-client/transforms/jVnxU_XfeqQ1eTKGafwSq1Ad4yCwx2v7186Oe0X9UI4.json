@@ -1,0 +1,106 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/RedirectToShopPage/RedirectToShopPage.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\n    <Button variant=\"outlined\" href=\"/shop\"> Shop Now </Button>\n</template>\n",
+      "start": 1750971640303,
+      "end": 1750971640316,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640316,
+      "end": 1750971640316,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971640316,
+      "end": 1750971640316,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640316,
+      "end": 1750971640316,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {  }\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_Button = _resolveComponent(\"Button\")\n\n  return (_openBlock(), _createBlock(_component_Button, {\n    variant: \"outlined\",\n    href: \"/shop\"\n  }, {\n    default: _withCtx(() => _cache[0] || (_cache[0] = [\n      _createTextVNode(\" Shop Now \")\n    ])),\n    _: 1,\n    __: [0]\n  }))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1750971640316,
+      "end": 1750971640317,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640317,
+      "end": 1750971640317,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640317,
+      "end": 1750971640317,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640317,
+      "end": 1750971640317,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640317,
+      "end": 1750971640317,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640317,
+      "end": 1750971640317,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640317,
+      "end": 1750971640317,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */import __unplugin_components_0 from 'primevue/button';\nconst _sfc_main = {  }\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_Button = __unplugin_components_0\n\n  return (_openBlock(), _createBlock(_component_Button, {\n    variant: \"outlined\",\n    href: \"/shop\"\n  }, {\n    default: _withCtx(() => _cache[0] || (_cache[0] = [\n      _createTextVNode(\" Shop Now \")\n    ])),\n    _: 1,\n    __: [0]\n  }))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1750971640317,
+      "end": 1750971640317,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/RedirectToShopPage/RedirectToShopPage.vue"
+        ],
+        "sourcesContent": [
+          "const _sfc_main = {  }\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_Button = _resolveComponent(\"Button\")\n\n  return (_openBlock(), _createBlock(_component_Button, {\n    variant: \"outlined\",\n    href: \"/shop\"\n  }, {\n    default: _withCtx(() => _cache[0] || (_cache[0] = [\n      _createTextVNode(\" Shop Now \")\n    ])),\n    _: 1,\n    __: [0]\n  }))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])"
+        ],
+        "names": [],
+        "mappings": ";AAAA,KAAK,CAAC,SAAS,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACrB,MAAM,CAAC,CAAC,CAAC,eAAe,CAAC,EAAE,CAAC,gBAAgB,CAAC,CAAC,gBAAgB,CAAC,EAAE,CAAC,iBAAiB,CAAC,CAAC,OAAO,CAAC,EAAE,CAAC,QAAQ,CAAC,CAAC,SAAS,CAAC,EAAE,CAAC,UAAU,CAAC,CAAC,WAAW,CAAC,EAAE,CAAC,YAAY,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,GAAG;;AAE1K,QAAQ,CAAC,WAAW,CAAC,IAAI,CAAC,CAAC,MAAM,CAAC,CAAC;AACnC,CAAC,CAAC,KAAK,CAAC,iBAAiB,CAAC,CAAC,CAAC;;AAE5B,CAAC,CAAC,MAAM,CAAC,CAAC,UAAU,CAAC,CAAC,CAAC,CAAC,YAAY,CAAC,iBAAiB,CAAC,CAAC;AACxD,CAAC,CAAC,CAAC,CAAC,OAAO,CAAC,CAAC,CAAC,QAAQ,CAAC;AACvB,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,CAAC,IAAI;AAChB,CAAC,CAAC,CAAC,CAAC,CAAC;AACL,CAAC,CAAC,CAAC,CAAC,OAAO,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,MAAM,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,MAAM,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,gBAAgB,CAAC,CAAC,CAAC,IAAI,CAAC,GAAG,CAAC,CAAC;AACnC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACR,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;AACV,CAAC,CAAC,CAAC,CAAC;AACJ;;;AAGA,MAAM,CAAC,WAAW,CAAC,IAAI,CAAC,CAAC,CAAC,MAAM,CAAC,GAAG,CAAC,MAAM,CAAC,MAAM;AAClD,MAAM,CAAC,OAAO,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,CAAC,WAAW,CAAC,SAAS,CAAC,CAAC,CAAC,CAAC,CAAC,MAAM,CAAC,CAAC,WAAW,CAAC,CAAC"
+      }
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640317,
+      "end": 1750971640317,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640317,
+      "end": 1750971640317,
+      "order": "normal"
+    }
+  ]
+}

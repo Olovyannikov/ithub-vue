@@ -1,0 +1,90 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/ripple/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "var r={light:{root:{background:\"rgba(0,0,0,0.1)\"}},dark:{root:{background:\"rgba(255,255,255,0.3)\"}}},o={colorScheme:r};export{r as colorScheme,o as default};//# sourceMappingURL=index.mjs.map",
+      "start": 1750971639832,
+      "end": 1750971639837,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971639837,
+      "end": 1750971639837,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971639837,
+      "end": 1750971639837,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971639837,
+      "end": 1750971639837,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971639837,
+      "end": 1750971639837,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971639837,
+      "end": 1750971639837,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971639837,
+      "end": 1750971639837,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971639837,
+      "end": 1750971639837,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971639837,
+      "end": 1750971639837,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971639837,
+      "end": 1750971639837,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971639837,
+      "end": 1750971639837,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "start": 1750971639837,
+      "end": 1750971639837,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971639837,
+      "end": 1750971639837,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971639837,
+      "end": 1750971639837,
+      "order": "normal"
+    }
+  ]
+}

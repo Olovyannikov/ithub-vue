@@ -1,0 +1,106 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/MainProducts.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<script setup lang=\"ts\">\nimport { MainContainer } from '@/shared/ui';\n\nimport { BestsellersProducts, FeaturedProducts, NewArrivals } from './ui';\n</script>\n<template>\n    <section class=\"root\">\n        <MainContainer>\n            <Tabs value=\"new\">\n                <TabList>\n                    <Tab class=\"text-black\" value=\"new\">New Arrival</Tab>\n                    <Tab class=\"text-black\" value=\"best\">Bestseller</Tab>\n                    <Tab class=\"text-black\" value=\"featured\">Featured Products</Tab>\n                </TabList>\n                <TabPanels>\n                    <TabPanel value=\"new\"><NewArrivals /></TabPanel>\n                    <TabPanel value=\"best\"><BestsellersProducts /></TabPanel>\n                    <TabPanel value=\"featured\"><FeaturedProducts /></TabPanel>\n                </TabPanels>\n            </Tabs>\n        </MainContainer>\n    </section>\n</template>\n<style scoped>\n.root {\n    --p-tabs-active-bar-background: #000;\n    --p-tabs-active-bar-height: 2px;\n    --p-tabs-tab-border-width: 0;\n    --p-tabs-tabpanel-padding: 32px 0 0 0;\n\n    margin-bottom: 56px;\n}\n</style>\n",
+      "start": 1750971640055,
+      "end": 1750971640071,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640071,
+      "end": 1750971640071,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971640071,
+      "end": 1750971640071,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640071,
+      "end": 1750971640071,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/MainProducts.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/MainProducts.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/MainProducts.vue?vue&type=style&index=0&scoped=96fb042c&lang.css\";\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-96fb042c\"]]);\n",
+      "start": 1750971640071,
+      "end": 1750971640107,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640107,
+      "end": 1750971640107,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640107,
+      "end": 1750971640107,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640107,
+      "end": 1750971640107,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640107,
+      "end": 1750971640107,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640107,
+      "end": 1750971640107,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640107,
+      "end": 1750971640107,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */import _sfc_main from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/MainProducts.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/MainProducts.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/MainProducts.vue?vue&type=style&index=0&scoped=96fb042c&lang.css\";\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-96fb042c\"]]);\n",
+      "start": 1750971640107,
+      "end": 1750971640108,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/MainProducts.vue"
+        ],
+        "sourcesContent": [
+          "import _sfc_main from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/MainProducts.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/MainProducts.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/MainProducts.vue?vue&type=style&index=0&scoped=96fb042c&lang.css\";\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-96fb042c\"]]);\n"
+        ],
+        "names": [],
+        "mappings": "sCAAA,MAAM,CAAC,SAAS,CAAC,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,cAAc,CAAC,gBAAgB,CAAC,KAAK,CAAC,GAAG,CAAC,GAAG,CAAC,OAAO,CAAC,YAAY,CAAC,YAAY,CAAC,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,MAAM,CAAC,KAAK,CAAC,IAAI,CAAC,IAAI,CAAC,EAAE,CAAC;AACrJ,MAAM,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,cAAc,CAAC,gBAAgB,CAAC,KAAK,CAAC,GAAG,CAAC,GAAG,CAAC,OAAO,CAAC,YAAY,CAAC,YAAY,CAAC,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,MAAM,CAAC,KAAK,CAAC,IAAI,CAAC,IAAI,CAAC,EAAE,CAAC;AAC7I,MAAM,CAAC,CAAC,CAAC,KAAK,CAAC,cAAc,CAAC,gBAAgB,CAAC,KAAK,CAAC,GAAG,CAAC,GAAG,CAAC,OAAO,CAAC,YAAY,CAAC,YAAY,CAAC,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC,CAAC,MAAM,CAAC,QAAQ,CAAC,IAAI,CAAC,GAAG,CAAC;AACnJ,MAAM,CAAC,WAAW,CAAC,IAAI,CAAC,CAAC,CAAC,OAAO,CAAC,GAAG,CAAC,MAAM,CAAC,MAAM,CAAC;AACpD,MAAM,CAAC,OAAO,CAAC,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC,WAAW,CAAC,SAAS,CAAC,CAAC,CAAC,CAAC,CAAC,SAAS,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC;"
+      }
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640108,
+      "end": 1750971640108,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640108,
+      "end": 1750971640108,
+      "order": "normal"
+    }
+  ]
+}

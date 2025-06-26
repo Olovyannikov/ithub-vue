@@ -1,0 +1,107 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/SaleBanner/SaleBanner.vue?vue&type=style&index=0&scoped=ce55e173&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\n.banner {\n    position: relative;\n    overflow: hidden;\n    padding-top: 104px;\n    padding-bottom: 104px;\n    text-align: center;\n    color: #fff;\n    background: linear-gradient(100.23deg, #2e2e2e 42.36%, #000 98.65%);\n\n    h4 {\n        position: relative;\n        z-index: 1;\n        font-size: 48px;\n        line-height: 72px;\n\n        @media (width >= 768px) {\n            font-size: 72px;\n            line-height: 1;\n        }\n    }\n\n    p {\n        position: relative;\n        z-index: 1;\n        font-size: 16px;\n        line-height: 32px;\n        color: #787878;\n\n        @media (width >= 768px) {\n            br {\n                display: none;\n            }\n        }\n    }\n\n    @media (width >= 768px) {\n        padding-top: 160px;\n        padding-bottom: 90px;\n    }\n}\n\n.description {\n    position: relative;\n    z-index: 1;\n    margin-bottom: 40px;\n}\n\n.img {\n    position: absolute;\n    left: 0;\n    width: 100%;\n}\n\n.top,\n.bottom {\n    @media (width >= 768px) {\n        display: none;\n    }\n}\n\n.top {\n    top: 0;\n}\n\n.bottom {\n    bottom: 0;\n}\n\n.left,\n.right {\n    left: 0;\n    top: 0;\n    z-index: 0;\n    display: none;\n    max-width: 561px;\n\n    @media (width >= 768px) {\n        display: block;\n    }\n}\n\n.right {\n    left: unset;\n    right: 0;\n    max-width: 400px;\n}\n",
+      "start": 1750971640094,
+      "end": 1750971640094
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "result": "\n.banner {\n    position: relative;\n    overflow: hidden;\n    padding-top: 104px;\n    padding-bottom: 104px;\n    text-align: center;\n    color: #fff;\n    background: linear-gradient(100.23deg, #2e2e2e 42.36%, #000 98.65%);\n\n    h4 {\n        position: relative;\n        z-index: 1;\n        font-size: 48px;\n        line-height: 72px;\n\n        @media (width >= 768px) {\n            font-size: 72px;\n            line-height: 1;\n        }\n    }\n\n    p {\n        position: relative;\n        z-index: 1;\n        font-size: 16px;\n        line-height: 32px;\n        color: #787878;\n\n        @media (width >= 768px) {\n            br {\n                display: none;\n            }\n        }\n    }\n\n    @media (width >= 768px) {\n        padding-top: 160px;\n        padding-bottom: 90px;\n    }\n}\n\n.description {\n    position: relative;\n    z-index: 1;\n    margin-bottom: 40px;\n}\n\n.img {\n    position: absolute;\n    left: 0;\n    width: 100%;\n}\n\n.top,\n.bottom {\n    @media (width >= 768px) {\n        display: none;\n    }\n}\n\n.top {\n    top: 0;\n}\n\n.bottom {\n    bottom: 0;\n}\n\n.left,\n.right {\n    left: 0;\n    top: 0;\n    z-index: 0;\n    display: none;\n    max-width: 561px;\n\n    @media (width >= 768px) {\n        display: block;\n    }\n}\n\n.right {\n    left: unset;\n    right: 0;\n    max-width: 400px;\n}\n",
+      "start": 1750971640094,
+      "end": 1750971640095,
+      "order": "pre",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971640097,
+      "end": 1750971640097,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640097,
+      "end": 1750971640097,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "\n.banner {\n&[data-v-ce55e173] {\n    position: relative;\n    overflow: hidden;\n    padding-top: 104px;\n    padding-bottom: 104px;\n    text-align: center;\n    color: #fff;\n    background: linear-gradient(100.23deg, #2e2e2e 42.36%, #000 98.65%);\n}\nh4[data-v-ce55e173] {\n        position: relative;\n        z-index: 1;\n        font-size: 48px;\n        line-height: 72px;\n@media (width >= 768px) {\n            font-size: 72px;\n            line-height: 1;\n}\n}\np[data-v-ce55e173] {\n        position: relative;\n        z-index: 1;\n        font-size: 16px;\n        line-height: 32px;\n        color: #787878;\n@media (width >= 768px) {\nbr[data-v-ce55e173] {\n                display: none;\n}\n}\n}\n@media (width >= 768px) {\n&[data-v-ce55e173] {\n        padding-top: 160px;\n        padding-bottom: 90px;\n}\n}\n}\n.description[data-v-ce55e173] {\n    position: relative;\n    z-index: 1;\n    margin-bottom: 40px;\n}\n.img[data-v-ce55e173] {\n    position: absolute;\n    left: 0;\n    width: 100%;\n}\n.top[data-v-ce55e173],\n.bottom[data-v-ce55e173] {\n@media (width >= 768px) {\n        display: none;\n}\n}\n.top[data-v-ce55e173] {\n    top: 0;\n}\n.bottom[data-v-ce55e173] {\n    bottom: 0;\n}\n.left[data-v-ce55e173],\n.right[data-v-ce55e173] {\n    left: 0;\n    top: 0;\n    z-index: 0;\n    display: none;\n    max-width: 561px;\n@media (width >= 768px) {\n        display: block;\n}\n}\n.right[data-v-ce55e173] {\n    left: unset;\n    right: 0;\n    max-width: 400px;\n}\n",
+      "start": 1750971640097,
+      "end": 1750971640100,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640100,
+      "end": 1750971640100,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640101,
+      "end": 1750971640101,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640101,
+      "end": 1750971640101,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640101,
+      "end": 1750971640101,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640101,
+      "end": 1750971640101,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640101,
+      "end": 1750971640101,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */",
+      "start": 1750971640101,
+      "end": 1750971640101,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/SaleBanner/SaleBanner.vue?vue&type=style&index=0&scoped=ce55e173&lang.css"
+        ],
+        "sourcesContent": [
+          ""
+        ],
+        "names": [],
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640101,
+      "end": 1750971640101,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640101,
+      "end": 1750971640101,
+      "order": "normal"
+    }
+  ]
+}

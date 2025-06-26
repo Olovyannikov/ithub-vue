@@ -1,0 +1,92 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/vue@3.5.14_typescript@5.8.3/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/**\n* vue v3.5.14\n* (c) 2018-present Yuxi (Evan) You and Vue contributors\n* @license MIT\n**/\nimport { initCustomFormatter, warn } from '@vue/runtime-dom';\nexport * from '@vue/runtime-dom';\n\nfunction initDev() {\n  {\n    initCustomFormatter();\n  }\n}\n\nif (!!(process.env.NODE_ENV !== \"production\")) {\n  initDev();\n}\nconst compile = () => {\n  if (!!(process.env.NODE_ENV !== \"production\")) {\n    warn(\n      `Runtime compilation is not supported in this build of Vue.` + (` Configure your bundler to alias \"vue\" to \"vue/dist/vue.esm-bundler.js\".` )\n    );\n  }\n};\n\nexport { compile };\n",
+      "start": 1750971639740,
+      "end": 1750971639751,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971639751,
+      "end": 1750971639751,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971639751,
+      "end": 1750971639751,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971639751,
+      "end": 1750971639751,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971639751,
+      "end": 1750971639751,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "result": "/**\n* vue v3.5.14\n* (c) 2018-present Yuxi (Evan) You and Vue contributors\n* @license MIT\n**/\nimport { initCustomFormatter, warn } from \"@vue/runtime-dom\";\nexport * from \"@vue/runtime-dom\";\nfunction initDev() {\n  {\n    initCustomFormatter();\n  }\n}\nif (false) {\n  initDev();\n}\nconst compile = () => {\n  if (false) {\n    warn(\n      `Runtime compilation is not supported in this build of Vue. Configure your bundler to alias \"vue\" to \"vue/dist/vue.esm-bundler.js\".`\n    );\n  }\n};\nexport { compile };\n",
+      "start": 1750971639751,
+      "end": 1750971639777,
+      "order": "normal-normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971639777,
+      "end": 1750971639777,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971639777,
+      "end": 1750971639777,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971639777,
+      "end": 1750971639777,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971639778,
+      "end": 1750971639778,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971639778,
+      "end": 1750971639778,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "start": 1750971639778,
+      "end": 1750971639778,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971639778,
+      "end": 1750971639778,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971639778,
+      "end": 1750971639778,
+      "order": "normal"
+    }
+  ]
+}

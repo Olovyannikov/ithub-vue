@@ -1,0 +1,102 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/shared/api/index.ts",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { API } from './constants';\nimport { createRequestFx } from './create-request-fx';\n\nexport * from './constants';\nexport * from './methods';\n\nexport const createCommonRequestFx = createRequestFx({\n    baseURL: API.URL,\n});\n",
+      "start": 1750971640338,
+      "end": 1750971640354,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640354,
+      "end": 1750971640354,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { API } from \"./constants\";\nimport { createRequestFx } from \"./create-request-fx\";\nexport * from \"./constants\";\nexport * from \"./methods\";\nexport const createCommonRequestFx = createRequestFx({\n  baseURL: API.URL\n});\n",
+      "start": 1750971640354,
+      "end": 1750971640371,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/shared/api/index.ts"
+        ],
+        "sourcesContent": [
+          "import { API } from './constants';\nimport { createRequestFx } from './create-request-fx';\n\nexport * from './constants';\nexport * from './methods';\n\nexport const createCommonRequestFx = createRequestFx({\n    baseURL: API.URL,\n});\n"
+        ],
+        "mappings": "AAAA,SAAS,WAAW;AACpB,SAAS,uBAAuB;AAEhC,cAAc;AACd,cAAc;AAEP,aAAM,wBAAwB,gBAAgB;AAAA,EACjD,SAAS,IAAI;AACjB,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640371,
+      "end": 1750971640371,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971640371,
+      "end": 1750971640371,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640371,
+      "end": 1750971640371,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640371,
+      "end": 1750971640371,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640371,
+      "end": 1750971640371,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640371,
+      "end": 1750971640371,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640371,
+      "end": 1750971640371,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640371,
+      "end": 1750971640371,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "start": 1750971640371,
+      "end": 1750971640371,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640371,
+      "end": 1750971640371,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640371,
+      "end": 1750971640371,
+      "order": "normal"
+    }
+  ]
+}

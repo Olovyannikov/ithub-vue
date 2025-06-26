@@ -1,0 +1,90 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+core@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/core/config/index.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { ThemeService, Theme } from '@primeuix/styled';\nimport { mergeKeys } from '@primeuix/utils';\nimport { FilterMatchMode } from '@primevue/core/api';\nimport BaseStyle from '@primevue/core/base/style';\nimport PrimeVueService from '@primevue/core/service';\nimport { inject, reactive, ref, watch } from 'vue';\n\nfunction _typeof(o) { \"@babel/helpers - typeof\"; return _typeof = \"function\" == typeof Symbol && \"symbol\" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && \"function\" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? \"symbol\" : typeof o; }, _typeof(o); }\nfunction ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }\nfunction _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), true).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }\nfunction _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: true, configurable: true, writable: true }) : e[r] = t, e; }\nfunction _toPropertyKey(t) { var i = _toPrimitive(t, \"string\"); return \"symbol\" == _typeof(i) ? i : i + \"\"; }\nfunction _toPrimitive(t, r) { if (\"object\" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r); if (\"object\" != _typeof(i)) return i; throw new TypeError(\"@@toPrimitive must return a primitive value.\"); } return (\"string\" === r ? String : Number)(t); }\nvar defaultOptions = {\n  ripple: false,\n  inputStyle: null,\n  inputVariant: null,\n  locale: {\n    startsWith: 'Starts with',\n    contains: 'Contains',\n    notContains: 'Not contains',\n    endsWith: 'Ends with',\n    equals: 'Equals',\n    notEquals: 'Not equals',\n    noFilter: 'No Filter',\n    lt: 'Less than',\n    lte: 'Less than or equal to',\n    gt: 'Greater than',\n    gte: 'Greater than or equal to',\n    dateIs: 'Date is',\n    dateIsNot: 'Date is not',\n    dateBefore: 'Date is before',\n    dateAfter: 'Date is after',\n    clear: 'Clear',\n    apply: 'Apply',\n    matchAll: 'Match All',\n    matchAny: 'Match Any',\n    addRule: 'Add Rule',\n    removeRule: 'Remove Rule',\n    accept: 'Yes',\n    reject: 'No',\n    choose: 'Choose',\n    upload: 'Upload',\n    cancel: 'Cancel',\n    completed: 'Completed',\n    pending: 'Pending',\n    fileSizeTypes: ['B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'],\n    dayNames: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],\n    dayNamesShort: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],\n    dayNamesMin: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],\n    monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],\n    monthNamesShort: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],\n    chooseYear: 'Choose Year',\n    chooseMonth: 'Choose Month',\n    chooseDate: 'Choose Date',\n    prevDecade: 'Previous Decade',\n    nextDecade: 'Next Decade',\n    prevYear: 'Previous Year',\n    nextYear: 'Next Year',\n    prevMonth: 'Previous Month',\n    nextMonth: 'Next Month',\n    prevHour: 'Previous Hour',\n    nextHour: 'Next Hour',\n    prevMinute: 'Previous Minute',\n    nextMinute: 'Next Minute',\n    prevSecond: 'Previous Second',\n    nextSecond: 'Next Second',\n    am: 'am',\n    pm: 'pm',\n    today: 'Today',\n    weekHeader: 'Wk',\n    firstDayOfWeek: 0,\n    showMonthAfterYear: false,\n    dateFormat: 'mm/dd/yy',\n    weak: 'Weak',\n    medium: 'Medium',\n    strong: 'Strong',\n    passwordPrompt: 'Enter a password',\n    emptyFilterMessage: 'No results found',\n    searchMessage: '{0} results are available',\n    selectionMessage: '{0} items selected',\n    emptySelectionMessage: 'No selected item',\n    emptySearchMessage: 'No results found',\n    fileChosenMessage: '{0} files',\n    noFileChosenMessage: 'No file chosen',\n    emptyMessage: 'No available options',\n    aria: {\n      trueLabel: 'True',\n      falseLabel: 'False',\n      nullLabel: 'Not Selected',\n      star: '1 star',\n      stars: '{star} stars',\n      selectAll: 'All items selected',\n      unselectAll: 'All items unselected',\n      close: 'Close',\n      previous: 'Previous',\n      next: 'Next',\n      navigation: 'Navigation',\n      scrollTop: 'Scroll Top',\n      moveTop: 'Move Top',\n      moveUp: 'Move Up',\n      moveDown: 'Move Down',\n      moveBottom: 'Move Bottom',\n      moveToTarget: 'Move to Target',\n      moveToSource: 'Move to Source',\n      moveAllToTarget: 'Move All to Target',\n      moveAllToSource: 'Move All to Source',\n      pageLabel: 'Page {page}',\n      firstPageLabel: 'First Page',\n      lastPageLabel: 'Last Page',\n      nextPageLabel: 'Next Page',\n      prevPageLabel: 'Previous Page',\n      rowsPerPageLabel: 'Rows per page',\n      jumpToPageDropdownLabel: 'Jump to Page Dropdown',\n      jumpToPageInputLabel: 'Jump to Page Input',\n      selectRow: 'Row Selected',\n      unselectRow: 'Row Unselected',\n      expandRow: 'Row Expanded',\n      collapseRow: 'Row Collapsed',\n      showFilterMenu: 'Show Filter Menu',\n      hideFilterMenu: 'Hide Filter Menu',\n      filterOperator: 'Filter Operator',\n      filterConstraint: 'Filter Constraint',\n      editRow: 'Row Edit',\n      saveEdit: 'Save Edit',\n      cancelEdit: 'Cancel Edit',\n      listView: 'List View',\n      gridView: 'Grid View',\n      slide: 'Slide',\n      slideNumber: '{slideNumber}',\n      zoomImage: 'Zoom Image',\n      zoomIn: 'Zoom In',\n      zoomOut: 'Zoom Out',\n      rotateRight: 'Rotate Right',\n      rotateLeft: 'Rotate Left',\n      listLabel: 'Option List'\n    }\n  },\n  filterMatchModeOptions: {\n    text: [FilterMatchMode.STARTS_WITH, FilterMatchMode.CONTAINS, FilterMatchMode.NOT_CONTAINS, FilterMatchMode.ENDS_WITH, FilterMatchMode.EQUALS, FilterMatchMode.NOT_EQUALS],\n    numeric: [FilterMatchMode.EQUALS, FilterMatchMode.NOT_EQUALS, FilterMatchMode.LESS_THAN, FilterMatchMode.LESS_THAN_OR_EQUAL_TO, FilterMatchMode.GREATER_THAN, FilterMatchMode.GREATER_THAN_OR_EQUAL_TO],\n    date: [FilterMatchMode.DATE_IS, FilterMatchMode.DATE_IS_NOT, FilterMatchMode.DATE_BEFORE, FilterMatchMode.DATE_AFTER]\n  },\n  zIndex: {\n    modal: 1100,\n    overlay: 1000,\n    menu: 1000,\n    tooltip: 1100\n  },\n  theme: undefined,\n  unstyled: false,\n  pt: undefined,\n  ptOptions: {\n    mergeSections: true,\n    mergeProps: false\n  },\n  csp: {\n    nonce: undefined\n  }\n};\nvar PrimeVueSymbol = Symbol();\nfunction usePrimeVue() {\n  var PrimeVue = inject(PrimeVueSymbol);\n  if (!PrimeVue) {\n    throw new Error('PrimeVue is not installed!');\n  }\n  return PrimeVue;\n}\nfunction setup(app, options) {\n  var PrimeVue = {\n    config: reactive(options)\n  };\n  app.config.globalProperties.$primevue = PrimeVue;\n  app.provide(PrimeVueSymbol, PrimeVue);\n  clearConfig();\n  setupConfig(app, PrimeVue);\n  return PrimeVue;\n}\nvar stopWatchers = [];\nfunction clearConfig() {\n  ThemeService.clear();\n  stopWatchers.forEach(function (fn) {\n    return fn === null || fn === void 0 ? void 0 : fn();\n  });\n  stopWatchers = [];\n}\nfunction setupConfig(app, PrimeVue) {\n  var isThemeChanged = ref(false);\n\n  /*** Methods and Services ***/\n  var loadCommonTheme = function loadCommonTheme() {\n    var _PrimeVue$config;\n    if (((_PrimeVue$config = PrimeVue.config) === null || _PrimeVue$config === void 0 ? void 0 : _PrimeVue$config.theme) === 'none') return;\n\n    // common\n    if (!Theme.isStyleNameLoaded('common')) {\n      var _BaseStyle$getCommonT, _PrimeVue$config2;\n      var _ref = ((_BaseStyle$getCommonT = BaseStyle.getCommonTheme) === null || _BaseStyle$getCommonT === void 0 ? void 0 : _BaseStyle$getCommonT.call(BaseStyle)) || {},\n        primitive = _ref.primitive,\n        semantic = _ref.semantic,\n        global = _ref.global,\n        style = _ref.style;\n      var styleOptions = {\n        nonce: (_PrimeVue$config2 = PrimeVue.config) === null || _PrimeVue$config2 === void 0 || (_PrimeVue$config2 = _PrimeVue$config2.csp) === null || _PrimeVue$config2 === void 0 ? void 0 : _PrimeVue$config2.nonce\n      };\n      BaseStyle.load(primitive === null || primitive === void 0 ? void 0 : primitive.css, _objectSpread({\n        name: 'primitive-variables'\n      }, styleOptions));\n      BaseStyle.load(semantic === null || semantic === void 0 ? void 0 : semantic.css, _objectSpread({\n        name: 'semantic-variables'\n      }, styleOptions));\n      BaseStyle.load(global === null || global === void 0 ? void 0 : global.css, _objectSpread({\n        name: 'global-variables'\n      }, styleOptions));\n      BaseStyle.loadStyle(_objectSpread({\n        name: 'global-style'\n      }, styleOptions), style);\n      Theme.setLoadedStyleName('common');\n    }\n  };\n  ThemeService.on('theme:change', function (newTheme) {\n    if (!isThemeChanged.value) {\n      app.config.globalProperties.$primevue.config.theme = newTheme;\n      isThemeChanged.value = true;\n    }\n  });\n\n  /*** Watchers ***/\n  var stopConfigWatcher = watch(PrimeVue.config, function (newValue, oldValue) {\n    PrimeVueService.emit('config:change', {\n      newValue: newValue,\n      oldValue: oldValue\n    });\n  }, {\n    immediate: true,\n    deep: true\n  });\n  var stopRippleWatcher = watch(function () {\n    return PrimeVue.config.ripple;\n  }, function (newValue, oldValue) {\n    PrimeVueService.emit('config:ripple:change', {\n      newValue: newValue,\n      oldValue: oldValue\n    });\n  }, {\n    immediate: true,\n    deep: true\n  });\n  var stopThemeWatcher = watch(function () {\n    return PrimeVue.config.theme;\n  }, function (newValue, oldValue) {\n    if (!isThemeChanged.value) {\n      Theme.setTheme(newValue);\n    }\n    if (!PrimeVue.config.unstyled) {\n      loadCommonTheme();\n    }\n    isThemeChanged.value = false;\n    PrimeVueService.emit('config:theme:change', {\n      newValue: newValue,\n      oldValue: oldValue\n    });\n  }, {\n    immediate: true,\n    deep: false\n  });\n  var stopUnstyledWatcher = watch(function () {\n    return PrimeVue.config.unstyled;\n  }, function (newValue, oldValue) {\n    if (!newValue && PrimeVue.config.theme) {\n      loadCommonTheme();\n    }\n    PrimeVueService.emit('config:unstyled:change', {\n      newValue: newValue,\n      oldValue: oldValue\n    });\n  }, {\n    immediate: true,\n    deep: true\n  });\n  stopWatchers.push(stopConfigWatcher);\n  stopWatchers.push(stopRippleWatcher);\n  stopWatchers.push(stopThemeWatcher);\n  stopWatchers.push(stopUnstyledWatcher);\n}\nvar PrimeVue = {\n  install: function install(app, options) {\n    var configOptions = mergeKeys(defaultOptions, options);\n    setup(app, configOptions);\n  }\n};\n\nexport { clearConfig, PrimeVue as default, defaultOptions, setup, setupConfig, usePrimeVue };\n//# sourceMappingURL=index.mjs.map\n",
+      "start": 1750971639839,
+      "end": 1750971639845,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971639845,
+      "end": 1750971639845,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971639845,
+      "end": 1750971639845,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971639845,
+      "end": 1750971639845,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971639845,
+      "end": 1750971639845,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971639845,
+      "end": 1750971639845,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971639845,
+      "end": 1750971639845,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971639845,
+      "end": 1750971639845,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971639845,
+      "end": 1750971639845,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971639845,
+      "end": 1750971639845,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971639845,
+      "end": 1750971639845,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "start": 1750971639845,
+      "end": 1750971639845,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971639845,
+      "end": 1750971639845,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971639845,
+      "end": 1750971639845,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/MainBanners.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, normalizeClass as _normalizeClass, createBlock as _createBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"banners\" }\n\nimport { isLargeScreen } from '@/shared/lib';\n\nimport { BANNERS } from './const';\nimport { BannerWrapper } from './ui';\n\nexport default /*@__PURE__*/_defineComponent({\n  __name: 'MainBanners',\n  setup(__props) {\n\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(BANNERS), (banner) => {\n      return (_openBlock(), _createBlock(_unref(BannerWrapper), {\n        key: banner.id,\n        width: _unref(isLargeScreen) && banner.widthLarge ? banner.widthLarge : banner.width,\n        class: _normalizeClass(`item item-${banner.id} ${banner.className}`),\n        title: banner.title,\n        img: banner.img,\n        description: banner.description,\n        \"is-last\": banner.id === _unref(BANNERS)[_unref(BANNERS).length - 1].id\n      }, null, 8, [\"width\", \"class\", \"title\", \"img\", \"description\", \"is-last\"]))\n    }), 128))\n  ]))\n}\n}\n\n})",
+      "start": 1750971640119,
+      "end": 1750971640119
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640119,
+      "end": 1750971640119,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, normalizeClass as _normalizeClass, createBlock as _createBlock } from \"vue\";\nconst _hoisted_1 = { class: \"banners\" };\nimport { isLargeScreen } from \"@/shared/lib\";\nimport { BANNERS } from \"./const\";\nimport { BannerWrapper } from \"./ui\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"MainBanners\",\n  setup(__props) {\n    return (_ctx, _cache) => {\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(BANNERS), (banner) => {\n          return _openBlock(), _createBlock(_unref(BannerWrapper), {\n            key: banner.id,\n            width: _unref(isLargeScreen) && banner.widthLarge ? banner.widthLarge : banner.width,\n            class: _normalizeClass(`item item-${banner.id} ${banner.className}`),\n            title: banner.title,\n            img: banner.img,\n            description: banner.description,\n            \"is-last\": banner.id === _unref(BANNERS)[_unref(BANNERS).length - 1].id\n          }, null, 8, [\"width\", \"class\", \"title\", \"img\", \"description\", \"is-last\"]);\n        }), 128))\n      ]);\n    };\n  }\n});\n",
+      "start": 1750971640120,
+      "end": 1750971640265,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/MainBanners.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, normalizeClass as _normalizeClass, createBlock as _createBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"banners\" }\n\nimport { isLargeScreen } from '@/shared/lib';\n\nimport { BANNERS } from './const';\nimport { BannerWrapper } from './ui';\n\nexport default /*@__PURE__*/_defineComponent({\n  __name: 'MainBanners',\n  setup(__props) {\n\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(BANNERS), (banner) => {\n      return (_openBlock(), _createBlock(_unref(BannerWrapper), {\n        key: banner.id,\n        width: _unref(isLargeScreen) && banner.widthLarge ? banner.widthLarge : banner.width,\n        class: _normalizeClass(`item item-${banner.id} ${banner.className}`),\n        title: banner.title,\n        img: banner.img,\n        description: banner.description,\n        \"is-last\": banner.id === _unref(BANNERS)[_unref(BANNERS).length - 1].id\n      }, null, 8, [\"width\", \"class\", \"title\", \"img\", \"description\", \"is-last\"]))\n    }), 128))\n  ]))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,SAAS,QAAQ,cAAc,aAAa,YAAY,WAAW,aAAa,YAAY,sBAAsB,qBAAqB,kBAAkB,iBAAiB,eAAe,oBAAoB;AAEtN,MAAM,aAAa,EAAE,OAAO,UAAU;AAEtC,SAAS,qBAAqB;AAE9B,SAAS,eAAe;AACxB,SAAS,qBAAqB;AAE9B,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,MAAM,SAAS;AAGjB,WAAO,CAAC,MAAU,WAAgB;AAChC,aAAQ,WAAW,GAAG,oBAAoB,OAAO,YAAY;AAAA,SAC1D,WAAW,IAAI,GAAG,oBAAoB,WAAW,MAAM,YAAY,OAAO,OAAO,GAAG,CAAC,WAAW;AAC/F,iBAAQ,WAAW,GAAG,aAAa,OAAO,aAAa,GAAG;AAAA,YACxD,KAAK,OAAO;AAAA,YACZ,OAAO,OAAO,aAAa,KAAK,OAAO,aAAa,OAAO,aAAa,OAAO;AAAA,YAC/E,OAAO,gBAAgB,aAAa,OAAO,EAAE,IAAI,OAAO,SAAS,EAAE;AAAA,YACnE,OAAO,OAAO;AAAA,YACd,KAAK,OAAO;AAAA,YACZ,aAAa,OAAO;AAAA,YACpB,WAAW,OAAO,OAAO,OAAO,OAAO,EAAE,OAAO,OAAO,EAAE,SAAS,CAAC,EAAE;AAAA,UACvE,GAAG,MAAM,GAAG,CAAC,SAAS,SAAS,SAAS,OAAO,eAAe,SAAS,CAAC;AAAA,QAC1E,CAAC,GAAG,GAAG;AAAA,MACT,CAAC;AAAA,IACH;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640265,
+      "end": 1750971640265,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971640265,
+      "end": 1750971640265,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640265,
+      "end": 1750971640265,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640265,
+      "end": 1750971640265,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640265,
+      "end": 1750971640265,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640265,
+      "end": 1750971640265,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640265,
+      "end": 1750971640265,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640265,
+      "end": 1750971640265,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, normalizeClass as _normalizeClass, createBlock as _createBlock } from \"vue\";\nconst _hoisted_1 = { class: \"banners\" };\nimport { isLargeScreen } from \"@/shared/lib\";\nimport { BANNERS } from \"./const\";\nimport { BannerWrapper } from \"./ui\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"MainBanners\",\n  setup(__props) {\n    return (_ctx, _cache) => {\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(BANNERS), (banner) => {\n          return _openBlock(), _createBlock(_unref(BannerWrapper), {\n            key: banner.id,\n            width: _unref(isLargeScreen) && banner.widthLarge ? banner.widthLarge : banner.width,\n            class: _normalizeClass(`item item-${banner.id} ${banner.className}`),\n            title: banner.title,\n            img: banner.img,\n            description: banner.description,\n            \"is-last\": banner.id === _unref(BANNERS)[_unref(BANNERS).length - 1].id\n          }, null, 8, [\"width\", \"class\", \"title\", \"img\", \"description\", \"is-last\"]);\n        }), 128))\n      ]);\n    };\n  }\n});\n",
+      "start": 1750971640265,
+      "end": 1750971640265,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/MainBanners.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, normalizeClass as _normalizeClass, createBlock as _createBlock } from \"vue\";\nconst _hoisted_1 = { class: \"banners\" };\nimport { isLargeScreen } from \"@/shared/lib\";\nimport { BANNERS } from \"./const\";\nimport { BannerWrapper } from \"./ui\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"MainBanners\",\n  setup(__props) {\n    return (_ctx, _cache) => {\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(BANNERS), (banner) => {\n          return _openBlock(), _createBlock(_unref(BannerWrapper), {\n            key: banner.id,\n            width: _unref(isLargeScreen) && banner.widthLarge ? banner.widthLarge : banner.width,\n            class: _normalizeClass(`item item-${banner.id} ${banner.className}`),\n            title: banner.title,\n            img: banner.img,\n            description: banner.description,\n            \"is-last\": banner.id === _unref(BANNERS)[_unref(BANNERS).length - 1].id\n          }, null, 8, [\"width\", \"class\", \"title\", \"img\", \"description\", \"is-last\"]);\n        }), 128))\n      ]);\n    };\n  }\n});\n"
+        ],
+        "names": [],
+        "mappings": "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"
+      }
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640265,
+      "end": 1750971640265,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640265,
+      "end": 1750971640265,
+      "order": "normal"
+    }
+  ]
+}

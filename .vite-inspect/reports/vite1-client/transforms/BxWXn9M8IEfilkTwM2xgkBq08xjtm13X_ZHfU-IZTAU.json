@@ -1,0 +1,107 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/DiscountItems/DicsountItems.vue?vue&type=style&index=0&scoped=23f33962&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\n.root {\n    margin-bottom: 56px;\n}\n\n.title {\n    margin-bottom: 32px;\n    font-size: 24px;\n    line-height: 32px;\n    text-align: left;\n}\n",
+      "start": 1750971640108,
+      "end": 1750971640108
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "result": "\n.root {\n    margin-bottom: 56px;\n}\n\n.title {\n    margin-bottom: 32px;\n    font-size: 24px;\n    line-height: 32px;\n    text-align: left;\n}\n",
+      "start": 1750971640108,
+      "end": 1750971640111,
+      "order": "pre",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971640111,
+      "end": 1750971640111,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640111,
+      "end": 1750971640111,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "\n.root[data-v-23f33962] {\n    margin-bottom: 56px;\n}\n.title[data-v-23f33962] {\n    margin-bottom: 32px;\n    font-size: 24px;\n    line-height: 32px;\n    text-align: left;\n}\n",
+      "start": 1750971640111,
+      "end": 1750971640111,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640111,
+      "end": 1750971640111,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640111,
+      "end": 1750971640111,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640111,
+      "end": 1750971640111,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640111,
+      "end": 1750971640111,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640112,
+      "end": 1750971640112,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640112,
+      "end": 1750971640112,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */",
+      "start": 1750971640112,
+      "end": 1750971640112,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/DiscountItems/DicsountItems.vue?vue&type=style&index=0&scoped=23f33962&lang.css"
+        ],
+        "sourcesContent": [
+          ""
+        ],
+        "names": [],
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640112,
+      "end": 1750971640112,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640112,
+      "end": 1750971640112,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,1 +1,8222 @@
-[]
+[
+  {
+    "id": "\u0000plugin-vue:export-helper",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 1,
+    "sourceSize": 155,
+    "distSize": 155
+  },
+  {
+    "id": "\u0000vite/modulepreload-polyfill.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:modulepreload-polyfill",
+        "transform": 0
+      },
+      {
+        "name": "vite:modulepreload-polyfill",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 1,
+    "sourceSize": 1280,
+    "distSize": 1280
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/index.html",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 2
+      },
+      {
+        "name": "vite:build-html",
+        "transform": 24
+      }
+    ],
+    "virtual": false,
+    "totalTime": 26,
+    "invokeCount": 1,
+    "sourceSize": 362,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@farfetched+core@0.13.1_effector@23.3.0/node_modules/@farfetched/core/dist/core.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 16
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 16,
+    "invokeCount": 1,
+    "sourceSize": 62246,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@fontsource+abel@5.2.6/node_modules/@fontsource/abel/index.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 33
+      },
+      {
+        "name": "@tailwindcss/vite:generate:build",
+        "transform": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 34,
+    "invokeCount": 1,
+    "sourceSize": 421,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+styled@0.6.3/node_modules/@primeuix/styled/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 9
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 9,
+    "invokeCount": 1,
+    "sourceSize": 36179,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+styles@1.1.1/node_modules/@primeuix/styles/autocomplete/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 9776,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+styles@1.1.1/node_modules/@primeuix/styles/badge/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 11,
+    "invokeCount": 1,
+    "sourceSize": 2021,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+styles@1.1.1/node_modules/@primeuix/styles/base/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 13
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 13,
+    "invokeCount": 1,
+    "sourceSize": 2804,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+styles@1.1.1/node_modules/@primeuix/styles/button/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 11,
+    "invokeCount": 1,
+    "sourceSize": 21312,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+styles@1.1.1/node_modules/@primeuix/styles/buttongroup/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 1,
+    "invokeCount": 1,
+    "sourceSize": 836,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+styles@1.1.1/node_modules/@primeuix/styles/chip/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 3
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 3,
+    "invokeCount": 1,
+    "sourceSize": 1811,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+styles@1.1.1/node_modules/@primeuix/styles/iconfield/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 7
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 7,
+    "invokeCount": 1,
+    "sourceSize": 1472,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+styles@1.1.1/node_modules/@primeuix/styles/image/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 13
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 13,
+    "invokeCount": 1,
+    "sourceSize": 3775,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+styles@1.1.1/node_modules/@primeuix/styles/inputtext/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 2577,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+styles@1.1.1/node_modules/@primeuix/styles/menubar/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 4
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 4,
+    "invokeCount": 1,
+    "sourceSize": 8215,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+styles@1.1.1/node_modules/@primeuix/styles/overlaybadge/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 13
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 13,
+    "invokeCount": 1,
+    "sourceSize": 607,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+styles@1.1.1/node_modules/@primeuix/styles/progressspinner/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 19
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 19,
+    "invokeCount": 1,
+    "sourceSize": 1842,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+styles@1.1.1/node_modules/@primeuix/styles/ripple/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 11,
+    "invokeCount": 1,
+    "sourceSize": 484,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+styles@1.1.1/node_modules/@primeuix/styles/tabs/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 10
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 10,
+    "invokeCount": 1,
+    "sourceSize": 4655,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+styles@1.1.1/node_modules/@primeuix/styles/virtualscroller/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 2
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 2,
+    "invokeCount": 1,
+    "sourceSize": 474,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/accordion/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 39
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 8
+      }
+    ],
+    "virtual": false,
+    "totalTime": 39,
+    "invokeCount": 1,
+    "sourceSize": 1162,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/autocomplete/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 40
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 8
+      }
+    ],
+    "virtual": false,
+    "totalTime": 40,
+    "invokeCount": 1,
+    "sourceSize": 3116,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/avatar/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 40
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 8
+      }
+    ],
+    "virtual": false,
+    "totalTime": 40,
+    "invokeCount": 1,
+    "sourceSize": 545,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/badge/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 40
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 7
+      }
+    ],
+    "virtual": false,
+    "totalTime": 40,
+    "invokeCount": 1,
+    "sourceSize": 1298,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/base/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 42
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 7
+      }
+    ],
+    "virtual": false,
+    "totalTime": 42,
+    "invokeCount": 1,
+    "sourceSize": 10670,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/blockui/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 41
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 7
+      }
+    ],
+    "virtual": false,
+    "totalTime": 41,
+    "invokeCount": 1,
+    "sourceSize": 123,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/breadcrumb/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 41
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 7
+      }
+    ],
+    "virtual": false,
+    "totalTime": 41,
+    "invokeCount": 1,
+    "sourceSize": 641,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/button/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 42
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 7
+      }
+    ],
+    "virtual": false,
+    "totalTime": 42,
+    "invokeCount": 1,
+    "sourceSize": 10783,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/card/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 41
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 7
+      }
+    ],
+    "virtual": false,
+    "totalTime": 41,
+    "invokeCount": 1,
+    "sourceSize": 458,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/carousel/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 41
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 7
+      }
+    ],
+    "virtual": false,
+    "totalTime": 41,
+    "invokeCount": 1,
+    "sourceSize": 747,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/cascadeselect/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 41
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 7
+      }
+    ],
+    "virtual": false,
+    "totalTime": 41,
+    "invokeCount": 1,
+    "sourceSize": 2343,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/checkbox/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 42
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 6
+      }
+    ],
+    "virtual": false,
+    "totalTime": 42,
+    "invokeCount": 1,
+    "sourceSize": 1280,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/chip/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 42
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 6
+      }
+    ],
+    "virtual": false,
+    "totalTime": 42,
+    "invokeCount": 1,
+    "sourceSize": 771,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/colorpicker/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 42
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 6
+      }
+    ],
+    "virtual": false,
+    "totalTime": 42,
+    "invokeCount": 1,
+    "sourceSize": 715,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/confirmdialog/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 43
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 6
+      }
+    ],
+    "virtual": false,
+    "totalTime": 43,
+    "invokeCount": 1,
+    "sourceSize": 164,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/confirmpopup/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 42
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 6
+      }
+    ],
+    "virtual": false,
+    "totalTime": 42,
+    "invokeCount": 1,
+    "sourceSize": 589,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/contextmenu/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 43
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 6
+      }
+    ],
+    "virtual": false,
+    "totalTime": 43,
+    "invokeCount": 1,
+    "sourceSize": 1217,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/datatable/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 43
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 6
+      }
+    ],
+    "virtual": false,
+    "totalTime": 43,
+    "invokeCount": 1,
+    "sourceSize": 4303,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/dataview/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 34
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 6
+      }
+    ],
+    "virtual": false,
+    "totalTime": 34,
+    "invokeCount": 1,
+    "sourceSize": 881,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/datepicker/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 33
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 6
+      }
+    ],
+    "virtual": false,
+    "totalTime": 33,
+    "invokeCount": 1,
+    "sourceSize": 3157,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/dialog/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 17
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 6
+      }
+    ],
+    "virtual": false,
+    "totalTime": 17,
+    "invokeCount": 1,
+    "sourceSize": 638,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/divider/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 18
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 6
+      }
+    ],
+    "virtual": false,
+    "totalTime": 18,
+    "invokeCount": 1,
+    "sourceSize": 391,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/dock/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 18
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 6
+      }
+    ],
+    "virtual": false,
+    "totalTime": 18,
+    "invokeCount": 1,
+    "sourceSize": 452,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/drawer/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 17
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 6
+      }
+    ],
+    "virtual": false,
+    "totalTime": 17,
+    "invokeCount": 1,
+    "sourceSize": 516,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/editor/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 17
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 6
+      }
+    ],
+    "virtual": false,
+    "totalTime": 17,
+    "invokeCount": 1,
+    "sourceSize": 956,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/fieldset/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 18
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 6
+      }
+    ],
+    "virtual": false,
+    "totalTime": 18,
+    "invokeCount": 1,
+    "sourceSize": 889,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/fileupload/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 18
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 6
+      }
+    ],
+    "virtual": false,
+    "totalTime": 18,
+    "invokeCount": 1,
+    "sourceSize": 767,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/floatlabel/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 18
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 6
+      }
+    ],
+    "virtual": false,
+    "totalTime": 18,
+    "invokeCount": 1,
+    "sourceSize": 726,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/galleria/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 18
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 6
+      }
+    ],
+    "virtual": false,
+    "totalTime": 18,
+    "invokeCount": 1,
+    "sourceSize": 2612,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/iconfield/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 17
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 6
+      }
+    ],
+    "virtual": false,
+    "totalTime": 17,
+    "invokeCount": 1,
+    "sourceSize": 116,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/iftalabel/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 17
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 5
+      }
+    ],
+    "virtual": false,
+    "totalTime": 17,
+    "invokeCount": 1,
+    "sourceSize": 435,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/image/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 18
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 5
+      }
+    ],
+    "virtual": false,
+    "totalTime": 18,
+    "invokeCount": 1,
+    "sourceSize": 782,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/imagecompare/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 18
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 5
+      }
+    ],
+    "virtual": false,
+    "totalTime": 18,
+    "invokeCount": 1,
+    "sourceSize": 469,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 9
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 2
+      }
+    ],
+    "virtual": false,
+    "totalTime": 9,
+    "invokeCount": 1,
+    "sourceSize": 5717,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/inlinemessage/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 18
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 5
+      }
+    ],
+    "virtual": false,
+    "totalTime": 18,
+    "invokeCount": 1,
+    "sourceSize": 2611,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/inplace/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 17
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 5
+      }
+    ],
+    "virtual": false,
+    "totalTime": 17,
+    "invokeCount": 1,
+    "sourceSize": 480,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/inputchips/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 17
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 5
+      }
+    ],
+    "virtual": false,
+    "totalTime": 17,
+    "invokeCount": 1,
+    "sourceSize": 1228,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/inputgroup/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 17
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 5
+      }
+    ],
+    "virtual": false,
+    "totalTime": 17,
+    "invokeCount": 1,
+    "sourceSize": 272,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/inputnumber/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 18
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 5
+      }
+    ],
+    "virtual": false,
+    "totalTime": 18,
+    "invokeCount": 1,
+    "sourceSize": 914,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/inputotp/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 18
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 5
+      }
+    ],
+    "virtual": false,
+    "totalTime": 18,
+    "invokeCount": 1,
+    "sourceSize": 171,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/inputtext/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 18
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 5
+      }
+    ],
+    "virtual": false,
+    "totalTime": 18,
+    "invokeCount": 1,
+    "sourceSize": 1361,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/knob/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 6
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 5
+      }
+    ],
+    "virtual": false,
+    "totalTime": 6,
+    "invokeCount": 1,
+    "sourceSize": 437,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/listbox/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 5
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 1512,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/megamenu/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 5
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 2186,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/menu/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 5
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 1029,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/menubar/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 5
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 1752,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/message/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 4
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 5392,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/metergroup/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 4
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 410,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/multiselect/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 4
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 2597,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/orderlist/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 4
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 141,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/organizationchart/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 4
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 1039,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/overlaybadge/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 7
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 4
+      }
+    ],
+    "virtual": false,
+    "totalTime": 7,
+    "invokeCount": 1,
+    "sourceSize": 135,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/paginator/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 7
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 4
+      }
+    ],
+    "virtual": false,
+    "totalTime": 7,
+    "invokeCount": 1,
+    "sourceSize": 840,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/panel/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 4
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 621,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/panelmenu/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 4
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 975,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/password/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 4
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 783,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/picklist/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 4
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 141,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/popover/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 7
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 4
+      }
+    ],
+    "virtual": false,
+    "totalTime": 7,
+    "invokeCount": 1,
+    "sourceSize": 383,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/progressbar/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 4
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 320,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/progressspinner/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 4
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 313,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/radiobutton/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 3
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 1217,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/rating/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 7
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 3
+      }
+    ],
+    "virtual": false,
+    "totalTime": 7,
+    "invokeCount": 1,
+    "sourceSize": 411,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/ripple/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 3
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 191,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/scrollpanel/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 3
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 458,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/select/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 6
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 3
+      }
+    ],
+    "virtual": false,
+    "totalTime": 6,
+    "invokeCount": 1,
+    "sourceSize": 2633,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/selectbutton/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 6
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 3
+      }
+    ],
+    "virtual": false,
+    "totalTime": 6,
+    "invokeCount": 1,
+    "sourceSize": 300,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/skeleton/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 3
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 345,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/slider/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 2
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 906,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/speeddial/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 2
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 140,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/splitbutton/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 6
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 2
+      }
+    ],
+    "virtual": false,
+    "totalTime": 6,
+    "invokeCount": 1,
+    "sourceSize": 268,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/splitter/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 2
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 535,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/stepper/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 6
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 2
+      }
+    ],
+    "virtual": false,
+    "totalTime": 6,
+    "invokeCount": 1,
+    "sourceSize": 1252,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/steps/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 2
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 927,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/tabmenu/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 2
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 1002,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/tabs/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 1643,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/tabview/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 6
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 6,
+    "invokeCount": 1,
+    "sourceSize": 816,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/tag/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 1281,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/terminal/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 6
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 6,
+    "invokeCount": 1,
+    "sourceSize": 398,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/textarea/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 1361,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/tieredmenu/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 1217,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/timeline/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 634,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/toast/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 4548,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/togglebutton/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 1796,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/toggleswitch/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 4
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 4,
+    "invokeCount": 1,
+    "sourceSize": 1704,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/toolbar/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 249,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/tooltip/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 384,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/tree/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 1281,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/treeselect/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 6
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 6,
+    "invokeCount": 1,
+    "sourceSize": 1892,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/treetable/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 6
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 6,
+    "invokeCount": 1,
+    "sourceSize": 2786,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+themes@1.1.1/node_modules/@primeuix/themes/aura/virtualscroller/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 175,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+utils@0.5.3/node_modules/@primeuix/utils/classnames/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 13
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 13,
+    "invokeCount": 1,
+    "sourceSize": 802,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+utils@0.5.3/node_modules/@primeuix/utils/dom/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 13
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 4
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 13,
+    "invokeCount": 1,
+    "sourceSize": 37899,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+utils@0.5.3/node_modules/@primeuix/utils/eventbus/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 14
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 14,
+    "invokeCount": 1,
+    "sourceSize": 798,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+utils@0.5.3/node_modules/@primeuix/utils/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 2
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 335,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+utils@0.5.3/node_modules/@primeuix/utils/mergeprops/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 13
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 13,
+    "invokeCount": 1,
+    "sourceSize": 1725,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+utils@0.5.3/node_modules/@primeuix/utils/object/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 14
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 14,
+    "invokeCount": 1,
+    "sourceSize": 14253,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+utils@0.5.3/node_modules/@primeuix/utils/uuid/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 14
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 14,
+    "invokeCount": 1,
+    "sourceSize": 261,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primeuix+utils@0.5.3/node_modules/@primeuix/utils/zindex/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 14
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 4
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 14,
+    "invokeCount": 1,
+    "sourceSize": 1323,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+core@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/core/api/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 13
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 13,
+    "invokeCount": 1,
+    "sourceSize": 19602,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+core@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/core/base/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 11,
+    "invokeCount": 1,
+    "sourceSize": 628,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+core@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/core/base/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 9
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 9,
+    "invokeCount": 1,
+    "sourceSize": 7781,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+core@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/core/basecomponent/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 134
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 134,
+    "invokeCount": 1,
+    "sourceSize": 29712,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+core@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/core/basedirective/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 15
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 15,
+    "invokeCount": 1,
+    "sourceSize": 30823,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+core@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/core/baseeditableholder/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 4
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 4,
+    "invokeCount": 1,
+    "sourceSize": 6167,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+core@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/core/baseinput/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 9
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 9,
+    "invokeCount": 1,
+    "sourceSize": 1066,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+core@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/core/config/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 6
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 6,
+    "invokeCount": 1,
+    "sourceSize": 11098,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+core@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/core/service/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 12
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 12,
+    "invokeCount": 1,
+    "sourceSize": 163,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+core@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/core/useattrselector/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 11,
+    "invokeCount": 1,
+    "sourceSize": 314,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+core@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/core/usestyle/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 13
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 13,
+    "invokeCount": 1,
+    "sourceSize": 5724,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+core@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/core/utils/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 9
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 9,
+    "invokeCount": 1,
+    "sourceSize": 8599,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+icons@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/icons/angledown/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 10
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 10,
+    "invokeCount": 1,
+    "sourceSize": 1314,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+icons@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/icons/angleright/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 10
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 10,
+    "invokeCount": 1,
+    "sourceSize": 1297,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+icons@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/icons/bars/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 9
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 9,
+    "invokeCount": 1,
+    "sourceSize": 1904,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+icons@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/icons/baseicon/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 19
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 2
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 19,
+    "invokeCount": 1,
+    "sourceSize": 2605,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+icons@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/icons/baseicon/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 15
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 15,
+    "invokeCount": 1,
+    "sourceSize": 867,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+icons@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/icons/chevrondown/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 1323,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+icons@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/icons/chevronleft/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 15
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 15,
+    "invokeCount": 1,
+    "sourceSize": 1321,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+icons@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/icons/chevronright/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 11,
+    "invokeCount": 1,
+    "sourceSize": 1321,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+icons@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/icons/eye/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 133
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 4
+      }
+    ],
+    "virtual": false,
+    "totalTime": 133,
+    "invokeCount": 1,
+    "sourceSize": 2366,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+icons@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/icons/refresh/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 133
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 3
+      }
+    ],
+    "virtual": false,
+    "totalTime": 133,
+    "invokeCount": 1,
+    "sourceSize": 2472,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+icons@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/icons/searchminus/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 133
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 2
+      }
+    ],
+    "virtual": false,
+    "totalTime": 133,
+    "invokeCount": 1,
+    "sourceSize": 2447,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+icons@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/icons/searchplus/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 133
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 2
+      }
+    ],
+    "virtual": false,
+    "totalTime": 133,
+    "invokeCount": 1,
+    "sourceSize": 2973,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+icons@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/icons/spinner/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 132
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 132,
+    "invokeCount": 1,
+    "sourceSize": 1990,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+icons@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/icons/times/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 132
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 2
+      }
+    ],
+    "virtual": false,
+    "totalTime": 132,
+    "invokeCount": 1,
+    "sourceSize": 1710,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+icons@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/icons/timescircle/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 2735,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@primevue+icons@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/@primevue/icons/undo/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 133
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 133,
+    "invokeCount": 1,
+    "sourceSize": 2467,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@vue+reactivity@3.5.14/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 14
+      },
+      {
+        "name": "vite:define",
+        "transform": 190
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 3
+      }
+    ],
+    "virtual": false,
+    "totalTime": 204,
+    "invokeCount": 1,
+    "sourceSize": 51366,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@vue+runtime-core@3.5.14/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 4
+      },
+      {
+        "name": "vite:define",
+        "transform": 142
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 146,
+    "invokeCount": 1,
+    "sourceSize": 263206,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@vue+runtime-dom@3.5.14/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 6
+      },
+      {
+        "name": "vite:define",
+        "transform": 40
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 46,
+    "invokeCount": 1,
+    "sourceSize": 57608,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@vue+shared@3.5.14/node_modules/@vue/shared/dist/shared.esm-bundler.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 4
+      },
+      {
+        "name": "vite:define",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 9,
+    "invokeCount": 1,
+    "sourceSize": 22556,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@vueuse+core@13.3.0_vue@3.5.14_typescript@5.8.3_/node_modules/@vueuse/core/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 19
+      },
+      {
+        "name": "vite:define",
+        "transform": 142
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 161,
+    "invokeCount": 1,
+    "sourceSize": 236335,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/@vueuse+shared@13.3.0_vue@3.5.14_typescript@5.8.3_/node_modules/@vueuse/shared/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 44634,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/destr@2.0.5/node_modules/destr/dist/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 1,
+    "invokeCount": 1,
+    "sourceSize": 2145,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/effector-storage@7.1.0_effector@23.3.0/node_modules/effector-storage/core/index.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 17
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 17,
+    "invokeCount": 1,
+    "sourceSize": 2348,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/effector-storage@7.1.0_effector@23.3.0/node_modules/effector-storage/local/index.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 16
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 16,
+    "invokeCount": 1,
+    "sourceSize": 446,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/effector-storage@7.1.0_effector@23.3.0/node_modules/effector-storage/nil/index.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 16
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 16,
+    "invokeCount": 1,
+    "sourceSize": 156,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/effector-storage@7.1.0_effector@23.3.0/node_modules/effector-storage/storage/index.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 16
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 16,
+    "invokeCount": 1,
+    "sourceSize": 755,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/effector-vue@23.1.1_@vue+reactivity@3.5.14_@vue+runtime-core@3.5.14_effector@23.3.0_vue@3.5.14_typescript@5.8.3_/node_modules/effector-vue/composition.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 11,
+    "invokeCount": 1,
+    "sourceSize": 4554,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/effector@23.3.0/node_modules/effector/effector.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 2
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 29189,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/ofetch@1.4.1/node_modules/ofetch/dist/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 9
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 9,
+    "invokeCount": 1,
+    "sourceSize": 930,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/ofetch@1.4.1/node_modules/ofetch/dist/shared/ofetch.03887fc3.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 2
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 2,
+    "invokeCount": 1,
+    "sourceSize": 10269,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primeicons@7.0.0/node_modules/primeicons/primeicons.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 1
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/autocomplete/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 48
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 48,
+    "invokeCount": 1,
+    "sourceSize": 59161,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/autocomplete/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 9
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 9,
+    "invokeCount": 1,
+    "sourceSize": 2251,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/badge/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 135
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 135,
+    "invokeCount": 1,
+    "sourceSize": 2440,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/badge/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 10
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 10,
+    "invokeCount": 1,
+    "sourceSize": 1095,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/button/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 10
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 10,
+    "invokeCount": 1,
+    "sourceSize": 8209,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/button/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 135
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 135,
+    "invokeCount": 1,
+    "sourceSize": 2406,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/buttongroup/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 6
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 6,
+    "invokeCount": 1,
+    "sourceSize": 833,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/buttongroup/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 4
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 4,
+    "invokeCount": 1,
+    "sourceSize": 341,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/chip/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 3391,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/chip/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 7
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 7,
+    "invokeCount": 1,
+    "sourceSize": 415,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/config/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 9
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 2
+      }
+    ],
+    "virtual": false,
+    "totalTime": 9,
+    "invokeCount": 1,
+    "sourceSize": 123,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/focustrap/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 133
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 133,
+    "invokeCount": 1,
+    "sourceSize": 8973,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/focustrap/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 14
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 14,
+    "invokeCount": 1,
+    "sourceSize": 200,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/iconfield/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 48
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 48,
+    "invokeCount": 1,
+    "sourceSize": 801,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/iconfield/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 13
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 13,
+    "invokeCount": 1,
+    "sourceSize": 319,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/image/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 10
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 10,
+    "invokeCount": 1,
+    "sourceSize": 16124,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/image/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 134
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 134,
+    "invokeCount": 1,
+    "sourceSize": 1209,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/inputicon/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 49
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 49,
+    "invokeCount": 1,
+    "sourceSize": 964,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/inputicon/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 11,
+    "invokeCount": 1,
+    "sourceSize": 251,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/inputtext/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 2639,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/inputtext/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 743,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/menubar/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 2
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 2,
+    "invokeCount": 1,
+    "sourceSize": 40525,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/menubar/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 10
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 10,
+    "invokeCount": 1,
+    "sourceSize": 1482,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/overlaybadge/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 2
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 2,
+    "invokeCount": 1,
+    "sourceSize": 1015,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/overlaybadge/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 0,
+    "invokeCount": 1,
+    "sourceSize": 334,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/overlayeventbus/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 8,
+    "invokeCount": 1,
+    "sourceSize": 163,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/portal/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 134
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 134,
+    "invokeCount": 1,
+    "sourceSize": 1002,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/progressspinner/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 12
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 12,
+    "invokeCount": 1,
+    "sourceSize": 1656,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/progressspinner/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 17
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 17,
+    "invokeCount": 1,
+    "sourceSize": 421,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/ripple/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 137
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 137,
+    "invokeCount": 1,
+    "sourceSize": 5763,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/ripple/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 9
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 9,
+    "invokeCount": 1,
+    "sourceSize": 311,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/tab/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 12
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 12,
+    "invokeCount": 1,
+    "sourceSize": 7248,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/tab/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 14
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 14,
+    "invokeCount": 1,
+    "sourceSize": 410,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/tablist/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 11,
+    "invokeCount": 1,
+    "sourceSize": 9418,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/tablist/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 11,
+    "invokeCount": 1,
+    "sourceSize": 607,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/tabpanel/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 11,
+    "invokeCount": 1,
+    "sourceSize": 3629,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/tabpanel/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 10
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 10,
+    "invokeCount": 1,
+    "sourceSize": 373,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/tabpanels/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 11,
+    "invokeCount": 1,
+    "sourceSize": 840,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/tabpanels/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 11,
+    "invokeCount": 1,
+    "sourceSize": 251,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/tabs/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 11,
+    "invokeCount": 1,
+    "sourceSize": 1689,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/tabs/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 11,
+    "invokeCount": 1,
+    "sourceSize": 427,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/utils/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 133
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 133,
+    "invokeCount": 1,
+    "sourceSize": 388,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/virtualscroller/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 9
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 9,
+    "invokeCount": 1,
+    "sourceSize": 38727,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/primevue@4.3.4_vue@3.5.14_typescript@5.8.3_/node_modules/primevue/virtualscroller/style/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 3
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 3,
+    "invokeCount": 1,
+    "sourceSize": 1420,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/tailwindcss-primeui@0.6.1_tailwindcss@4.1.7/node_modules/tailwindcss-primeui/v4/index.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 1
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/tailwindcss-primeui@0.6.1_tailwindcss@4.1.7/node_modules/tailwindcss-primeui/v4/theme/colors.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 1
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/tailwindcss-primeui@0.6.1_tailwindcss@4.1.7/node_modules/tailwindcss-primeui/v4/utils/animation.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/tailwindcss-primeui@0.6.1_tailwindcss@4.1.7/node_modules/tailwindcss-primeui/v4/utils/backface.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/tailwindcss-primeui@0.6.1_tailwindcss@4.1.7/node_modules/tailwindcss-primeui/v4/utils/delay.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/tailwindcss-primeui@0.6.1_tailwindcss@4.1.7/node_modules/tailwindcss-primeui/v4/utils/direction.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/tailwindcss-primeui@0.6.1_tailwindcss@4.1.7/node_modules/tailwindcss-primeui/v4/utils/duration.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/tailwindcss-primeui@0.6.1_tailwindcss@4.1.7/node_modules/tailwindcss-primeui/v4/utils/enterleave.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/tailwindcss-primeui@0.6.1_tailwindcss@4.1.7/node_modules/tailwindcss-primeui/v4/utils/fillMode.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/tailwindcss-primeui@0.6.1_tailwindcss@4.1.7/node_modules/tailwindcss-primeui/v4/utils/iterationCount.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/tailwindcss-primeui@0.6.1_tailwindcss@4.1.7/node_modules/tailwindcss-primeui/v4/utils/keyframes.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/tailwindcss-primeui@0.6.1_tailwindcss@4.1.7/node_modules/tailwindcss-primeui/v4/utils/playState.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/tailwindcss-primeui@0.6.1_tailwindcss@4.1.7/node_modules/tailwindcss-primeui/v4/utils/preset.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 1
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/tailwindcss-primeui@0.6.1_tailwindcss@4.1.7/node_modules/tailwindcss-primeui/v4/utils/timingFunction.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/tailwindcss-primeui@0.6.1_tailwindcss@4.1.7/node_modules/tailwindcss-primeui/v4/utils/variants.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/tailwindcss@4.1.7/node_modules/tailwindcss/index.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:resolve (+alias)",
+        "resolveId": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 0,
+    "sourceSize": 0,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/ufo@1.6.1/node_modules/ufo/dist/index.mjs",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 1,
+    "invokeCount": 1,
+    "sourceSize": 19664,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/vue@3.5.14_typescript@5.8.3/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:define",
+        "transform": 26
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 3
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 37,
+    "invokeCount": 1,
+    "sourceSize": 580,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/app/App.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 0
+      },
+      {
+        "name": "vite:vue",
+        "transform": 103
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 104,
+    "invokeCount": 1,
+    "sourceSize": 124,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/app/App.vue?vue&type=script&setup=true&lang.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 15
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 15,
+    "invokeCount": 1,
+    "sourceSize": 384,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/app/styles/style.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 24
+      },
+      {
+        "name": "@tailwindcss/vite:generate:build",
+        "transform": 8
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 32,
+    "invokeCount": 1,
+    "sourceSize": 155,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/api/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 16
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 10
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 26,
+    "invokeCount": 1,
+    "sourceSize": 325,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 11
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 1
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 22,
+    "invokeCount": 1,
+    "sourceSize": 95,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/lib/findByParams.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 16
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 18
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 34,
+    "invokeCount": 1,
+    "sourceSize": 156,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/lib/mapCategories.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 16
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 18
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 34,
+    "invokeCount": 1,
+    "sourceSize": 835,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/model/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 16
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 10
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 26,
+    "invokeCount": 1,
+    "sourceSize": 4040,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/types/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 18
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 18,
+    "invokeCount": 1,
+    "sourceSize": 916,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/CategoryCard/CategoryCard.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 107
+      },
+      {
+        "name": "vite:vue",
+        "transform": 20
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 127,
+    "invokeCount": 1,
+    "sourceSize": 626,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/CategoryCard/CategoryCard.vue?vue&type=script&setup=true&lang.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 2
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 2,
+    "invokeCount": 1,
+    "sourceSize": 718,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/CategoryCard/CategoryCard.vue?vue&type=style&index=0&scoped=02ed6d02&lang.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "@tailwindcss/vite:generate:build",
+        "transform": 1
+      },
+      {
+        "name": "vite:vue",
+        "transform": 1
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 2,
+    "invokeCount": 1,
+    "sourceSize": 374,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/CategoryCard/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 19
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 19
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 38,
+    "invokeCount": 1,
+    "sourceSize": 62,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductList/ProductList.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 106
+      },
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 106,
+    "invokeCount": 1,
+    "sourceSize": 352,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductList/ProductList.vue?vue&type=style&index=0&scoped=292bd744&lang.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "@tailwindcss/vite:generate:build",
+        "transform": 1
+      },
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 1,
+    "invokeCount": 1,
+    "sourceSize": 256,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductList/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 19
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 19
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 38,
+    "invokeCount": 1,
+    "sourceSize": 60,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductPreview/ProductPreview.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:vue",
+        "transform": 116
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 128,
+    "invokeCount": 1,
+    "sourceSize": 1434,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductPreview/ProductPreview.vue?vue&type=script&setup=true&lang.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 6
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 6,
+    "invokeCount": 1,
+    "sourceSize": 1288,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductPreview/ProductPreview.vue?vue&type=style&index=0&scoped=84425f9d&lang.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "@tailwindcss/vite:generate:build",
+        "transform": 1
+      },
+      {
+        "name": "vite:vue",
+        "transform": 2
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 3,
+    "invokeCount": 1,
+    "sourceSize": 848,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/ProductPreview/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 19
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 19
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 38,
+    "invokeCount": 1,
+    "sourceSize": 66,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/entities/Product/ui/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 16
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 10
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 26,
+    "invokeCount": 1,
+    "sourceSize": 97,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/AddProductToCartAction/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 1
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 6,
+    "invokeCount": 1,
+    "sourceSize": 22,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/AddProductToCartAction/ui/AddProductToCartAction.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 2
+      },
+      {
+        "name": "vite:vue",
+        "transform": 50
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 52,
+    "invokeCount": 1,
+    "sourceSize": 1166,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/AddProductToCartAction/ui/AddProductToCartAction.vue?vue&type=script&setup=true&lang.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 4
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 4,
+    "invokeCount": 1,
+    "sourceSize": 3185,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/AddProductToCartAction/ui/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 7
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 18,
+    "invokeCount": 1,
+    "sourceSize": 82,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/ProductLikeAction/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 11
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 22,
+    "invokeCount": 1,
+    "sourceSize": 69,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/ProductLikeAction/ui/ProductLike.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 14
+      },
+      {
+        "name": "vite:vue",
+        "transform": 17
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 31,
+    "invokeCount": 1,
+    "sourceSize": 924,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/ProductLikeAction/ui/ProductLike.vue?vue&type=script&setup=true&lang.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 13
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 13,
+    "invokeCount": 1,
+    "sourceSize": 1406,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/RedirectToShopPage/RedirectToShopPage.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 13
+      },
+      {
+        "name": "vite:vue",
+        "transform": 1
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 14,
+    "invokeCount": 1,
+    "sourceSize": 87,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/RedirectToShopPage/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 12
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 11
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 23,
+    "invokeCount": 1,
+    "sourceSize": 74,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/Search/ProductSearch.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 10
+      },
+      {
+        "name": "vite:vue",
+        "transform": 10
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 20,
+    "invokeCount": 1,
+    "sourceSize": 1478,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/Search/ProductSearch.vue?vue&type=script&setup=true&lang.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 1
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 2
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 3,
+    "invokeCount": 1,
+    "sourceSize": 2239,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/Search/ProductSearch.vue?vue&type=style&index=0&scoped=7e01a678&lang.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 1
+      },
+      {
+        "name": "@tailwindcss/vite:generate:build",
+        "transform": 0
+      },
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 1,
+    "invokeCount": 1,
+    "sourceSize": 33,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/Search/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 2
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 7,
+    "invokeCount": 1,
+    "sourceSize": 57,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/main.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 5,
+    "invokeCount": 1,
+    "sourceSize": 599,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/pages/IndexPage/IndexPage.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 0
+      },
+      {
+        "name": "vite:vue",
+        "transform": 6
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 6,
+    "invokeCount": 1,
+    "sourceSize": 619,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/pages/IndexPage/IndexPage.vue?vue&type=script&setup=true&lang.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 2
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 1
+      }
+    ],
+    "virtual": true,
+    "totalTime": 3,
+    "invokeCount": 1,
+    "sourceSize": 1080,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/pages/IndexPage/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 16
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 17,
+    "invokeCount": 1,
+    "sourceSize": 56,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/shared/api/constants.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 106
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 19
+      },
+      {
+        "name": "vite:define",
+        "transform": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 126,
+    "invokeCount": 1,
+    "sourceSize": 242,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/shared/api/create-request-fx.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 107
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 19
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 126,
+    "invokeCount": 1,
+    "sourceSize": 1529,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/shared/api/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 16
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 17
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 1
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 33,
+    "invokeCount": 1,
+    "sourceSize": 229,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/shared/api/methods.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 107
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 18
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 125,
+    "invokeCount": 1,
+    "sourceSize": 134,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/shared/factories/atom.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 107
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 19
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 126,
+    "invokeCount": 1,
+    "sourceSize": 56,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/shared/factories/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 16
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 18
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "alias",
+        "resolveId": 2
+      }
+    ],
+    "virtual": false,
+    "totalTime": 34,
+    "invokeCount": 1,
+    "sourceSize": 27,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/shared/lib/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 10
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 15
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 2
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 1
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 25,
+    "invokeCount": 1,
+    "sourceSize": 86,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/shared/lib/media/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 10
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 13
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 23,
+    "invokeCount": 1,
+    "sourceSize": 31,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/shared/lib/media/useMedia.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 13
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 10
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 23,
+    "invokeCount": 1,
+    "sourceSize": 113,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/shared/lib/number-format/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 10
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 13
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 23,
+    "invokeCount": 1,
+    "sourceSize": 231,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/shared/lib/shuffled/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 10
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 15
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 25,
+    "invokeCount": 1,
+    "sourceSize": 82,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/shared/services/appStarted.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 37
+      },
+      {
+        "name": "alias",
+        "resolveId": 3
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 37,
+    "invokeCount": 1,
+    "sourceSize": 82,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/shared/services/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 16
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 18
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "alias",
+        "resolveId": 2
+      }
+    ],
+    "virtual": false,
+    "totalTime": 34,
+    "invokeCount": 1,
+    "sourceSize": 30,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/shared/ui/MainContainer/MainContainer.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 17
+      },
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 17,
+    "invokeCount": 1,
+    "sourceSize": 96,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/shared/ui/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 12
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 11
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 1
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 23,
+    "invokeCount": 1,
+    "sourceSize": 78,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/MainBanners.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 9
+      },
+      {
+        "name": "vite:vue",
+        "transform": 43
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 53,
+    "invokeCount": 1,
+    "sourceSize": 3431,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/MainBanners.vue?vue&type=script&setup=true&lang.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 145
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 145,
+    "invokeCount": 1,
+    "sourceSize": 1283,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/MainBanners.vue?vue&type=style&index=0&lang.scss",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "vite:vue",
+        "transform": 1
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 1,
+    "invokeCount": 1,
+    "sourceSize": 2750,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/const/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 10
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 15
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 25,
+    "invokeCount": 1,
+    "sourceSize": 1148,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 3
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "alias",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 3,
+    "invokeCount": 1,
+    "sourceSize": 60,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/ui/BannerWrapper/BannerWrapper.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 10
+      },
+      {
+        "name": "vite:vue",
+        "transform": 17
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 27,
+    "invokeCount": 1,
+    "sourceSize": 941,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/ui/BannerWrapper/BannerWrapper.vue?vue&type=script&setup=true&lang.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 1
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 8
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 9,
+    "invokeCount": 1,
+    "sourceSize": 2237,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/Banners/ui/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 10
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 15
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 25,
+    "invokeCount": 1,
+    "sourceSize": 78,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/CategoriesView/CategoriesView.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 1
+      },
+      {
+        "name": "vite:vue",
+        "transform": 52
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 54,
+    "invokeCount": 1,
+    "sourceSize": 1245,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/CategoriesView/CategoriesView.vue?vue&type=script&setup=true&lang.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 148
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 1
+      }
+    ],
+    "virtual": true,
+    "totalTime": 149,
+    "invokeCount": 1,
+    "sourceSize": 2099,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/CategoriesView/CategoriesView.vue?vue&type=style&index=0&scoped=ca87180f&lang.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "@tailwindcss/vite:generate:build",
+        "transform": 1
+      },
+      {
+        "name": "vite:vue",
+        "transform": 1
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 2,
+    "invokeCount": 1,
+    "sourceSize": 336,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/CategoriesView/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 1
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 2
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "alias",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 3,
+    "invokeCount": 1,
+    "sourceSize": 66,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/DiscountItems/DicsountItems.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 12
+      },
+      {
+        "name": "vite:vue",
+        "transform": 39
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 51,
+    "invokeCount": 1,
+    "sourceSize": 1043,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/DiscountItems/DicsountItems.vue?vue&type=script&setup=true&lang.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 159
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 159,
+    "invokeCount": 1,
+    "sourceSize": 1864,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/DiscountItems/DicsountItems.vue?vue&type=style&index=0&scoped=23f33962&lang.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "@tailwindcss/vite:generate:build",
+        "transform": 3
+      },
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 3,
+    "invokeCount": 1,
+    "sourceSize": 139,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/DiscountItems/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 1
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 2
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "alias",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 3,
+    "invokeCount": 1,
+    "sourceSize": 66,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainBanner/MainBanner.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 36
+      },
+      {
+        "name": "vite:vue",
+        "transform": 32
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 68,
+    "invokeCount": 1,
+    "sourceSize": 1365,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainBanner/MainBanner.vue?vue&type=script&setup=true&lang.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 19
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 19,
+    "invokeCount": 1,
+    "sourceSize": 2598,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainBanner/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 1
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 2
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "alias",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 3,
+    "invokeCount": 1,
+    "sourceSize": 58,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/MainProducts.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 16
+      },
+      {
+        "name": "vite:vue",
+        "transform": 36
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 53,
+    "invokeCount": 1,
+    "sourceSize": 1106,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/MainProducts.vue?vue&type=script&setup=true&lang.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 150
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 150,
+    "invokeCount": 1,
+    "sourceSize": 3272,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/MainProducts.vue?vue&type=style&index=0&scoped=96fb042c&lang.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "@tailwindcss/vite:generate:build",
+        "transform": 0
+      },
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 1,
+    "sourceSize": 193,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 1
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 2
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 1
+      },
+      {
+        "name": "alias",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 3,
+    "invokeCount": 1,
+    "sourceSize": 62,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/ui/Bestsellers/BestsellersProducts.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 20
+      },
+      {
+        "name": "vite:vue",
+        "transform": 13
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 33,
+    "invokeCount": 1,
+    "sourceSize": 827,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/ui/Bestsellers/BestsellersProducts.vue?vue&type=script&setup=true&lang.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 111
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 111,
+    "invokeCount": 1,
+    "sourceSize": 1606,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/ui/Bestsellers/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 19
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 24,
+    "invokeCount": 1,
+    "sourceSize": 76,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/ui/FeaturedProducts/FeaturedProducts.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 21
+      },
+      {
+        "name": "vite:vue",
+        "transform": 12
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 33,
+    "invokeCount": 1,
+    "sourceSize": 825,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/ui/FeaturedProducts/FeaturedProducts.vue?vue&type=script&setup=true&lang.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 109
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 109,
+    "invokeCount": 1,
+    "sourceSize": 1601,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/ui/FeaturedProducts/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 19
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 24,
+    "invokeCount": 1,
+    "sourceSize": 70,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/ui/NewArrivals/NewArrivals.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 19
+      },
+      {
+        "name": "vite:vue",
+        "transform": 15
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 34,
+    "invokeCount": 1,
+    "sourceSize": 827,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/ui/NewArrivals/NewArrivals.vue?vue&type=script&setup=true&lang.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 109
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 109,
+    "invokeCount": 1,
+    "sourceSize": 1598,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/ui/NewArrivals/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 19
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 5
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 24,
+    "invokeCount": 1,
+    "sourceSize": 60,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/MainProducts/ui/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 11
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 15
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 26,
+    "invokeCount": 1,
+    "sourceSize": 98,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/RootLayout.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 15
+      },
+      {
+        "name": "vite:vue",
+        "transform": 37
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 53,
+    "invokeCount": 1,
+    "sourceSize": 157,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/RootLayout.vue?vue&type=script&setup=true&lang.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 144
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 144,
+    "invokeCount": 1,
+    "sourceSize": 616,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/const/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 1
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 6
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 7,
+    "invokeCount": 1,
+    "sourceSize": 180,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 1
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 2
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 3,
+    "invokeCount": 1,
+    "sourceSize": 58,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Footer/MainFooter.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 13
+      },
+      {
+        "name": "vite:vue",
+        "transform": 31
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 44,
+    "invokeCount": 1,
+    "sourceSize": 3321,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Footer/MainFooter.vue?vue&type=script&setup=true&lang.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 6
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 6,
+    "invokeCount": 1,
+    "sourceSize": 3600,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Footer/MainFooter.vue?vue&type=style&index=0&scoped=ee09f081&lang.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "@tailwindcss/vite:generate:build",
+        "transform": 1
+      },
+      {
+        "name": "vite:vue",
+        "transform": 1
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 1
+      }
+    ],
+    "virtual": true,
+    "totalTime": 3,
+    "invokeCount": 1,
+    "sourceSize": 1618,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Footer/const.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 9
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 6
+      },
+      {
+        "name": "alias",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 15,
+    "invokeCount": 1,
+    "sourceSize": 1408,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Footer/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 13
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 10
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 23,
+    "invokeCount": 1,
+    "sourceSize": 58,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Header/MainHeader.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 18
+      },
+      {
+        "name": "vite:vue",
+        "transform": 24
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 42,
+    "invokeCount": 1,
+    "sourceSize": 2148,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Header/MainHeader.vue?vue&type=script&setup=true&lang.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 104
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 104,
+    "invokeCount": 1,
+    "sourceSize": 3936,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Header/MainHeader.vue?vue&type=style&index=0&scoped=0561fa73&lang.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "@tailwindcss/vite:generate:build",
+        "transform": 0
+      },
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 0,
+    "invokeCount": 1,
+    "sourceSize": 81,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Header/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 13
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 12
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 25,
+    "invokeCount": 1,
+    "sourceSize": 58,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 10
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 15
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 25,
+    "invokeCount": 1,
+    "sourceSize": 52,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/SaleBanner/SaleBanner.vue",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 8
+      },
+      {
+        "name": "vite:vue",
+        "transform": 1
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 1
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      }
+    ],
+    "virtual": false,
+    "totalTime": 10,
+    "invokeCount": 1,
+    "sourceSize": 2066,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/SaleBanner/SaleBanner.vue?vue&type=style&index=0&scoped=ce55e173&lang.css",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:vue",
+        "transform": 0
+      },
+      {
+        "name": "@tailwindcss/vite:generate:build",
+        "transform": 1
+      },
+      {
+        "name": "vite:vue",
+        "transform": 3
+      },
+      {
+        "name": "unplugin-vue-components",
+        "transform": 0
+      }
+    ],
+    "virtual": true,
+    "totalTime": 4,
+    "invokeCount": 1,
+    "sourceSize": 1285,
+    "distSize": 0
+  },
+  {
+    "id": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/SaleBanner/index.ts",
+    "deps": [],
+    "importers": [],
+    "plugins": [
+      {
+        "name": "vite:load-fallback",
+        "transform": 1
+      },
+      {
+        "name": "vite:esbuild",
+        "transform": 2
+      },
+      {
+        "name": "vite:resolve",
+        "resolveId": 0
+      },
+      {
+        "name": "alias",
+        "resolveId": 1
+      }
+    ],
+    "virtual": false,
+    "totalTime": 3,
+    "invokeCount": 1,
+    "sourceSize": 58,
+    "distSize": 0
+  }
+]

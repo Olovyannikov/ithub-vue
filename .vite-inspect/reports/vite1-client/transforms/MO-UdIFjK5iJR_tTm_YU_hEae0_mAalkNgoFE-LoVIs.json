@@ -1,0 +1,90 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/node_modules/.pnpm/effector-storage@7.1.0_effector@23.3.0/node_modules/effector-storage/core/index.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import{createStore as e,createEvent as r,is as t,createNode as o,withRegion as a,attach as i,createEffect as n,scopeBind as f,sample as s,clearNode as c}from\"effector\";var l=new Map,d=e=>([r],t)=>e(t,r),u=r();function k(k){var{adapter:g,store:v,source:y=v,target:p=v,clock:m=y,done:h,fail:w=u,finally:x,pickup:E,context:P,key:D,keyPrefix:M=\"\",contract:b}=k;if(!g)throw Error(\"Adapter is not defined\");if(!y)throw Error(\"Store or source is not defined\");if(!p)throw Error(\"Target is not defined\");if(!D&&y.shortName===y.id)throw Error(\"Key or name is not defined\");if(y===p&&!t.store(y))throw Error(\"Source must be different from target\");void 0===k.def&&t.store(y)&&(k.def=y.defaultState);var S=\"factory\"in g?g(k):g,z=D||y.shortName,A=function(r,t){var o=l.get(r);void 0===o&&(o=new Map,l.set(r,o));var a=o.get(t);return void 0!==a||(a=e(null,{serialize:\"ignore\"}),o.set(t,a)),a}(S.keyArea||S,M+z),N=o(),K=()=>c(N),T=e=>({status:r=\"fail\",params:t,result:o,error:a})=>\"done\"===r?{status:r,key:z,keyPrefix:M,operation:e,value:\"get\"===e?o:t}:{status:r,key:z,keyPrefix:M,operation:e,value:\"function\"==typeof t?void 0:t,error:a};return a(N,(()=>{var t=e([],{serialize:\"ignore\"}),o=S(M+z,(e=>{g(e)})),a=i({source:t,effect:d(o.get)}),c=i({source:t,effect:d(o.set)}),l=n((e=>r=>!e||void 0===r||(\"isData\"in e?e.isData(r):e(r))?r:(()=>{throw\"getErrorMessages\"in e?e.getErrorMessages(r):void 0})())(b)),u=r(),k=r(),g=a;t.updates.watch((()=>{g=f(a,{safe:!0})})),s({clock:m,source:y,target:k}),s({clock:k,source:A,filter:(e,r)=>r!==e,fn:(e,r)=>r,target:c}),s({clock:[a.doneData,s(c,c.done)],filter:e=>void 0!==e,target:A}),s({clock:[a.doneData,A],target:l}),s({clock:l.doneData,filter:e=>void 0!==e,target:p}),s({clock:[a.finally.map(T(\"get\")),c.finally.map(T(\"set\")),l.fail.map(T(\"validate\"))],target:u}),x&&s({clock:u,target:x}),h&&s({clock:u,filter:({status:e})=>\"done\"===e,fn:({key:e,keyPrefix:r,operation:t,value:o})=>({key:e,keyPrefix:r,operation:t,value:o}),target:h}),s({clock:u,filter:({status:e})=>\"fail\"===e,fn:({key:e,keyPrefix:r,operation:t,error:o,value:a})=>({key:e,keyPrefix:r,operation:t,error:o,value:a}),target:w}),P&&t.on(P,(([e],r)=>[void 0===r?e:r])),E?(s({clock:E,fn:()=>{},target:a}),t.on(E,(([e],r)=>[void 0===r?e:r]))):a()})),K.unsubscribe=K}u.watch((e=>console.error(e.error)));export{k as persist};\n//# sourceMappingURL=index.js.map\n",
+      "start": 1750971640365,
+      "end": 1750971640382,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640382,
+      "end": 1750971640382,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971640382,
+      "end": 1750971640382,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640382,
+      "end": 1750971640382,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971640382,
+      "end": 1750971640382,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640382,
+      "end": 1750971640382,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640382,
+      "end": 1750971640382,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640382,
+      "end": 1750971640382,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640382,
+      "end": 1750971640382,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640382,
+      "end": 1750971640382,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640382,
+      "end": 1750971640382,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "start": 1750971640382,
+      "end": 1750971640382,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640382,
+      "end": 1750971640382,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640382,
+      "end": 1750971640382,
+      "order": "normal"
+    }
+  ]
+}

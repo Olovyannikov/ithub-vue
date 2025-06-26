@@ -1,0 +1,106 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/app/App.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<script setup lang=\"ts\">\nimport { IndexPage } from '@/pages/IndexPage';\n</script>\n\n<template>\n    <IndexPage />\n</template>\n",
+      "start": 1750971639742,
+      "end": 1750971639742,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971639742,
+      "end": 1750971639742,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971639742,
+      "end": 1750971639742,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971639742,
+      "end": 1750971639742,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/app/App.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/app/App.vue?vue&type=script&setup=true&lang.ts\";\nexport default _sfc_main;\n",
+      "start": 1750971639742,
+      "end": 1750971639845,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971639845,
+      "end": 1750971639845,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971639846,
+      "end": 1750971639846,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971639846,
+      "end": 1750971639846,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971639846,
+      "end": 1750971639846,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971639846,
+      "end": 1750971639846,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971639846,
+      "end": 1750971639846,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */import _sfc_main from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/app/App.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/app/App.vue?vue&type=script&setup=true&lang.ts\";\nexport default _sfc_main;\n",
+      "start": 1750971639846,
+      "end": 1750971639847,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/app/App.vue"
+        ],
+        "sourcesContent": [
+          "import _sfc_main from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/app/App.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/app/App.vue?vue&type=script&setup=true&lang.ts\";\nexport default _sfc_main;\n"
+        ],
+        "names": [],
+        "mappings": "sCAAA,MAAM,CAAC,SAAS,CAAC,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,cAAc,CAAC,gBAAgB,CAAC,KAAK,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,MAAM,CAAC,KAAK,CAAC,IAAI,CAAC,IAAI,CAAC,EAAE,CAAC;AAC3H,MAAM,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,cAAc,CAAC,gBAAgB,CAAC,KAAK,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,MAAM,CAAC,KAAK,CAAC,IAAI,CAAC,IAAI,CAAC,EAAE,CAAC;AACnH,MAAM,CAAC,OAAO,CAAC,SAAS;"
+      }
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971639847,
+      "end": 1750971639847,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971639847,
+      "end": 1750971639847,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/Search/ProductSearch.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, resolveComponent as _resolveComponent, createVNode as _createVNode, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock, createCommentVNode as _createCommentVNode } from \"vue\"\n\nimport { ref } from 'vue';\nimport { useUnit } from 'effector-vue/composition';\nimport type { AutoCompleteCompleteEvent, AutoCompleteOptionSelectEvent } from 'primevue/autocomplete';\n\nimport { isLargeScreen } from '@/shared/lib';\n\nimport { ProductModel } from '@/entities/Product';\n\n\nexport default /*@__PURE__*/_defineComponent({\n  __name: 'ProductSearch',\n  setup(__props) {\n\nconst [products] = useUnit([ProductModel.$availableProducts]);\nconst filteredProducts = ref();\n\nconst search = (event: AutoCompleteCompleteEvent) => {\n    if (!event.query.trim().length) {\n        filteredProducts.value = [...products.value];\n    } else {\n        filteredProducts.value = products.value.filter((product) =>\n            product.name.toLowerCase().startsWith(event.query.toLowerCase())\n        );\n    }\n};\n\nconst select = (event: AutoCompleteOptionSelectEvent) => {\n    // eslint-disable-next-line no-console\n    console.log(event.value.id);\n};\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_InputIcon = _resolveComponent(\"InputIcon\")!\n  const _component_AutoComplete = _resolveComponent(\"AutoComplete\")!\n  const _component_IconField = _resolveComponent(\"IconField\")!\n\n  return (_unref(isLargeScreen))\n    ? (_openBlock(), _createBlock(_component_IconField, { key: 0 }, {\n        default: _withCtx(() => [\n          _createVNode(_component_InputIcon, { class: \"pi pi-search\" }),\n          _createVNode(_component_AutoComplete, {\n            suggestions: filteredProducts.value,\n            \"option-label\": \"name\",\n            size: \"large\",\n            class: \"input min-w-[372px] placeholder-shown:border-transparent focus-visible:border-green-600 placeholder-shown:italic placeholder-gray-400 text-md\",\n            variant: \"filled\",\n            placeholder: \"Search\",\n            onComplete: search,\n            onOptionSelect: select\n          }, null, 8, [\"suggestions\"])\n        ]),\n        _: 1\n      }))\n    : _createCommentVNode(\"\", true)\n}\n}\n\n})",
+      "start": 1750971640524,
+      "end": 1750971640525
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640525,
+      "end": 1750971640525,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, resolveComponent as _resolveComponent, createVNode as _createVNode, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock, createCommentVNode as _createCommentVNode } from \"vue\";\nimport { ref } from \"vue\";\nimport { useUnit } from \"effector-vue/composition\";\nimport { isLargeScreen } from \"@/shared/lib\";\nimport { ProductModel } from \"@/entities/Product\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"ProductSearch\",\n  setup(__props) {\n    const [products] = useUnit([ProductModel.$availableProducts]);\n    const filteredProducts = ref();\n    const search = (event) => {\n      if (!event.query.trim().length) {\n        filteredProducts.value = [...products.value];\n      } else {\n        filteredProducts.value = products.value.filter(\n          (product) => product.name.toLowerCase().startsWith(event.query.toLowerCase())\n        );\n      }\n    };\n    const select = (event) => {\n      console.log(event.value.id);\n    };\n    return (_ctx, _cache) => {\n      const _component_InputIcon = _resolveComponent(\"InputIcon\");\n      const _component_AutoComplete = _resolveComponent(\"AutoComplete\");\n      const _component_IconField = _resolveComponent(\"IconField\");\n      return _unref(isLargeScreen) ? (_openBlock(), _createBlock(_component_IconField, { key: 0 }, {\n        default: _withCtx(() => [\n          _createVNode(_component_InputIcon, { class: \"pi pi-search\" }),\n          _createVNode(_component_AutoComplete, {\n            suggestions: filteredProducts.value,\n            \"option-label\": \"name\",\n            size: \"large\",\n            class: \"input min-w-[372px] placeholder-shown:border-transparent focus-visible:border-green-600 placeholder-shown:italic placeholder-gray-400 text-md\",\n            variant: \"filled\",\n            placeholder: \"Search\",\n            onComplete: search,\n            onOptionSelect: select\n          }, null, 8, [\"suggestions\"])\n        ]),\n        _: 1\n      })) : _createCommentVNode(\"\", true);\n    };\n  }\n});\n",
+      "start": 1750971640525,
+      "end": 1750971640527,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/Search/ProductSearch.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, resolveComponent as _resolveComponent, createVNode as _createVNode, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock, createCommentVNode as _createCommentVNode } from \"vue\"\n\nimport { ref } from 'vue';\nimport { useUnit } from 'effector-vue/composition';\nimport type { AutoCompleteCompleteEvent, AutoCompleteOptionSelectEvent } from 'primevue/autocomplete';\n\nimport { isLargeScreen } from '@/shared/lib';\n\nimport { ProductModel } from '@/entities/Product';\n\n\nexport default /*@__PURE__*/_defineComponent({\n  __name: 'ProductSearch',\n  setup(__props) {\n\nconst [products] = useUnit([ProductModel.$availableProducts]);\nconst filteredProducts = ref();\n\nconst search = (event: AutoCompleteCompleteEvent) => {\n    if (!event.query.trim().length) {\n        filteredProducts.value = [...products.value];\n    } else {\n        filteredProducts.value = products.value.filter((product) =>\n            product.name.toLowerCase().startsWith(event.query.toLowerCase())\n        );\n    }\n};\n\nconst select = (event: AutoCompleteOptionSelectEvent) => {\n    // eslint-disable-next-line no-console\n    console.log(event.value.id);\n};\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_InputIcon = _resolveComponent(\"InputIcon\")!\n  const _component_AutoComplete = _resolveComponent(\"AutoComplete\")!\n  const _component_IconField = _resolveComponent(\"IconField\")!\n\n  return (_unref(isLargeScreen))\n    ? (_openBlock(), _createBlock(_component_IconField, { key: 0 }, {\n        default: _withCtx(() => [\n          _createVNode(_component_InputIcon, { class: \"pi pi-search\" }),\n          _createVNode(_component_AutoComplete, {\n            suggestions: filteredProducts.value,\n            \"option-label\": \"name\",\n            size: \"large\",\n            class: \"input min-w-[372px] placeholder-shown:border-transparent focus-visible:border-green-600 placeholder-shown:italic placeholder-gray-400 text-md\",\n            variant: \"filled\",\n            placeholder: \"Search\",\n            onComplete: search,\n            onOptionSelect: select\n          }, null, 8, [\"suggestions\"])\n        ]),\n        _: 1\n      }))\n    : _createCommentVNode(\"\", true)\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,SAAS,QAAQ,oBAAoB,mBAAmB,eAAe,cAAc,WAAW,UAAU,aAAa,YAAY,eAAe,cAAc,sBAAsB,2BAA2B;AAE1N,SAAS,WAAW;AACpB,SAAS,eAAe;AAGxB,SAAS,qBAAqB;AAE9B,SAAS,oBAAoB;AAG7B,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,MAAM,SAAS;AAEjB,UAAM,CAAC,QAAQ,IAAI,QAAQ,CAAC,aAAa,kBAAkB,CAAC;AAC5D,UAAM,mBAAmB,IAAI;AAE7B,UAAM,SAAS,CAAC,UAAqC;AACjD,UAAI,CAAC,MAAM,MAAM,KAAK,EAAE,QAAQ;AAC5B,yBAAiB,QAAQ,CAAC,GAAG,SAAS,KAAK;AAAA,MAC/C,OAAO;AACH,yBAAiB,QAAQ,SAAS,MAAM;AAAA,UAAO,CAAC,YAC5C,QAAQ,KAAK,YAAY,EAAE,WAAW,MAAM,MAAM,YAAY,CAAC;AAAA,QACnE;AAAA,MACJ;AAAA,IACJ;AAEA,UAAM,SAAS,CAAC,UAAyC;AAErD,cAAQ,IAAI,MAAM,MAAM,EAAE;AAAA,IAC9B;AAEA,WAAO,CAAC,MAAU,WAAgB;AAChC,YAAM,uBAAuB,kBAAkB,WAAW;AAC1D,YAAM,0BAA0B,kBAAkB,cAAc;AAChE,YAAM,uBAAuB,kBAAkB,WAAW;AAE1D,aAAQ,OAAO,aAAa,KACvB,WAAW,GAAG,aAAa,sBAAsB,EAAE,KAAK,EAAE,GAAG;AAAA,QAC5D,SAAS,SAAS,MAAM;AAAA,UACtB,aAAa,sBAAsB,EAAE,OAAO,eAAe,CAAC;AAAA,UAC5D,aAAa,yBAAyB;AAAA,YACpC,aAAa,iBAAiB;AAAA,YAC9B,gBAAgB;AAAA,YAChB,MAAM;AAAA,YACN,OAAO;AAAA,YACP,SAAS;AAAA,YACT,aAAa;AAAA,YACb,YAAY;AAAA,YACZ,gBAAgB;AAAA,UAClB,GAAG,MAAM,GAAG,CAAC,aAAa,CAAC;AAAA,QAC7B,CAAC;AAAA,QACD,GAAG;AAAA,MACL,CAAC,KACD,oBAAoB,IAAI,IAAI;AAAA,IAClC;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640527,
+      "end": 1750971640527,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971640527,
+      "end": 1750971640527,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640527,
+      "end": 1750971640527,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640527,
+      "end": 1750971640527,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640527,
+      "end": 1750971640527,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640527,
+      "end": 1750971640527,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640527,
+      "end": 1750971640527,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640527,
+      "end": 1750971640527,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */import __unplugin_components_2 from 'primevue/iconfield';\nimport __unplugin_components_1 from 'primevue/autocomplete';\nimport __unplugin_components_0 from 'primevue/inputicon';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, resolveComponent as _resolveComponent, createVNode as _createVNode, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock, createCommentVNode as _createCommentVNode } from \"vue\";\nimport { ref } from \"vue\";\nimport { useUnit } from \"effector-vue/composition\";\nimport { isLargeScreen } from \"@/shared/lib\";\nimport { ProductModel } from \"@/entities/Product\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"ProductSearch\",\n  setup(__props) {\n    const [products] = useUnit([ProductModel.$availableProducts]);\n    const filteredProducts = ref();\n    const search = (event) => {\n      if (!event.query.trim().length) {\n        filteredProducts.value = [...products.value];\n      } else {\n        filteredProducts.value = products.value.filter(\n          (product) => product.name.toLowerCase().startsWith(event.query.toLowerCase())\n        );\n      }\n    };\n    const select = (event) => {\n      console.log(event.value.id);\n    };\n    return (_ctx, _cache) => {\n      const _component_InputIcon = __unplugin_components_0;\n      const _component_AutoComplete = __unplugin_components_1;\n      const _component_IconField = __unplugin_components_2;\n      return _unref(isLargeScreen) ? (_openBlock(), _createBlock(_component_IconField, { key: 0 }, {\n        default: _withCtx(() => [\n          _createVNode(_component_InputIcon, { class: \"pi pi-search\" }),\n          _createVNode(_component_AutoComplete, {\n            suggestions: filteredProducts.value,\n            \"option-label\": \"name\",\n            size: \"large\",\n            class: \"input min-w-[372px] placeholder-shown:border-transparent focus-visible:border-green-600 placeholder-shown:italic placeholder-gray-400 text-md\",\n            variant: \"filled\",\n            placeholder: \"Search\",\n            onComplete: search,\n            onOptionSelect: select\n          }, null, 8, [\"suggestions\"])\n        ]),\n        _: 1\n      })) : _createCommentVNode(\"\", true);\n    };\n  }\n});\n",
+      "start": 1750971640527,
+      "end": 1750971640527,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/features/Search/ProductSearch.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, resolveComponent as _resolveComponent, createVNode as _createVNode, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock, createCommentVNode as _createCommentVNode } from \"vue\";\nimport { ref } from \"vue\";\nimport { useUnit } from \"effector-vue/composition\";\nimport { isLargeScreen } from \"@/shared/lib\";\nimport { ProductModel } from \"@/entities/Product\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"ProductSearch\",\n  setup(__props) {\n    const [products] = useUnit([ProductModel.$availableProducts]);\n    const filteredProducts = ref();\n    const search = (event) => {\n      if (!event.query.trim().length) {\n        filteredProducts.value = [...products.value];\n      } else {\n        filteredProducts.value = products.value.filter(\n          (product) => product.name.toLowerCase().startsWith(event.query.toLowerCase())\n        );\n      }\n    };\n    const select = (event) => {\n      console.log(event.value.id);\n    };\n    return (_ctx, _cache) => {\n      const _component_InputIcon = _resolveComponent(\"InputIcon\");\n      const _component_AutoComplete = _resolveComponent(\"AutoComplete\");\n      const _component_IconField = _resolveComponent(\"IconField\");\n      return _unref(isLargeScreen) ? (_openBlock(), _createBlock(_component_IconField, { key: 0 }, {\n        default: _withCtx(() => [\n          _createVNode(_component_InputIcon, { class: \"pi pi-search\" }),\n          _createVNode(_component_AutoComplete, {\n            suggestions: filteredProducts.value,\n            \"option-label\": \"name\",\n            size: \"large\",\n            class: \"input min-w-[372px] placeholder-shown:border-transparent focus-visible:border-green-600 placeholder-shown:italic placeholder-gray-400 text-md\",\n            variant: \"filled\",\n            placeholder: \"Search\",\n            onComplete: search,\n            onOptionSelect: select\n          }, null, 8, [\"suggestions\"])\n        ]),\n        _: 1\n      })) : _createCommentVNode(\"\", true);\n    };\n  }\n});\n"
+        ],
+        "names": [],
+        "mappings": "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"
+      }
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640527,
+      "end": 1750971640527,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640527,
+      "end": 1750971640527,
+      "order": "normal"
+    }
+  ]
+}

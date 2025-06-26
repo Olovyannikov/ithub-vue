@@ -1,0 +1,113 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/CategoriesView/CategoriesView.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, unref as _unref, resolveComponent as _resolveComponent, openBlock as _openBlock, createBlock as _createBlock, createCommentVNode as _createCommentVNode, renderList as _renderList, Fragment as _Fragment, createElementBlock as _createElementBlock, withCtx as _withCtx, createVNode as _createVNode } from \"vue\"\n\nconst _hoisted_1 = { class: \"my-[80px] text-2xl\" }\nconst _hoisted_2 = {\n  key: 1,\n  class: \"list\"\n}\n\nimport { useUnit } from 'effector-vue/composition';\n\nimport { MainContainer } from '@/shared/ui';\n\nimport { CategoryCard, getAllProductsQuery, ProductModel } from '@/entities/Product';\n\n\nexport default /*@__PURE__*/_defineComponent({\n  __name: 'CategoriesView',\n  setup(__props) {\n\nconst [categories, isLoading] = useUnit([ProductModel.$categories, getAllProductsQuery.$pending]);\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_ProgressSpinner = _resolveComponent(\"ProgressSpinner\")!\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createVNode(_unref(MainContainer), null, {\n      default: _withCtx(() => [\n        _cache[0] || (_cache[0] = _createElementVNode(\"h2\", { class: \"italic mb-[32px]\" }, \"Browse by category\", -1)),\n        (_unref(isLoading))\n          ? (_openBlock(), _createBlock(_component_ProgressSpinner, {\n              key: 0,\n              class: \"justify-center flex my-8\"\n            }))\n          : _createCommentVNode(\"\", true),\n        (!_unref(isLoading))\n          ? (_openBlock(), _createElementBlock(\"ul\", _hoisted_2, [\n              (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(categories), (category) => {\n                return (_openBlock(), _createBlock(_unref(CategoryCard), {\n                  key: category.id,\n                  label: category.label,\n                  icon: category.icon\n                }, null, 8, [\"label\", \"icon\"]))\n              }), 128))\n            ]))\n          : _createCommentVNode(\"\", true)\n      ]),\n      _: 1,\n      __: [0]\n    })\n  ]))\n}\n}\n\n})",
+      "start": 1750971640121,
+      "end": 1750971640121
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640121,
+      "end": 1750971640121,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { createElementVNode as _createElementVNode, unref as _unref, resolveComponent as _resolveComponent, openBlock as _openBlock, createBlock as _createBlock, createCommentVNode as _createCommentVNode, renderList as _renderList, Fragment as _Fragment, createElementBlock as _createElementBlock, withCtx as _withCtx, createVNode as _createVNode } from \"vue\";\nconst _hoisted_1 = { class: \"my-[80px] text-2xl\" };\nconst _hoisted_2 = {\n  key: 1,\n  class: \"list\"\n};\nimport { useUnit } from \"effector-vue/composition\";\nimport { MainContainer } from \"@/shared/ui\";\nimport { CategoryCard, getAllProductsQuery, ProductModel } from \"@/entities/Product\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"CategoriesView\",\n  setup(__props) {\n    const [categories, isLoading] = useUnit([ProductModel.$categories, getAllProductsQuery.$pending]);\n    return (_ctx, _cache) => {\n      const _component_ProgressSpinner = _resolveComponent(\"ProgressSpinner\");\n      return _openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n        _createVNode(_unref(MainContainer), null, {\n          default: _withCtx(() => [\n            _cache[0] || (_cache[0] = _createElementVNode(\"h2\", { class: \"italic mb-[32px]\" }, \"Browse by category\", -1)),\n            _unref(isLoading) ? (_openBlock(), _createBlock(_component_ProgressSpinner, {\n              key: 0,\n              class: \"justify-center flex my-8\"\n            })) : _createCommentVNode(\"\", true),\n            !_unref(isLoading) ? (_openBlock(), _createElementBlock(\"ul\", _hoisted_2, [\n              (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(categories), (category) => {\n                return _openBlock(), _createBlock(_unref(CategoryCard), {\n                  key: category.id,\n                  label: category.label,\n                  icon: category.icon\n                }, null, 8, [\"label\", \"icon\"]);\n              }), 128))\n            ])) : _createCommentVNode(\"\", true)\n          ]),\n          _: 1,\n          __: [0]\n        })\n      ]);\n    };\n  }\n});\n",
+      "start": 1750971640122,
+      "end": 1750971640270,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/CategoriesView/CategoriesView.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, unref as _unref, resolveComponent as _resolveComponent, openBlock as _openBlock, createBlock as _createBlock, createCommentVNode as _createCommentVNode, renderList as _renderList, Fragment as _Fragment, createElementBlock as _createElementBlock, withCtx as _withCtx, createVNode as _createVNode } from \"vue\"\n\nconst _hoisted_1 = { class: \"my-[80px] text-2xl\" }\nconst _hoisted_2 = {\n  key: 1,\n  class: \"list\"\n}\n\nimport { useUnit } from 'effector-vue/composition';\n\nimport { MainContainer } from '@/shared/ui';\n\nimport { CategoryCard, getAllProductsQuery, ProductModel } from '@/entities/Product';\n\n\nexport default /*@__PURE__*/_defineComponent({\n  __name: 'CategoriesView',\n  setup(__props) {\n\nconst [categories, isLoading] = useUnit([ProductModel.$categories, getAllProductsQuery.$pending]);\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_ProgressSpinner = _resolveComponent(\"ProgressSpinner\")!\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createVNode(_unref(MainContainer), null, {\n      default: _withCtx(() => [\n        _cache[0] || (_cache[0] = _createElementVNode(\"h2\", { class: \"italic mb-[32px]\" }, \"Browse by category\", -1)),\n        (_unref(isLoading))\n          ? (_openBlock(), _createBlock(_component_ProgressSpinner, {\n              key: 0,\n              class: \"justify-center flex my-8\"\n            }))\n          : _createCommentVNode(\"\", true),\n        (!_unref(isLoading))\n          ? (_openBlock(), _createElementBlock(\"ul\", _hoisted_2, [\n              (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(categories), (category) => {\n                return (_openBlock(), _createBlock(_unref(CategoryCard), {\n                  key: category.id,\n                  label: category.label,\n                  icon: category.icon\n                }, null, 8, [\"label\", \"icon\"]))\n              }), 128))\n            ]))\n          : _createCommentVNode(\"\", true)\n      ]),\n      _: 1,\n      __: [0]\n    })\n  ]))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,sBAAsB,qBAAqB,SAAS,QAAQ,oBAAoB,mBAAmB,aAAa,YAAY,eAAe,cAAc,sBAAsB,qBAAqB,cAAc,aAAa,YAAY,WAAW,sBAAsB,qBAAqB,WAAW,UAAU,eAAe,oBAAoB;AAElW,MAAM,aAAa,EAAE,OAAO,qBAAqB;AACjD,MAAM,aAAa;AAAA,EACjB,KAAK;AAAA,EACL,OAAO;AACT;AAEA,SAAS,eAAe;AAExB,SAAS,qBAAqB;AAE9B,SAAS,cAAc,qBAAqB,oBAAoB;AAGhE,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,MAAM,SAAS;AAEjB,UAAM,CAAC,YAAY,SAAS,IAAI,QAAQ,CAAC,aAAa,aAAa,oBAAoB,QAAQ,CAAC;AAEhG,WAAO,CAAC,MAAU,WAAgB;AAChC,YAAM,6BAA6B,kBAAkB,iBAAiB;AAEtE,aAAQ,WAAW,GAAG,oBAAoB,WAAW,YAAY;AAAA,QAC/D,aAAa,OAAO,aAAa,GAAG,MAAM;AAAA,UACxC,SAAS,SAAS,MAAM;AAAA,YACtB,OAAO,CAAC,MAAM,OAAO,CAAC,IAAI,oBAAoB,MAAM,EAAE,OAAO,mBAAmB,GAAG,sBAAsB,EAAE;AAAA,YAC1G,OAAO,SAAS,KACZ,WAAW,GAAG,aAAa,4BAA4B;AAAA,cACtD,KAAK;AAAA,cACL,OAAO;AAAA,YACT,CAAC,KACD,oBAAoB,IAAI,IAAI;AAAA,YAC/B,CAAC,OAAO,SAAS,KACb,WAAW,GAAG,oBAAoB,MAAM,YAAY;AAAA,eAClD,WAAW,IAAI,GAAG,oBAAoB,WAAW,MAAM,YAAY,OAAO,UAAU,GAAG,CAAC,aAAa;AACpG,uBAAQ,WAAW,GAAG,aAAa,OAAO,YAAY,GAAG;AAAA,kBACvD,KAAK,SAAS;AAAA,kBACd,OAAO,SAAS;AAAA,kBAChB,MAAM,SAAS;AAAA,gBACjB,GAAG,MAAM,GAAG,CAAC,SAAS,MAAM,CAAC;AAAA,cAC/B,CAAC,GAAG,GAAG;AAAA,YACT,CAAC,KACD,oBAAoB,IAAI,IAAI;AAAA,UAClC,CAAC;AAAA,UACD,GAAG;AAAA,UACH,IAAI,CAAC,CAAC;AAAA,QACR,CAAC;AAAA,MACH,CAAC;AAAA,IACH;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640270,
+      "end": 1750971640270,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1750971640270,
+      "end": 1750971640270,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640270,
+      "end": 1750971640270,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640270,
+      "end": 1750971640270,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640270,
+      "end": 1750971640270,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640270,
+      "end": 1750971640270,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640270,
+      "end": 1750971640270,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640270,
+      "end": 1750971640270,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */import __unplugin_components_0 from 'primevue/progressspinner';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { createElementVNode as _createElementVNode, unref as _unref, resolveComponent as _resolveComponent, openBlock as _openBlock, createBlock as _createBlock, createCommentVNode as _createCommentVNode, renderList as _renderList, Fragment as _Fragment, createElementBlock as _createElementBlock, withCtx as _withCtx, createVNode as _createVNode } from \"vue\";\nconst _hoisted_1 = { class: \"my-[80px] text-2xl\" };\nconst _hoisted_2 = {\n  key: 1,\n  class: \"list\"\n};\nimport { useUnit } from \"effector-vue/composition\";\nimport { MainContainer } from \"@/shared/ui\";\nimport { CategoryCard, getAllProductsQuery, ProductModel } from \"@/entities/Product\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"CategoriesView\",\n  setup(__props) {\n    const [categories, isLoading] = useUnit([ProductModel.$categories, getAllProductsQuery.$pending]);\n    return (_ctx, _cache) => {\n      const _component_ProgressSpinner = __unplugin_components_0;\n      return _openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n        _createVNode(_unref(MainContainer), null, {\n          default: _withCtx(() => [\n            _cache[0] || (_cache[0] = _createElementVNode(\"h2\", { class: \"italic mb-[32px]\" }, \"Browse by category\", -1)),\n            _unref(isLoading) ? (_openBlock(), _createBlock(_component_ProgressSpinner, {\n              key: 0,\n              class: \"justify-center flex my-8\"\n            })) : _createCommentVNode(\"\", true),\n            !_unref(isLoading) ? (_openBlock(), _createElementBlock(\"ul\", _hoisted_2, [\n              (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(categories), (category) => {\n                return _openBlock(), _createBlock(_unref(CategoryCard), {\n                  key: category.id,\n                  label: category.label,\n                  icon: category.icon\n                }, null, 8, [\"label\", \"icon\"]);\n              }), 128))\n            ])) : _createCommentVNode(\"\", true)\n          ]),\n          _: 1,\n          __: [0]\n        })\n      ]);\n    };\n  }\n});\n",
+      "start": 1750971640270,
+      "end": 1750971640271,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/CategoriesView/CategoriesView.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from \"vue\";\nimport { createElementVNode as _createElementVNode, unref as _unref, resolveComponent as _resolveComponent, openBlock as _openBlock, createBlock as _createBlock, createCommentVNode as _createCommentVNode, renderList as _renderList, Fragment as _Fragment, createElementBlock as _createElementBlock, withCtx as _withCtx, createVNode as _createVNode } from \"vue\";\nconst _hoisted_1 = { class: \"my-[80px] text-2xl\" };\nconst _hoisted_2 = {\n  key: 1,\n  class: \"list\"\n};\nimport { useUnit } from \"effector-vue/composition\";\nimport { MainContainer } from \"@/shared/ui\";\nimport { CategoryCard, getAllProductsQuery, ProductModel } from \"@/entities/Product\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"CategoriesView\",\n  setup(__props) {\n    const [categories, isLoading] = useUnit([ProductModel.$categories, getAllProductsQuery.$pending]);\n    return (_ctx, _cache) => {\n      const _component_ProgressSpinner = _resolveComponent(\"ProgressSpinner\");\n      return _openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n        _createVNode(_unref(MainContainer), null, {\n          default: _withCtx(() => [\n            _cache[0] || (_cache[0] = _createElementVNode(\"h2\", { class: \"italic mb-[32px]\" }, \"Browse by category\", -1)),\n            _unref(isLoading) ? (_openBlock(), _createBlock(_component_ProgressSpinner, {\n              key: 0,\n              class: \"justify-center flex my-8\"\n            })) : _createCommentVNode(\"\", true),\n            !_unref(isLoading) ? (_openBlock(), _createElementBlock(\"ul\", _hoisted_2, [\n              (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(categories), (category) => {\n                return _openBlock(), _createBlock(_unref(CategoryCard), {\n                  key: category.id,\n                  label: category.label,\n                  icon: category.icon\n                }, null, 8, [\"label\", \"icon\"]);\n              }), 128))\n            ])) : _createCommentVNode(\"\", true)\n          ]),\n          _: 1,\n          __: [0]\n        })\n      ]);\n    };\n  }\n});\n"
+        ],
+        "names": [],
+        "mappings": ";AAAA,MAAM,CAAC,CAAC,CAAC,eAAe,CAAC,EAAE,CAAC,gBAAgB,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,GAAG,CAAC;AACzD,MAAM,CAAC,CAAC,CAAC,kBAAkB,CAAC,EAAE,CAAC,mBAAmB,CAAC,CAAC,KAAK,CAAC,EAAE,CAAC,MAAM,CAAC,CAAC,gBAAgB,CAAC,EAAE,CAAC,iBAAiB,CAAC,CAAC,SAAS,CAAC,EAAE,CAAC,UAAU,CAAC,CAAC,WAAW,CAAC,EAAE,CAAC,YAAY,CAAC,CAAC,kBAAkB,CAAC,EAAE,CAAC,mBAAmB,CAAC,CAAC,UAAU,CAAC,EAAE,CAAC,WAAW,CAAC,CAAC,QAAQ,CAAC,EAAE,CAAC,SAAS,CAAC,CAAC,kBAAkB,CAAC,EAAE,CAAC,mBAAmB,CAAC,CAAC,OAAO,CAAC,EAAE,CAAC,QAAQ,CAAC,CAAC,WAAW,CAAC,EAAE,CAAC,YAAY,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,GAAG,CAAC;AACvW,KAAK,CAAC,UAAU,CAAC,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,IAAI,CAAC,CAAC,IAAI,CAAC,GAAG,CAAC,CAAC,CAAC;AAClD,KAAK,CAAC,UAAU,CAAC,CAAC,CAAC;AACnB,CAAC,CAAC,GAAG,CAAC,CAAC,CAAC;AACR,CAAC,CAAC,KAAK,CAAC,CAAC,CAAC,IAAI;AACd,CAAC;AACD,MAAM,CAAC,CAAC,CAAC,OAAO,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,QAAQ,CAAC,GAAG,CAAC,WAAW,CAAC;AAClD,MAAM,CAAC,CAAC,CAAC,aAAa,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,CAAC,MAAM,CAAC,EAAE,CAAC;AAC3C,MAAM,CAAC,CAAC,CAAC,YAAY,CAAC,CAAC,mBAAmB,CAAC,CAAC,YAAY,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,OAAO,CAAC;AACpF,MAAM,CAAC,OAAO,CAAC,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC,gBAAgB,CAAC;AAChD,CAAC,CAAC,MAAM,CAAC,CAAC,CAAC,cAAc,CAAC;AAC1B,CAAC,CAAC,KAAK,CAAC,OAAO,CAAC,CAAC;AACjB,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,UAAU,CAAC,CAAC,SAAS,CAAC,CAAC,CAAC,CAAC,OAAO,CAAC,CAAC,YAAY,CAAC,CAAC,UAAU,CAAC,CAAC,mBAAmB,CAAC,CAAC,OAAO,CAAC,CAAC;AACrG,CAAC,CAAC,CAAC,CAAC,MAAM,CAAC,CAAC,IAAI,CAAC,CAAC,MAAM,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,0BAA0B,CAAC,CAAC,CAAC,uBAAoC;AAC7E,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,MAAM,CAAC,UAAU,CAAC,CAAC,CAAC,CAAC,mBAAmB,CAAC,CAAC,OAAO,CAAC,CAAC,CAAC,UAAU,CAAC,CAAC;AACtE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,YAAY,CAAC,MAAM,CAAC,aAAa,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC;AAClD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,OAAO,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,MAAM,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,MAAM,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,mBAAmB,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,CAAC,MAAM,CAAC,EAAE,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,MAAM,CAAC,EAAE,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzH,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,MAAM,CAAC,SAAS,CAAC,CAAC,CAAC,CAAC,CAAC,UAAU,CAAC,CAAC,CAAC,CAAC,YAAY,CAAC,0BAA0B,CAAC,CAAC;AACxF,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,CAAC,CAAC;AACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,CAAC,OAAO,CAAC,MAAM,CAAC,IAAI,CAAC,EAAE,CAAC,CAAC;AAC9C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,mBAAmB,CAAC,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC;AAC/C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,MAAM,CAAC,SAAS,CAAC,CAAC,CAAC,CAAC,CAAC,UAAU,CAAC,CAAC,CAAC,CAAC,mBAAmB,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,UAAU,CAAC,CAAC;AACtF,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,UAAU,CAAC,IAAI,CAAC,CAAC,CAAC,mBAAmB,CAAC,SAAS,CAAC,CAAC,IAAI,CAAC,CAAC,WAAW,CAAC,MAAM,CAAC,UAAU,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC,CAAC;AACpH,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,MAAM,CAAC,UAAU,CAAC,CAAC,CAAC,CAAC,YAAY,CAAC,MAAM,CAAC,YAAY,CAAC,CAAC,CAAC;AACxE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,CAAC,QAAQ,CAAC,EAAE;AAClC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,QAAQ,CAAC,KAAK;AACvC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,QAAQ,CAAC;AACjC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC;AAC9C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC;AACtB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,mBAAmB,CAAC,CAAC,CAAC,CAAC,CAAC,IAAI;AAC9C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACd,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;AAChB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACT,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACR,CAAC,CAAC,CAAC,CAAC,CAAC;AACL,CAAC,CAAC;AACF,CAAC,CAAC;"
+      }
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640271,
+      "end": 1750971640271,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640271,
+      "end": 1750971640271,
+      "order": "normal"
+    }
+  ]
+}

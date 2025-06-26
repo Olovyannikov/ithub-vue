@@ -1,0 +1,106 @@
+{
+  "resolvedId": "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Footer/MainFooter.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<script setup lang=\"ts\">\nimport { MainContainer } from '@/shared/ui';\n\nimport { ASSISTANCE_MENU, SERVICES_MENU, SOCIAL_MENU } from '@/widgets/RootLayout/ui/Footer/const.ts';\n</script>\n<template>\n    <footer class=\"footer\">\n        <MainContainer class=\"container\">\n            <div class=\"top\">\n                <Image class=\"logo\" src=\"/logo-white.svg\" width=\"65\" />\n                <p>\n                    We are a residential interior design firm located in Portland. Our boutique-studio offers more than\n                </p>\n            </div>\n            <nav class=\"menu services\">\n                <h5 class=\"title\">Services</h5>\n                <ul>\n                    <li v-for=\"service of SERVICES_MENU\" :key=\"service.id\">\n                        <a class=\"link\" :href=\"service.href\">\n                            {{ service.label }}\n                        </a>\n                    </li>\n                </ul>\n            </nav>\n            <nav class=\"menu assistance\">\n                <h5 class=\"title\">Assistance to the buyer</h5>\n                <ul>\n                    <li v-for=\"service of ASSISTANCE_MENU\" :key=\"service.id\">\n                        <a class=\"link\" :href=\"service.href\">\n                            {{ service.label }}\n                        </a>\n                    </li>\n                </ul>\n            </nav>\n            <ul class=\"socials\">\n                <li v-for=\"service of SOCIAL_MENU\" :key=\"service.id\">\n                    <a class=\"link\" :href=\"service.href\">\n                        <span :class=\"service.icon\" />\n                    </a>\n                </li>\n            </ul>\n        </MainContainer>\n    </footer>\n</template>\n<style scoped>\n.footer {\n    padding: 48px 32px;\n    color: #fff;\n    background-color: #181313;\n}\n\n.container {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    text-align: center;\n\n    @media (width >= 992px) {\n        display: grid;\n        justify-content: normal;\n        grid-template-areas:\n            'top services assistance'\n            'socials . .';\n        grid-template-columns: 384px 1fr 1fr;\n        text-align: left;\n    }\n}\n\n.top {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    grid-area: top;\n    margin-bottom: 32px;\n    font-size: 13px;\n    line-height: 24px;\n    color: #cfcfcf;\n\n    @media (width >= 992px) {\n        place-content: start;\n        align-items: start;\n        margin-right: 113px;\n        text-align: left;\n    }\n}\n\n.logo {\n    margin-bottom: 16px;\n}\n\n.menu {\n    margin-bottom: 32px;\n\n    @media (width >= 992px) {\n        margin-bottom: 0;\n    }\n}\n\n.title {\n    margin-bottom: 8px;\n    font-size: 16px;\n    line-height: 1;\n}\n\n.link {\n    margin-bottom: 8px;\n    font-size: 14px;\n    line-height: 32px;\n    color: #cfcfcf;\n}\n\n.services {\n    grid-area: services;\n}\n\n.assistance {\n    grid-area: assistance;\n}\n\n.socials {\n    display: grid;\n    place-content: center;\n    place-items: center;\n    grid-area: socials;\n    grid-template-columns: repeat(4, 1fr);\n    margin: auto;\n    max-width: 173px;\n    gap: 24px;\n\n    span {\n        font-size: 24px;\n    }\n\n    @media (width >= 992px) {\n        align-items: center;\n        margin: 24px 0 0;\n        max-width: max-content;\n        gap: 40px;\n    }\n}\n</style>\n",
+      "start": 1750971640329,
+      "end": 1750971640342,
+      "sourcemaps": null
+    },
+    {
+      "name": "@tailwindcss/vite:generate:build",
+      "start": 1750971640342,
+      "end": 1750971640342,
+      "order": "pre"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1750971640342,
+      "end": 1750971640342,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750971640342,
+      "end": 1750971640342,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Footer/MainFooter.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Footer/MainFooter.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Footer/MainFooter.vue?vue&type=style&index=0&scoped=ee09f081&lang.css\";\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-ee09f081\"]]);\n",
+      "start": 1750971640342,
+      "end": 1750971640373,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1750971640373,
+      "end": 1750971640373,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1750971640373,
+      "end": 1750971640373,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750971640373,
+      "end": 1750971640373,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750971640373,
+      "end": 1750971640373,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750971640373,
+      "end": 1750971640373,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750971640374,
+      "end": 1750971640374,
+      "order": "normal-normal"
+    },
+    {
+      "name": "unplugin-vue-components",
+      "result": "/* unplugin-vue-components disabled */import _sfc_main from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Footer/MainFooter.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Footer/MainFooter.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Footer/MainFooter.vue?vue&type=style&index=0&scoped=ee09f081&lang.css\";\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-ee09f081\"]]);\n",
+      "start": 1750971640374,
+      "end": 1750971640374,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Footer/MainFooter.vue"
+        ],
+        "sourcesContent": [
+          "import _sfc_main from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Footer/MainFooter.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Footer/MainFooter.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/Users/ilaolovannikov/WebstormProjects/ithub-vue/src/widgets/RootLayout/ui/Footer/MainFooter.vue?vue&type=style&index=0&scoped=ee09f081&lang.css\";\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-ee09f081\"]]);\n"
+        ],
+        "names": [],
+        "mappings": "sCAAA,MAAM,CAAC,SAAS,CAAC,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,cAAc,CAAC,gBAAgB,CAAC,KAAK,CAAC,GAAG,CAAC,GAAG,CAAC,OAAO,CAAC,UAAU,CAAC,EAAE,CAAC,MAAM,CAAC,UAAU,CAAC,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,MAAM,CAAC,KAAK,CAAC,IAAI,CAAC,IAAI,CAAC,EAAE,CAAC;AAC3J,MAAM,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,cAAc,CAAC,gBAAgB,CAAC,KAAK,CAAC,GAAG,CAAC,GAAG,CAAC,OAAO,CAAC,UAAU,CAAC,EAAE,CAAC,MAAM,CAAC,UAAU,CAAC,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,MAAM,CAAC,KAAK,CAAC,IAAI,CAAC,IAAI,CAAC,EAAE,CAAC;AACnJ,MAAM,CAAC,CAAC,CAAC,KAAK,CAAC,cAAc,CAAC,gBAAgB,CAAC,KAAK,CAAC,GAAG,CAAC,GAAG,CAAC,OAAO,CAAC,UAAU,CAAC,EAAE,CAAC,MAAM,CAAC,UAAU,CAAC,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC,CAAC,MAAM,CAAC,QAAQ,CAAC,IAAI,CAAC,GAAG,CAAC;AACzJ,MAAM,CAAC,WAAW,CAAC,IAAI,CAAC,CAAC,CAAC,OAAO,CAAC,GAAG,CAAC,MAAM,CAAC,MAAM,CAAC;AACpD,MAAM,CAAC,OAAO,CAAC,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC,WAAW,CAAC,SAAS,CAAC,CAAC,CAAC,CAAC,CAAC,SAAS,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC;"
+      }
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1750971640374,
+      "end": 1750971640374,
+      "order": "normal-normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1750971640374,
+      "end": 1750971640374,
+      "order": "normal"
+    }
+  ]
+}
