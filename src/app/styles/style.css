@@ -1,6 +1,5 @@
 @import url("tailwindcss");
 @import url("tailwindcss-primeui");
-@import url("primeicons/primeicons.css");
 
 @theme {
   --font-sans: "Abel", "sans-serif";
