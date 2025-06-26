@@ -3,6 +3,7 @@ import { MainBanners } from '@/widgets/Banners';
 import { CategoriesView } from '@/widgets/CategoriesView';
 import { DiscountedItems } from '@/widgets/DiscountItems';
 import { MainBanner } from '@/widgets/MainBanner';
+import { MainProducts } from '@/widgets/MainProducts';
 import { RootLayout } from '@/widgets/RootLayout';
 import { SaleBanner } from '@/widgets/SaleBanner';
 </script>
@@ -12,6 +13,7 @@ import { SaleBanner } from '@/widgets/SaleBanner';
         <MainBanner />
         <MainBanners />
         <CategoriesView />
+        <MainProducts />
         <DiscountedItems />
         <SaleBanner />
     </RootLayout>

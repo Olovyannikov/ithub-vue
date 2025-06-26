@@ -1,5 +1,5 @@
 <template>
-    <MainContainer class="banner">
+    <div class="banner">
         <Image class="img top" src="/landing/bottom-banner/top.webp" />
         <Image class="img left" src="/landing/bottom-banner/left.webp" />
         <h4>Big Summer Sale</h4>
@@ -19,11 +19,8 @@
 
         <Image class="img bottom" src="/landing/bottom-banner/bottom.webp" />
         <Image class="img right" src="/landing/bottom-banner/right.webp" />
-    </MainContainer>
+    </div>
 </template>
-<script setup lang="ts">
-import { MainContainer } from '@/shared/ui';
-</script>
 <style scoped>
 .banner {
     position: relative;

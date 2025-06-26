@@ -81,6 +81,7 @@ export default eslintTypescript.config(
             'no-throw-literal': 2,
             'no-void': 2,
             'no-with': 2,
+            'import/no-cycle': ['error'],
 
             // Variables
             'no-shadow-restricted-names': 2,

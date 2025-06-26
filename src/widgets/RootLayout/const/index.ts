@@ -7,8 +7,4 @@ export const NAVIGATION_ITEMS = [
         label: 'Cart',
         icon: 'pi pi-shopping-cart',
     },
-    {
-        label: 'Products',
-        icon: 'pi pi-mobile',
-    },
 ];
