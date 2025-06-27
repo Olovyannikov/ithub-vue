@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import { RedirectToShopPage } from '@/features/RedirectToShopPage';
+</script>
+
 <template>
     <div class="banner">
         <Image class="img top" src="/landing/bottom-banner/top.webp" />
@@ -7,20 +11,13 @@
             Commodo fames vitae vitae leo mauris in. Eu<br />
             cosequat.
         </p>
-        <Button
-            as="a"
-            href="/shop"
-            outlined
-            plain
-            size="large"
-            class="text-white flex justify-center m-auto max-w-[173px]"
-            >Shop Now</Button
-        >
+        <RedirectToShopPage class-name="m-auto" />
 
         <Image class="img bottom" src="/landing/bottom-banner/bottom.webp" />
         <Image class="img right" src="/landing/bottom-banner/right.webp" />
     </div>
 </template>
+
 <style scoped>
 .banner {
     position: relative;

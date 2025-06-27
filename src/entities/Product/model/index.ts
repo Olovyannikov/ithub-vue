@@ -41,7 +41,7 @@ export const ProductModel = atom(() => {
         };
     }>({})
         .on(cartProductSettled, (products, newProduct) => {
-            if (products[newProduct.id].count) {
+            if (products[newProduct.id]?.count) {
                 return {
                     ...products,
                     [newProduct.id]: {

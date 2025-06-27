@@ -16,20 +16,20 @@ const items = ref(NAVIGATION_ITEMS);
 const [likes, cart] = useUnit([ProductModel.$likedProducts, ProductModel.$productCartCount]);
 </script>
 <template>
-    <header class="m-auto bg-white mb-4">
+    <header class="lg:m-auto bg-white mb-4">
         <MainContainer>
-            <Menubar class="menubar justify-between border-0 p-0 py-6 pb-2" :model="items">
+            <Menubar class="menubar justify-between border-0 p-0 py-6 pb-2 xl:pb-4" :model="items">
                 <template #start>
                     <Image v-if="!isLargeScreen" draggable="false" src="/logo.svg" width="65" alt="Cyber Logo" />
                     <Image
                         v-if="isLargeScreen"
                         draggable="false"
-                        class="mr-75"
+                        class="mr-75 shrink-0"
                         src="/logo-desktop.svg"
                         width="95"
                         alt="Cyber Logo"
                     />
-                    <Search />
+                    <Search class="xl:mr-55" />
                 </template>
                 <template #item="{ item, props }">
                     <a v-ripple class="gap-1 flex items-center" v-bind="props.action">

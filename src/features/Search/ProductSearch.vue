@@ -3,6 +3,8 @@ import { ref } from 'vue';
 import { useUnit } from 'effector-vue/composition';
 import type { AutoCompleteCompleteEvent, AutoCompleteOptionSelectEvent } from 'primevue/autocomplete';
 
+import { router } from '@/pages/router';
+
 import { isLargeScreen } from '@/shared/lib';
 
 import { ProductModel } from '@/entities/Product';
@@ -21,8 +23,9 @@ const search = (event: AutoCompleteCompleteEvent) => {
 };
 
 const select = (event: AutoCompleteOptionSelectEvent) => {
-    // eslint-disable-next-line no-console
-    console.log(event.value.id);
+    router.push({
+        path: `/product/${event.value.id}`,
+    });
 };
 </script>
 <template>
