@@ -17,7 +17,7 @@ const { pending } = useUnit(getAllProductsQuery);
 </script>
 <template>
     <RootLayout>
-        <ProgressSpinner v-if="pending" />
+        <ProgressSpinner v-if="pending" class="m-auto flex mt-[20%]" />
         <MainContainer v-if="!pending" class="py-10">
             <div class="lg:flex lg:gap-[48px]">
                 <ProductGallery />
