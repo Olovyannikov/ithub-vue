@@ -2,10 +2,7 @@
 import { ref } from 'vue';
 import { useUnit, useVModel } from 'effector-vue/composition';
 
-import { isLargeScreen } from '@/shared/lib/index.js';
-
-import { ProductFiltersModel } from '@/features/ProductFilters';
-import { ProductFilters } from '@/features/ProductFilters';
+import { ProductFilters, ProductFiltersModel } from '@/features/ProductFilters';
 
 const visible = ref(false);
 
