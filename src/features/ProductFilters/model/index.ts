@@ -11,14 +11,25 @@ export const ProductFiltersModel = atom(() => {
     }>({} as { code: string; name: string });
 
     const $paginatedProducts = combine(
-        { products: ProductModel.$availableProducts, sort: $sortBy, processors: ProductModel.$selectedProcessors },
-        ({ products, sort, processors }) => {
+        {
+            products: ProductModel.$availableProducts,
+            sort: $sortBy,
+            processors: ProductModel.$selectedProcessors,
+            diagonals: ProductModel.$selectedDiagonals,
+        },
+        ({ products, sort, processors, diagonals }) => {
             const currentProducts = [...products].filter((product) => {
-                const currentProcessor = product.characteristics.find((char) => char.characteristic)?.value;
+                const currentProcessor =
+                    product.characteristics.find((char) => char.characteristic === 'Процессор')?.value ?? '';
 
-                if (!processors.length || !currentProcessor) return true;
+                const currentDiagonals =
+                    product.characteristics.find((char) => char.characteristic === 'Диагональ')?.value ?? '';
 
-                return processors.includes(currentProcessor);
+                // Проверяем соответствие фильтрам
+                const matchesProcessor = processors.length === 0 || processors.includes(currentProcessor);
+                const matchesDiagonal = diagonals.length === 0 || diagonals.includes(currentDiagonals);
+
+                return matchesProcessor && matchesDiagonal;
             });
 
             switch (sort.code) {
