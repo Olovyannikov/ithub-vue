@@ -6,9 +6,8 @@ import { shuffled } from '@/shared/lib';
 import { appStarted } from '@/shared/services';
 
 import { getAllProductsQuery } from '../api';
-import { findCategories } from '../lib/findByParams';
-import { mapCategoriesLabels } from '../lib/mapCategories';
-import type { Product } from '../types';
+import { filterCategoryByKey, findCategories, mapCategoriesLabels } from '../lib';
+import type { ID, Product } from '../types';
 
 export const ProductModel = atom(() => {
     const $categories = restore(
@@ -35,7 +34,7 @@ export const ProductModel = atom(() => {
     const cartProductSettled = createEvent<Product>();
     const cartProductRemoved = createEvent<Product>();
     const $productCart = createStore<{
-        [K: string]: {
+        [K: ID]: {
             count: number;
             product: Product;
         };
@@ -94,6 +93,22 @@ export const ProductModel = atom(() => {
         products.sort((a, b) => (a.rating < b.rating ? 1 : -1)).slice(0, 8)
     );
 
+    const $allCharacteristicsNames = $availableProducts.map((products) =>
+        products
+            .map((product) => product.characteristics)
+            .flat(1)
+            .filter((obj1, i, arr) => arr.findIndex((obj2) => obj2.characteristic === obj1.characteristic) === i)
+            .map((el) => el.characteristic)
+            .filter((el) => el === 'Процессор')
+    );
+
+    const $allProcessorTypes = $availableProducts.map((products) => filterCategoryByKey(products, 'Процессор'));
+    const $selectedProcessors = createStore<string[]>([]);
+
+    const $allMemoryTypes = $availableProducts.map((products) =>
+        filterCategoryByKey(products, 'Объем встроенной памяти').sort((a, b) => (Number(a) > Number(b) ? 1 : -1))
+    );
+
     persist({
         pickup: appStarted,
         store: $likedProducts,
@@ -124,5 +139,9 @@ export const ProductModel = atom(() => {
         cartProductRemoved,
         $productCartCount,
         $availableProducts,
+        $allMemoryTypes,
+        $allCharacteristicsNames,
+        $allProcessorTypes,
+        $selectedProcessors,
     };
 });

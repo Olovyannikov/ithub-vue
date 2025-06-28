@@ -8,9 +8,14 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    Accordion: typeof import('primevue/accordion')['default']
+    AccordionContent: typeof import('primevue/accordioncontent')['default']
+    AccordionHeader: typeof import('primevue/accordionheader')['default']
+    AccordionPanel: typeof import('primevue/accordionpanel')['default']
     AutoComplete: typeof import('primevue/autocomplete')['default']
     Button: typeof import('primevue/button')['default']
     ButtonGroup: typeof import('primevue/buttongroup')['default']
+    Checkbox: typeof import('primevue/checkbox')['default']
     Drawer: typeof import('primevue/drawer')['default']
     IconField: typeof import('primevue/iconfield')['default']
     Image: typeof import('primevue/image')['default']

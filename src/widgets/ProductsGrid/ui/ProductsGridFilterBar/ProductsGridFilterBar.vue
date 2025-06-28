@@ -2,7 +2,10 @@
 import { ref } from 'vue';
 import { useUnit, useVModel } from 'effector-vue/composition';
 
+import { isLargeScreen } from '@/shared/lib/index.js';
+
 import { ProductFiltersModel } from '@/features/ProductFilters';
+import { ProductFilters } from '@/features/ProductFilters';
 
 const visible = ref(false);
 
@@ -48,11 +51,18 @@ const [totalProducts] = useUnit([ProductFiltersModel.$totalFilteredProducts]);
             class="w-full lg:w-[256px] lg:place-self-end"
         />
     </div>
-    <Drawer v-model:visible="visible" header="Drawer" position="full">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
-        </p>
+
+    <Drawer v-model:visible="visible" class="mt-[200px]" position="full">
+        <template #container>
+            <div class="mx-4 pt-10">
+                <div class="mb-6">
+                    <Button text severity="contrast" size="large" class="text-2xl" @click="visible = false">
+                        <span class="pi pi-chevron-left mr-4" />Filters
+                    </Button>
+                </div>
+                <ProductFilters />
+                <Button @click="visible = false">Apply</Button>
+            </div>
+        </template>
     </Drawer>
 </template>

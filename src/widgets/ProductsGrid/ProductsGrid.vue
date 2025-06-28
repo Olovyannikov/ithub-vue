@@ -2,15 +2,16 @@
 import { ref } from 'vue';
 import { useUnit } from 'effector-vue/composition';
 
+import { isLargeScreen } from '@/shared/lib';
 import { MainContainer } from '@/shared/ui';
 
 import { type Product, ProductList, ProductPreview } from '@/entities/Product';
 
 import { AddProductToCartAction } from '@/features/AddProductToCartAction';
-import { ProductFiltersModel } from '@/features/ProductFilters';
+import { ProductFilters, ProductFiltersModel } from '@/features/ProductFilters';
 import { ProductLikeAction } from '@/features/ProductLikeAction';
 
-import { ProductsGridFilterBar } from '@/widgets/ProductsGrid/ui';
+import { ProductsGridFilterBar } from '@/widgets/ProductsGrid';
 
 const [products] = useUnit([ProductFiltersModel.$paginatedProducts]);
 
@@ -19,17 +20,23 @@ const page = ref(0);
 
 <template>
     <MainContainer class="container">
-        <ProductsGridFilterBar />
-        <ProductList class="list">
-            <ProductPreview v-for="product in products[page]" :key="product.id" :product="product as Product">
-                <template #like-btn>
-                    <ProductLikeAction :product-id="product.id" />
-                </template>
-                <template #cart-btn>
-                    <AddProductToCartAction :product="product as Product" />
-                </template>
-            </ProductPreview>
-        </ProductList>
+        <div class="lg:grid grid-cols-[256px_1fr] lg:gap-[32px]">
+            <ProductFilters v-if="isLargeScreen" />
+
+            <div>
+                <ProductsGridFilterBar />
+                <ProductList class="list">
+                    <ProductPreview v-for="product in products[page]" :key="product.id" :product="product as Product">
+                        <template #like-btn>
+                            <ProductLikeAction :product-id="product.id" />
+                        </template>
+                        <template #cart-btn>
+                            <AddProductToCartAction :product="product as Product" />
+                        </template>
+                    </ProductPreview>
+                </ProductList>
+            </div>
+        </div>
 
         <Paginator v-model:first="page" :rows="1" :total-records="products.length" />
     </MainContainer>

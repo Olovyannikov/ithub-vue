@@ -2,5 +2,5 @@
 @import url("tailwindcss-primeui");
 
 @theme {
-  --font-sans: "Abel", "sans-serif";
+  --font-sans: "Abel", sans-serif;
 }

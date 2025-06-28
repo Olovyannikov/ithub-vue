@@ -11,9 +11,15 @@ export const ProductFiltersModel = atom(() => {
     }>({} as { code: string; name: string });
 
     const $paginatedProducts = combine(
-        { products: ProductModel.$availableProducts, sort: $sortBy },
-        ({ products, sort }) => {
-            const currentProducts = [...products];
+        { products: ProductModel.$availableProducts, sort: $sortBy, processors: ProductModel.$selectedProcessors },
+        ({ products, sort, processors }) => {
+            const currentProducts = [...products].filter((product) => {
+                const currentProcessor = product.characteristics.find((char) => char.characteristic)?.value;
+
+                if (!processors.length || !currentProcessor) return true;
+
+                return processors.includes(currentProcessor);
+            });
 
             switch (sort.code) {
                 case 'rating':
