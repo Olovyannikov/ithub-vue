@@ -7,12 +7,14 @@ const { product } = defineProps<{
     product: Product;
 }>();
 
+const [cart] = useUnit([ProductModel.$productCart]);
+
 const productCount = useStoreMap({
     store: ProductModel.$productCart,
     keys() {
         return product;
     },
-    fn: (cart, product) => cart[product.id]?.count,
+    fn: (cart, product) => Number(cart[product.id]?.count),
 });
 
 const [onAddProductToCart, onRemoveProductFromCart] = useUnit([
@@ -21,10 +23,14 @@ const [onAddProductToCart, onRemoveProductFromCart] = useUnit([
 ]);
 </script>
 <template>
-    <Button v-if="!productCount" class="w-full rounded-lg" severity="contrast" @click="onAddProductToCart(product)"
+    <Button
+        v-if="!cart[product.id]?.count"
+        class="w-full rounded-lg"
+        severity="contrast"
+        @click="onAddProductToCart(product)"
         >Buy Now</Button
     >
-    <ButtonGroup v-if="productCount > 0">
+    <ButtonGroup v-if="cart[product.id]?.count > 0">
         <Button class="min-w-[50px] text-xl w-full" severity="contrast" @click="onRemoveProductFromCart(product)"
             >-</Button
         >

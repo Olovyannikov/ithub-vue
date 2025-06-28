@@ -33,12 +33,15 @@ export const ProductModel = atom(() => {
 
     const cartProductSettled = createEvent<Product>();
     const cartProductRemoved = createEvent<Product>();
+    const cartProductDelete = createEvent<Product>();
+    const cartResettled = createEvent();
     const $productCart = createStore<{
         [K: ID]: {
             count: number;
             product: Product;
         };
     }>({})
+        .reset(cartResettled)
         .on(cartProductSettled, (products, newProduct) => {
             if (products[newProduct.id]?.count) {
                 return {
@@ -60,18 +63,29 @@ export const ProductModel = atom(() => {
         })
         .on(cartProductRemoved, (products, newProduct) => {
             if (products[newProduct.id]) {
-                return {
+                const current = {
                     ...products,
                     [newProduct.id]: {
                         product: newProduct,
                         count: (products[newProduct.id].count -= 1),
                     },
                 };
+
+                if (current[newProduct.id].count < 1) {
+                    delete current[newProduct.id];
+                }
+
+                return current;
             }
 
             return {
                 ...products,
             };
+        })
+        .on(cartProductDelete, (products, newProduct) => {
+            const current = { ...products };
+            delete current[newProduct.id];
+            return current;
         });
 
     const $productCartCount = $productCart.map((cart) => Object.values(cart).reduce((acc, val) => acc + val.count, 0));
@@ -109,6 +123,11 @@ export const ProductModel = atom(() => {
         filterCategoryByKey(products, 'Объем встроенной памяти').sort((a, b) => (Number(a) > Number(b) ? 1 : -1))
     );
 
+    const $totalCartPrice = $productCart.map((products) => {
+        const keys = Object.keys(products);
+        return keys.reduce((acc, curr) => acc + products[Number(curr)].product.price * products[Number(curr)].count, 0);
+    });
+
     persist({
         pickup: appStarted,
         store: $likedProducts,
@@ -143,5 +162,8 @@ export const ProductModel = atom(() => {
         $allCharacteristicsNames,
         $allProcessorTypes,
         $selectedProcessors,
+        cartProductDelete,
+        $totalCartPrice,
+        cartResettled,
     };
 });

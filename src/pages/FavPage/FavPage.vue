@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useStoreMap, useUnit } from 'effector-vue/composition';
 
+import { API } from '@/shared/api';
 import { shuffled } from '@/shared/lib';
 import { MainContainer } from '@/shared/ui';
 
@@ -9,8 +10,6 @@ import { ProductModel } from '@/entities/Product';
 import { RootLayout } from '@/widgets/RootLayout';
 
 const [likedProducts] = useUnit([ProductModel.$likedProducts]);
-
-import { API } from '@/shared/api';
 
 const products = useStoreMap({
     store: ProductModel.$availableProducts,
