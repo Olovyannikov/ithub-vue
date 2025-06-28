@@ -11,9 +11,11 @@ defineProps<{
 <template>
     <li class="item">
         <slot class="action" name="like-btn" />
-        <img aria-hidden="true" alt="" :src="API.BASE_URL + shuffled([...product.images])[0]" />
-        <p class="line-clamp-2">{{ product.name }}</p>
-        <p>{{ normalNumberFormat(product.price) }}</p>
+        <RouterLink :to="`product/${product.id}`">
+            <img aria-hidden="true" alt="" :src="API.BASE_URL + shuffled([...product.images])[0]" />
+            <p class="line-clamp-2">{{ product.name }}</p>
+            <p>{{ normalNumberFormat(product.price) }}</p>
+        </RouterLink>
         <slot name="cart-btn" />
     </li>
 </template>

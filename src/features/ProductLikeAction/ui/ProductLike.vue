@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const { productId } = defineProps<{
     productId: number;
+    text?: string;
 }>();
 import { useStoreMap, useUnit } from 'effector-vue/composition';
 
@@ -16,13 +17,15 @@ const isLiked = useStoreMap({
 </script>
 <template>
     <Button
-        text
         size="large"
         type="button"
-        :icon="`pi ${isLiked ? 'pi-heart-fill' : 'pi-heart '}`"
+        :variant="text ? 'outlined' : 'text'"
+        severity="contrast"
+        :icon="`${text ? null : `pi ${isLiked ? 'pi-heart-fill' : 'pi-heart '}`}`"
         aria-label="Set Like for a product"
-        class="flex ml-auto justify-end mt-[-0.5rem] p-2 mr-[-0.5rem] w-fit"
-        :class="isLiked ? 'text-red-500' : 'text-gray-400'"
+        class="flex p-2"
+        :class="`text-(${isLiked ? 'red-500' : 'gray-400'}) ${text ? 'w-full m-0 justify-center' : 'ml-auto justify-end mt-[-0.5rem] mr-[-0.5rem] w-fit'}`"
+        :label="text ? text : ''"
         @click="
             onProductLikeClick({
                 id: `${productId}`,

@@ -16,6 +16,7 @@ const routes = [
     {
         path: '/product/:id',
         component: ProductPage,
+        props: true,
     },
 ];
 

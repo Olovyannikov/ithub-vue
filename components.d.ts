@@ -17,6 +17,7 @@ declare module 'vue' {
     ButtonGroup: typeof import('primevue/buttongroup')['default']
     Checkbox: typeof import('primevue/checkbox')['default']
     Drawer: typeof import('primevue/drawer')['default']
+    Galleria: typeof import('primevue/galleria')['default']
     IconField: typeof import('primevue/iconfield')['default']
     Image: typeof import('primevue/image')['default']
     InputIcon: typeof import('primevue/inputicon')['default']

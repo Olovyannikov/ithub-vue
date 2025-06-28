@@ -16,7 +16,7 @@ const items = ref(NAVIGATION_ITEMS);
 const [likes, cart] = useUnit([ProductModel.$likedProducts, ProductModel.$productCartCount]);
 </script>
 <template>
-    <header class="lg:m-auto bg-white mb-4">
+    <header class="lg:m-auto bg-white mb-4 w-full">
         <MainContainer>
             <Menubar class="menubar justify-between border-0 p-0 py-6 pb-2 xl:pb-4" :model="items">
                 <template #start>
