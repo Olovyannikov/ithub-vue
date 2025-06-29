@@ -3,5 +3,6 @@ export const API = {
     BASE_URL: 'https://angular-final-project-backend.onrender.com/',
     products: {
         all: '/products',
+        product: (id: string) => `/products/${id}`,
     },
 };

@@ -5,9 +5,9 @@ import { useUnit } from 'effector-vue/composition';
 import { API } from '@/shared/api';
 import { isLargeScreen } from '@/shared/lib';
 
-import { ProductModel } from '@/entities/Product';
+import { getProductByIdQuery } from '@/entities/Product';
 
-const [products] = useUnit([ProductModel.$availableProducts]);
+const { data: product } = useUnit(getProductByIdQuery);
 
 const responsiveOptions = ref([
     {
@@ -25,7 +25,7 @@ const responsiveOptions = ref([
         <Galleria
             :show-thumbnail-navigators="false"
             :thumbnails-position="isLargeScreen ? 'left' : 'bottom'"
-            :value="[...(products.find((product) => product.id.toString() === $route.params.id)?.images ?? '')]"
+            :value="[product.images ?? '']"
             :responsive-options="responsiveOptions"
             :num-visible="5"
             :container-style="`max-width: ${isLargeScreen ? 546 : 343}px; border: 0;`"

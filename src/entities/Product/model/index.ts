@@ -146,7 +146,7 @@ export const ProductModel = atom(() => {
 
     sample({
         clock: appStarted,
-        target: getAllProductsQuery.start,
+        target: [getAllProductsQuery.start],
     });
 
     return {

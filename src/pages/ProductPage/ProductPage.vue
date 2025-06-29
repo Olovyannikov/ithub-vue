@@ -1,19 +1,21 @@
 <script setup lang="ts">
+import { watch } from 'vue';
+import { useRoute } from 'vue-router';
 import { useUnit } from 'effector-vue/composition';
-
-defineProps<{
-    id: string;
-}>();
 
 import { MainContainer } from '@/shared/ui';
 
-import { getAllProductsQuery } from '@/entities/Product';
+import { getAllProductsQuery, getProductByIdQuery } from '@/entities/Product';
 
 import { ProductGallery } from '@/widgets/ProductGallery';
 import { ProductInfo } from '@/widgets/ProductInfo';
 import { RootLayout } from '@/widgets/RootLayout';
 
 const { pending } = useUnit(getAllProductsQuery);
+
+const route = useRoute();
+
+watch(() => route.params.id as string, getProductByIdQuery.start, { immediate: true });
 </script>
 <template>
     <RootLayout>
@@ -21,7 +23,7 @@ const { pending } = useUnit(getAllProductsQuery);
         <MainContainer v-if="!pending" class="py-10">
             <div class="lg:flex lg:gap-[48px]">
                 <ProductGallery />
-                <ProductInfo :id="id" />
+                <ProductInfo />
             </div>
         </MainContainer>
     </RootLayout>

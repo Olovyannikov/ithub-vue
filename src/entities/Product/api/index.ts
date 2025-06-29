@@ -10,3 +10,10 @@ export const getAllProductsQuery = createQuery({
     })),
     initialData: [],
 });
+
+export const getProductByIdQuery = createQuery({
+    effect: createCommonRequestFx<string, Product>((id) => ({
+        url: API.products.product(id),
+    })),
+    initialData: {} as Product,
+});
