@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { isLargeScreen } from '@/shared/lib';
 
+import { RedirectToShopPage } from '@/features/RedirectToShopPage';
+
 defineProps<{
     title: string;
     width: number;
@@ -14,12 +16,8 @@ defineProps<{
         <Image :width="width" class="flex justify-center mb-6" :src="img" />
         <h3 class="text-4xl mb-2">{{ title }}</h3>
         <p class="text-[#909090] text-md">{{ description }}</p>
-        <Button
+        <RedirectToShopPage
             v-if="isLast"
-            as="a"
-            href="/shop"
-            outlined
-            severity="contrast"
             :size="isLargeScreen ? 'large' : 'medium'"
             :class="{
                 'mt-4': true,
@@ -28,7 +26,7 @@ defineProps<{
                 'ml-10': isLargeScreen,
                 'max-w-[188px]': isLargeScreen,
             }"
-            >Shop Now</Button
+            >Shop Now</RedirectToShopPage
         >
     </div>
 </template>
